@@ -14,7 +14,10 @@ Specialists.
 
 | date | task | decision | by | supersedes | reason |
 |---|---|---|---|---|---|
-| [NEEDS INPUT: first decision] | | | | | |
+| 2026-10-15 | T01 | Candidate: cabinet makers, Gold Coast QLD, from the workbook Verdict tab (BUILD, opportunity 3.72) | Brad | none | Strongest BUILD row Brad wanted to pursue; inputs checked in 01-market.md Chosen |
+| 2026-10-15 | T00 | Repo created from template c06f4b9 as "Gold Coast Cabinet Makers" | Brad | none | Brad asked for T00 before the T05 teardown and T06 decision; repo name is a working name, brand is T08 |
+| 2026-10-15 | T02 | "kitchen renovations gold coast" (260) gets no page | Code, accepted by Brad | none | T03: renovation builders and a franchise own the SERP, not cabinet makers (differs from Cairns) |
+| 2026-10-15 | T02 | "kitchens robina" (210) dropped | Code, accepted by Brad | none | T03: the SERP is "The Kitchens" food precinct at Robina Town Centre |
 
 ## Open items
 
@@ -29,7 +32,11 @@ closing evidence.**
 
 | item | blocks | surface | opened | closes when | closed | closing evidence |
 |---|---|---|---|---|---|---|
-| [NEEDS INPUT: first open item] | | | | | | |
+| Name the runner-up and the one reason it lost (workbook Verdict tab) | T01 | Me | 2026-10-15 | `build/01-market.md` Chosen names a runner-up with no `[NEEDS INPUT` | | |
+| No known control in either referring-domains pull | T04 | Code | 2026-10-15 | a pull in `build/data/` includes a domain of known strength, listed in Data files | | |
+| Referring domains not pulled for kitchenbuildersqueensland.com.au and goldcoastcabinets.com.au (#1 and #3, kitchen cabinets gold coast, 50/mo) | none | Code | 2026-10-15 | both have counts in the SERP ownership table | | |
+| Gold Coast job value for custom kitchens not sourced; the $1,120 rent case leans on a Sydney benchmark | T20 | Code | 2026-10-15 | a sourced Gold Coast or QLD figure is cited in `build/03-plan.md` evidence | | |
+| QBCC advertising rules for a lead-gen site before rental (see Cairns Cabinet Makers `build/01-market.md`) | T21 | Me | 2026-10-15 | a written position on pre-rental copy is recorded under Decisions | | |
 
 ## QA
 

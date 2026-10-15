@@ -1,0 +1,68 @@
+# Gold Coast cabinet makers - page-level keyword research (T02)
+# One keyword per line. Blank lines and # comments ignored.
+# Run with --locations "Gold Coast,Queensland,Australia"; rerun with "Australia" for the national comparison.
+
+# ---- HEAD ----
+cabinet makers gold coast
+cabinet maker gold coast
+cabinetmakers gold coast
+cabinetmaker gold coast
+joinery gold coast
+joiners gold coast
+custom cabinets gold coast
+custom cabinetry gold coast
+cabinet maker near me
+cabinet makers near me
+joinery near me
+
+# ---- SERVICE PAGES ----
+kitchens gold coast
+kitchen cabinets gold coast
+custom kitchens gold coast
+kitchen makers gold coast
+kitchen manufacturers gold coast
+kitchen renovations gold coast
+kitchen design gold coast
+flat pack kitchens gold coast
+outdoor kitchens gold coast
+built in wardrobes gold coast
+wardrobes gold coast
+custom wardrobes gold coast
+walk in wardrobe gold coast
+bathroom vanities gold coast
+custom vanities gold coast
+laundry cabinets gold coast
+entertainment units gold coast
+shopfitting gold coast
+shopfitters gold coast
+commercial joinery gold coast
+kitchen benchtops gold coast
+stone benchtops gold coast
+kitchen resurfacing gold coast
+kitchen renovation cost gold coast
+
+# ---- NON-BUYER INTENT (measures how much of the head volume is not leads) ----
+cabinet maker jobs gold coast
+cabinet maker apprenticeship gold coast
+cabinet making course gold coast
+cabinet maker salary
+cabinet maker jobs
+
+# ---- NATIONAL / GENERIC CONTROLS ----
+cabinet maker
+cabinet makers
+custom cabinets
+kitchen renovations
+built in wardrobes
+
+# ---- AREA PAGE CANDIDATES ----
+cabinet makers burleigh heads
+cabinet makers robina
+cabinet makers southport
+cabinet makers coomera
+cabinet makers nerang
+cabinet makers tweed heads
+kitchens burleigh heads
+kitchens robina
+kitchens tweed heads
+joinery burleigh heads
