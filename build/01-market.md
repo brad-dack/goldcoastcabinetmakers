@@ -20,8 +20,19 @@ and local PR do not work remotely as designed.
 T01. Name the runner-up and the one reason it lost. This is the only record of
 why this build happened.
 
-Cabinet makers, Gold Coast QLD. [NEEDS INPUT: runner-up and the one reason it
-lost]
+Cabinet makers, Gold Coast QLD.
+
+Runners-up: several BUILD rows on the Verdict tab scored close to this one
+("tiling, Gold Coast" sat just above it). [NEEDS INPUT: the close rows, as
+niche, city and opportunity score, from Brad's Verdict tab]
+
+Why this one won, in Brad's words (15 October 2026): high search volume, high
+job cost, and lower competitor strength than the others. This is a comparative
+judgement against the close rows on the workbook's own scores. The 15 October
+checks qualify two of the three parts: competitor strength reads higher than
+the workbook's 2.44 (head term top 3 at 49 to 267 referring domains, against
+26 to 57 for Cairns), and job cost is not yet sourced (open item in
+`05-log.md`). Volume is confirmed at 390.
 
 Workbook file and tab used: Brad's niche workbook (Google Sheets), tab
 `Stage 3: Verdict`, row "Cabinet Makers | Gold Coast": opportunity 3.72, renter

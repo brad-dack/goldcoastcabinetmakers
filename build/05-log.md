@@ -18,6 +18,7 @@ Specialists.
 | 2026-10-15 | T00 | Repo created from template c06f4b9 as "Gold Coast Cabinet Makers" | Brad | none | Brad asked for T00 before the T05 teardown and T06 decision; repo name is a working name, brand is T08 |
 | 2026-10-15 | T02 | "kitchen renovations gold coast" (260) gets no page | Code, accepted by Brad | none | T03: renovation builders and a franchise own the SERP, not cabinet makers (differs from Cairns) |
 | 2026-10-15 | T02 | "kitchens robina" (210) dropped | Code, accepted by Brad | none | T03: the SERP is "The Kitchens" food precinct at Robina Town Centre |
+| 2026-10-15 | T01 | Reason the build won over the close runners-up: high search volume, high job cost, lower competitor strength than the others | Brad | none | Workbook scores ranked several BUILD rows closely; recorded in `01-market.md` Chosen with the 15 Oct checks beside it |
 | 2026-10-15 | T05 | Teardown set: the five ranking sites from SERP ownership, plus Brad's own list (gcacabinets, thecabinetryco, qualitycabinetsgc, signaturejoinery, lanbuild) as a lighter non-ranking pass | Code, accepted by Brad | none | Brad's list overlapped the ranking set on only currumbincabinets and coastalcabinets; the thesis must cite the SERP table |
 
 ## Open items
@@ -33,7 +34,7 @@ closing evidence.**
 
 | item | blocks | surface | opened | closes when | closed | closing evidence |
 |---|---|---|---|---|---|---|
-| Name the runner-up and the one reason it lost (workbook Verdict tab) | T01 | Me | 2026-10-15 | `build/01-market.md` Chosen names a runner-up with no `[NEEDS INPUT` | | |
+| Name the runner-up and the one reason it lost (workbook Verdict tab). Reason recorded 15 Oct; the close rows are still owed | T01 | Me | 2026-10-15 | `build/01-market.md` Chosen names a runner-up with no `[NEEDS INPUT` | | |
 | No known control in either referring-domains pull | T04 | Code | 2026-10-15 | a pull in `build/data/` includes a domain of known strength, listed in Data files | | |
 | Referring domains not pulled for kitchenbuildersqueensland.com.au and goldcoastcabinets.com.au (#1 and #3, kitchen cabinets gold coast, 50/mo) | none | Code | 2026-10-15 | both have counts in the SERP ownership table | | |
 | Gold Coast job value for custom kitchens not sourced; the $1,120 rent case leans on a Sydney benchmark | T20 | Code | 2026-10-15 | a sourced Gold Coast or QLD figure is cited in `build/03-plan.md` evidence | | |
