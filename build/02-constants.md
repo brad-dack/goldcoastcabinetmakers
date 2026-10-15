@@ -15,8 +15,8 @@ written.
 
 | field | value |
 |---|---|
-| brand | [NEEDS INPUT: T08] |
-| domain | [NEEDS INPUT: T08, with https:// and no trailing slash] |
+| brand | Gold Coast Cabinet Maker |
+| domain | https://goldcoastcabinetmaker.com.au |
 | entity | [NEEDS INPUT: trading structure] |
 | abn | [NEEDS INPUT: T08] |
 | published name | [NEEDS INPUT: the name that appears on About and Privacy] |
@@ -55,7 +55,7 @@ T07 checks run 15 October 2026:
 | Gold Coast Cabinet Makers | goldcoastcabinetmakers.com.au | clean: the only "%gold coast cabinet%" name is GOLD COAST CABINETRY SALES (Townsville 4817) | no identical name; nearest is GOLD COAST ASSEMBLED CABINETS (ABN 71 613 591 290, Biggera Waters 4216) | registered (RDAP 200), parked on ns1/ns2.secureparkme.com, last changed 15 Aug 2026 | n/a | REJECTED: the .com.au is taken and parked. Aftermarket price unknown; Brad can make an offer if he wants the exact match |
 | Gold Coast Cabinet Makers (.com) | goldcoastcabinetmakers.com | as above | as above | available (Verisign RDAP 404) | not needed for .com | REJECTED as the main domain: whoever holds the parked .com.au could take traffic and trust from the brand. Worth holding as a defensive registration if the singular below is chosen |
 | Cabinet Makers Gold Coast | cabinetmakersgoldcoast.com.au | clean | no identical name | registered (RDAP 200), GoDaddy nameservers, last changed 15 Aug 2026 | n/a | REJECTED: taken |
-| Gold Coast Cabinet Maker | goldcoastcabinetmaker.com.au | clean (as for the plural) | no identical name; nearest GOLD COAST ASSEMBLED CABINETS (4216) and the COASTAL CABINETS entities (4208, 4211) | available (RDAP 404) | ok once "Gold Coast Cabinet Maker" is registered with ASIC on Brad's ABN | **candidate, recommended:** clean on all four checks, the singular of the head group (390 a month, grouped), and the same pattern as Cairns Cabinet Makers. Risk: the parked plural .com.au exists and its owner is unknown |
+| Gold Coast Cabinet Maker | goldcoastcabinetmaker.com.au | clean (as for the plural) | no identical name; nearest GOLD COAST ASSEMBLED CABINETS (4216) and the COASTAL CABINETS entities (4208, 4211) | available (RDAP 404) | ok once "Gold Coast Cabinet Maker" is registered with ASIC on Brad's ABN | **CHOSEN at T08 by Brad, 15 October 2026.** Brad confirmed it available and ABN-clean the same day. Clean on all four checks, the singular of the head group (390 a month, grouped), and the same pattern as Cairns Cabinet Makers. Risk: the parked plural .com.au exists and its owner is unknown |
 | Cabinet Maker Gold Coast | cabinetmakergoldcoast.com.au | clean | no identical name; generic "CABINETMAKER" trading names at 4216 (ABNs 52 459 257 865, 26 295 041 097) | available (RDAP 404) | ok once registered with ASIC | candidate, fallback: the same keyword match. Reads less like a business name |
 | Gold Coast Cabinet Making | goldcoastcabinetmaking.com.au | clean | no identical name; nearest Coast Cabinets (VIC) and the COASTAL CABINETS entities (QLD) | available (RDAP 404) | ok once registered with ASIC | candidate, not preferred: clean, but a weaker keyword match than Cabinet Maker |
 | Gold Coast Custom Cabinets | goldcoastcustomcabinets.com.au | clean | no identical name; Gold Coast Kustoms (4212) and Gold Coast Customs (NSW) are nearest | available (RDAP 404) | ok once registered with ASIC | candidate, not preferred: matches only "custom cabinets gold coast" (20 a month), and sits near customcabinets.net.au (#6 head) |
