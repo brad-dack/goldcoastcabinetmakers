@@ -13,7 +13,15 @@ and local PR do not work remotely as designed.
 | niche | city | renters | volume | competitor strength | remote penalty | verdict |
 |---|---|---|---|---|---|---|
 | cabinet makers | Gold Coast, QLD | 174 Maps listings; 109 after cleaning, plus 12 Tweed-side (NSW); 34 small, active, weak-web operators (see Renter evidence) | head group 390/mo located in Gold Coast; ~660/mo targetable across two pages | contested head term: 8 of top 10 are specialists, top 3 at 49-267 referring domains; kitchens page 49-112; joinery softest | QBCC licence required over $3,300; buyers expect a showroom or workshop visit, so the renter needs a visitable address | CHOSEN |
-| [NEEDS INPUT: runner-up from the workbook Verdict tab; a "tiling, Gold Coast" row sits above this one but its values were not captured] | | | | | | |
+| interior decorator | Adelaide, SA | 54 (workbook) | 260 | 2.56 (workbook) | not assessed beyond the workbook | RUNNER-UP: opportunity 3.81, gap 1.44, rental $800 |
+| concreting | Adelaide, SA | 194 (workbook) | 590 | 2.56 (workbook) | not assessed beyond the workbook | not chosen: opportunity 3.57, gap 1.44, rental $800 |
+| tiling | Perth, WA | 211 (workbook) | 1,300 | 2.63 (workbook) | not assessed beyond the workbook | not chosen: opportunity 3.87, gap 1.37, rental $800 |
+| cabinet makers | Sunshine Coast, QLD | 142 (workbook) | 260 | 2.66 (workbook) | not assessed beyond the workbook | not chosen: opportunity 3.71, gap 1.34, rental $1,120 |
+| concreting | Gold Coast, QLD | 183 (workbook) | 390 | 2.70 (workbook) | not assessed beyond the workbook | not chosen: opportunity 3.72, gap 1.30, rental $800 |
+| tiling | Gold Coast, QLD | not captured | not captured | not captured | not assessed beyond the workbook | not chosen: the row sits above this one on the Verdict tab and its values are cut off in Brad's 15 Oct screenshot; note reads "large renter pool, looks like a rent&rank at number 1" |
+
+Workbook rows from Brad's `Stage 3: Verdict` screenshot of 15 October 2026. All
+are BUILD, both gates PASS, planned effort 4, "Strong. Top 3 realistic."
 
 ## Chosen
 
@@ -22,9 +30,17 @@ why this build happened.
 
 Cabinet makers, Gold Coast QLD.
 
-Runners-up: several BUILD rows on the Verdict tab scored close to this one
-("tiling, Gold Coast" sat just above it). [NEEDS INPUT: the close rows, as
-niche, city and opportunity score, from Brad's Verdict tab]
+Runner-up: interior decorators, Adelaide SA (gap 1.44, opportunity 3.81). It
+lost on job value and renters: $800 average rental against $1,120, and a renter
+pool of 54 against 174. Concreting Adelaide tied it on gap (1.44). Four other
+BUILD rows sat within 0.26 of the chosen gap; all are in Candidates
+considered.
+
+On the workbook's own numbers, cabinet makers Gold Coast has the highest gap
+(1.56) and the lowest average competitor strength (2.44) of the visible rows,
+and ties the highest rental ($1,120). It is not the top row on opportunity
+(tiling Perth 3.87, interior decorators Adelaide 3.81) or on volume (tiling
+Perth 1,300, concreting Adelaide 590).
 
 Why this one won, in Brad's words (15 October 2026): high search volume, high
 job cost, and lower competitor strength than the others. This is a comparative
