@@ -142,19 +142,21 @@ Raw files: `build/data/serp-goldcoast-2026-10-15.csv` and
 | query | ads (count, who) | local pack | AIO | top 3 domains | top 3 ref domains | segment owner | winnable? |
 |---|---|---|---|---|---|---|---|
 | cabinet makers gold coast | 0 | KW Cabinets; Flawless Cabinets; BJF Joinery | no | currumbincabinets.com.au, bjfjoinery.com.au, airtasker.com | 49, 267, directory-scale | specialists (8 of top 10; Airtasker #3, Localsearch #9) | yes, contested: specialists with exact-match titles; #1 has only 49 |
-| cabinet maker near me | 0 | KW Cabinets; Flawless Cabinets; M & J Cabinets | yes | yellowpages.com.au (South Brisbane), mikedesign.com.au (Brisbane), craftbuilt.com.au (Brisbane) | directory-scale, not pulled, not pulled | directories and Brisbane cabinet makers; organic not localised to Gold Coast | no: local pack only, needs a Google Business Profile |
+| cabinet maker near me | 0 | KW Cabinets; Flawless Cabinets; M & J Cabinets | yes | yellowpages.com.au (South Brisbane), mikedesign.com.au (Brisbane), craftbuilt.com.au (Brisbane) | directory-scale, 175, 306 | directories and Brisbane cabinet makers; organic not localised to Gold Coast | no: local pack only, needs a Google Business Profile |
 | kitchens gold coast | 0 | Kitchens U Build; Verto Kitchens; Kitchen Builders Queensland | no | airtasker.com, coastalcabinets.com.au, thepinnaclekitchen.com.au | directory-scale, 112, 67 | specialists, with Airtasker, Facebook x2, hipages and Reddit in the top 10 | yes: four weak results on page 1 |
-| kitchen cabinets gold coast | 0 | KW Cabinets; Cut To Size Ashmore; Flawless Cabinets | no | kitchenbuildersqueensland.com.au, airtasker.com, goldcoastcabinets.com.au | not pulled, directory-scale, not pulled | specialists, with Airtasker, hipages and an Instagram profile (#6) | yes: three weak slots |
+| kitchen cabinets gold coast | 0 | KW Cabinets; Cut To Size Ashmore; Flawless Cabinets | no | kitchenbuildersqueensland.com.au, airtasker.com, goldcoastcabinets.com.au | 87, directory-scale, 39 | specialists, with Airtasker, hipages and an Instagram profile (#6) | yes: three weak slots |
 | custom kitchens gold coast | 0 | James Kitchens; Bertelli Custom Kitchens; ORSM Designs | no | goldcoastjoinery.com.au, houzz.com.au, thepinnaclekitchen.com.au | 49, directory-scale, 67 | the trade itself (cabinet makers) | yes, but 10 a month |
-| kitchen renovations gold coast | 0 | Kitchen Builders Queensland; ORSM Designs; Verto Kitchens | no | houzz.com.au, kitchenu.com.au, hasl.com.au | directory-scale, not pulled, not pulled | another trade: renovation builders (Hasl suburb pages x3, Varli), plus a franchise (Kitchen U) | no page: not a cabinet-maker SERP |
+| kitchen renovations gold coast | 0 | Kitchen Builders Queensland; ORSM Designs; Verto Kitchens | no | houzz.com.au, kitchenu.com.au, hasl.com.au | directory-scale, 119, 120 | another trade: renovation builders (Hasl suburb pages x3, Varli), plus a franchise (Kitchen U) | no page: not a cabinet-maker SERP |
 | joinery gold coast | 0 | BJF Joinery; Gold Coast Joinery; Acme Joinery | no | goldcoastjoinery.com.au ("Contact Us"), acmejoinery.com.au ("Contact"), instagram.com (Smart Joinery) | 49, 78, n/a | the trade itself, weakly: contact pages, Instagram, Localsearch x2 | yes: softest query read |
-| wardrobes gold coast | 1 (ozwardrobes.com.au) | Designer Wardrobes; Just Wardrobes; Oz Wardrobes | no | wardrobeconnection.com.au, facebook.com, justwardrobes.com.au | not pulled | specialists (wardrobe makers and a chain), with Facebook threads and hipages | section only |
-| kitchens robina | 0 | none | no | robinatowncentre.qicre.com, instagram.com (The Kitchens), tripadvisor.com.au | not pulled | another trade: food precinct | no, dropped |
+| wardrobes gold coast | 1 (ozwardrobes.com.au) | Designer Wardrobes; Just Wardrobes; Oz Wardrobes | no | wardrobeconnection.com.au, facebook.com, justwardrobes.com.au | 112, directory-scale, 185 | specialists (wardrobe makers and a chain), with Facebook threads and hipages | section only |
+| kitchens robina | 0 | none | no | robinatowncentre.qicre.com, instagram.com (The Kitchens), tripadvisor.com.au | n/a: shopping-centre and directory sites, row dropped | another trade: food precinct | no, dropped |
 
 Referring-domain counts are raw totals from the bulk endpoint, not filtered for
 quality (`build/data/refdomains-2026-10-15.csv`,
-`build/data/refdomains-kitchens-2026-10-15.csv`). Airtasker, Houzz, hipages,
-Yellow Pages and Localsearch are directory-scale and excluded from the bar.
+`build/data/refdomains-kitchens-2026-10-15.csv`,
+`build/data/refdomains-control-2026-10-15.csv`). Airtasker (16,742), Houzz
+(6,722), hipages (3,771), Yellow Pages (16,841) and Localsearch (9,163) are
+directory-scale and excluded from the bar.
 Outliers: goldcoastkitchensaustralia.com (1,376, #4 kitchens gold coast) and
 burleighkitchens.com (1,393, September near-me control only, not in the
 October top 10).
@@ -163,12 +165,21 @@ Other counts pulled: coastalcabinets 112 (#4 head), flatpaxcuttosize 78 (#5
 head, trade supplier), customcabinets.net.au 84 (#6), craftsmanbuilt 210 (#7),
 germancraft 148 (#10), shoresidekitchens 32 (#6 kitchens), houzkitchens 32 (#7
 custom kitchens), bmgcabinets 35 (#8 head, #9 joinery), cuisinekitchens 111
-(#4 custom kitchens).
+(#4 custom kitchens). Control pull: kitchenbuildersqueensland 87 and
+goldcoastcabinets 39 (#1 and #3 kitchen cabinets), mikedesign 175 and
+craftbuilt 306 (Brisbane, near me), kitchenu 119 and hasl 120 (kitchen
+renovations), wardrobeconnection 112 and justwardrobes 185 (wardrobes).
 
-Bars: head term top-3 specialists 49 to 267; kitchens page 49 to 112;
+Bars: head term top-3 specialists 49 to 267; kitchens page 39 to 112;
 joinery 49 to 78. For comparison, Cairns (a GO) read 26 to 57 on its head term
-and 35 to 89 on kitchens; Perth Tiling Specialists 4 to 74. No known control
-was included in either pull (T04 asks for one; see `05-log.md` Open items).
+and 35 to 89 on kitchens; Perth Tiling Specialists 4 to 74.
+
+Control, 15 October 2026: four domains already counted in the Cairns pull of
+11 October 2026 were re-pulled with the Gold Coast gaps. hipages 3,730 to
+3,771, localsearch 9,057 to 9,163, dreamdoorskitchens 273 to 283 (all within
+4%), fnqkitchens 26 to 32. The endpoint is consistent across runs. On small
+sites, read a difference of about 6 referring domains as noise, so #1 on the
+head term (49) and the top of Cairns' range (57) are not meaningfully apart.
 
 Read: the home query here is held by specialists doing real SEO, unlike Cairns
 where hipages and Facebook filled page 1. Zero ads on 8 of 9 queries despite
@@ -349,6 +360,7 @@ alongside here as `build/data/keywords.txt`, `serp-queries.txt`,
 | build/data/serp-goldcoast-2-2026-10-15.csv | `python serp_adhoc.py --queries gc_serp_kitchens2.txt --location "Gold Coast,Queensland,Australia" --output gc_serp_kitchens2.csv` | 2026-10-15 |
 | build/data/refdomains-2026-10-15.csv | `python refdomains_adhoc.py --domains domains_gc_cabinet.txt --output refdomains_gc_cabinet.csv` | 2026-10-15 |
 | build/data/refdomains-kitchens-2026-10-15.csv | `python refdomains_adhoc.py --domains domains_gc_kitchens.txt --output refdomains_gc_kitchens.csv` | 2026-10-15 |
+| build/data/refdomains-control-2026-10-15.csv | `python refdomains_adhoc.py --domains domains_gc_control.txt --output refdomains_gc_control.csv` (input copied as `refdomains-targets-control.txt`; run by Brad) | 2026-10-15 |
 | build/data/renter-pool-maps-2026-08-21.csv | workbook renter-pool run (`fill_renters_maps.py`), Gold Coast cabinet rows extracted from `renter_pool.csv` | 2026-08-21 |
 | build/data/renter-pool-classified-2026-10-15.csv | `python classify_gc_renters.py` (exclusion lists by business name, hand-judged) | 2026-10-15 |
 | build/data/serp-batch-goldcoast-2026-09-01.csv | workbook SERP batch (`dfseo.py serp`), Gold Coast cabinet rows extracted from `serp_batch_log.csv`; source of the refdomains target list | 2026-09-01 |
