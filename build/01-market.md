@@ -153,8 +153,70 @@ head-term pack.
 
 T05. What none of the top three publish.
 
-[NEEDS INPUT: T05 teardown of currumbincabinets.com.au, bjfjoinery.com.au,
-coastalcabinets.com.au, thepinnaclekitchen.com.au and goldcoastjoinery.com.au]
+Home pages read by web fetch on 15 October 2026. Two sets, by Brad's choice
+(see `05-log.md` Decisions): the five ranking sites from the SERP ownership
+table, and the five other sites on Brad's own list, which rank in none of the
+nine October queries. Brad's list also included currumbincabinets and
+coastalcabinets, which are in the first set.
+
+**Ranking sites** (position from the SERP ownership table and the Other counts
+line):
+
+| site | ranks | ref domains | pricing | process / lead time | QBCC shown | warranty | FAQ | suburbs named | reviews on page | showroom / visit |
+|---|---|---|---|---|---|---|---|---|---|---|
+| currumbincabinets.com.au | #1 cabinet makers gold coast | 49 | none | none / none | yes (15187590) | none | none | none ("Surfers Paradise to Southern Tweed") | none | address only |
+| bjfjoinery.com.au | #2 cabinet makers gold coast; pack | 267 | none; paid design consult, fee refundable | 5 steps / "timelines may vary" | yes (1286518) | none | none | 27, with 3 location pages | ~22 testimonials, ~35 project pages | showroom by appointment, Mon to Fri |
+| coastalcabinets.com.au | #4 cabinet makers gold coast; #2 kitchens gold coast | 112 | none | none / none | no | none | none | none | 4 testimonials | factory address only |
+| thepinnaclekitchen.com.au | #3 kitchens gold coast; #3 custom kitchens | 67 | none; interest-free finance, 36 and 48 months both stated | page linked, none on home / none | yes (15097253) | warranty page; "100% satisfaction guarantee" | none | none | none | showroom page, no hours |
+| goldcoastjoinery.com.au | #1 joinery gold coast ("Contact Us"); #1 custom kitchens | 49 | none | 7 steps / none | no | none | none | none | 1 snippet; Best of Houzz 2018 | factory hours Mon to Fri 8 to 5, no showroom |
+
+Notes on the ranking set:
+
+- BJF is the only site doing deliberate local SEO: service pages per segment
+  (including `/cabinet-makers-gold-coast/` and `/kitchen-renovations-gold-coast/`),
+  suburb pages, style pages and a blog. It states that it does not take
+  one-off cabinets or refacing, only complete kitchen renovations.
+- Gold Coast Joinery holds #1 for joinery with a thin static site whose title
+  and H1 are "Kitchens Gold Coast". The joinery query is won by a page that is
+  not about joinery.
+- Pinnacle's home-page contact form renders "Error: Contact form not found",
+  and its finance offer contradicts itself.
+- Brand logos (Blum, Laminex, Caesarstone, Polytec, Hafele, Quantum Quartz)
+  are common. No site explains the choice between board and finish types.
+
+**Brad's other five** (not in the top 10 for any October query):
+
+| site | what it is | pricing | process | QBCC shown | reviews on page | renter fit |
+|---|---|---|---|---|---|---|
+| gcacabinets.com (Gold Coast Assembled Cabinets, Biggera Waters) | "ready-to-go cabinets to custom builds", aimed at homeowners; design, assemble, supply, deliver | none | none | no ("Licensed Supplier" badge, no number) | none; Google badge | excluded as flat pack by name on 15 Oct; the site reads as homeowner custom work too. Open item |
+| thecabinetryco.com.au (Ormeau) | custom kitchens, bathrooms, wardrobes | none | none | no | none | not in the Maps pull (Ormeau, northern edge); thin site, two paragraphs |
+| qualitycabinetsgc.com.au (Nerang, 29 Maps reviews) | custom kitchens, bathrooms, laundries, entertainment, alfresco | none | 3 steps; reply in 1 business day | no | none on page; links to Google | plausible: in the 109, homeowner-focused; the displayed email and the mailto target differ |
+| signaturejoinery.net.au (Burleigh Heads, 5 Maps reviews) | supplier to builders, also retail; own factory; names melamine, 2-pac, thermolaminate | none | CAD, factory, install / none | no | none; ~30 uncaptioned photos | plausible: in the 109, but builder work is its main line |
+| lanbuild.com.au (Carrara) | builder and insurance repairer with a cabinet division; the URL is a Broadbeach Waters project page | none | none | yes (15198335) | 1 | stays excluded: a builder, not a cabinet maker |
+
+**Gaps, across all ten:**
+
+1. **Cost.** None of the ten publishes a price, a range or a cost driver.
+   BJF only says its design fee is refundable. Any price guidance on this site
+   needs a sourced figure first (R2; job-value item in `05-log.md` Open items).
+   Without one, the gap is filled with cost drivers, not numbers.
+2. **Lead time.** None states how long a kitchen or a cabinet job takes from
+   measure to install.
+3. **FAQ.** None of the ten has one.
+4. **Licensing.** Six of ten show no QBCC number, and none explains when a
+   licence is needed. The rule itself waits on the QBCC item (T21) and a
+   primary source (R2).
+5. **Warranty.** Nine of ten are silent. The one that isn't (Pinnacle) puts it
+   on a separate page. Any statutory warranty claim needs a primary source at
+   T20.
+6. **Materials.** No site compares board, door finishes or benchtop types for
+   a buyer. Signature Joinery lists materials without comparing them.
+7. **Suburbs.** Only BJF names suburbs. Every other site says "Gold Coast".
+8. **Smaller jobs.** BJF rules out one-off cabinets and refacing. The sites
+   that take wardrobes, laundries and vanities (Currumbin, Coastal) give each
+   a thin page.
+9. **Joinery.** The top 3 for "joinery gold coast" are two contact pages and
+   an Instagram profile. No ranking page is about joinery.
 
 ## Commercial thesis
 
@@ -162,8 +224,27 @@ T05. One paragraph. **Must cite rows from the SERP ownership table above.** A
 thesis resting on CPC alone is not done: high CPC on a remedial term can be
 plumbers and leak detection bidding, not the trade this site serves.
 
-[NEEDS INPUT: the thesis, citing at least two queries by name, written after
-the T05 teardown]
+The site wins on substance, not authority: it would be the only page-one
+result that answers a buyer's cost-driver, time, process and licensing
+questions. On **cabinet makers gold coast** (390), #1 Currumbin (49 referring
+domains) and #4 Coastal (112) publish no process, lead time, FAQ or price
+guidance, and Airtasker holds #3 with a directory list. #2 BJF (267) is the
+real SEO operator, but it serves complete kitchen renovations only. On
+**kitchens gold coast** (110) and **kitchen cabinets gold coast** (50),
+Airtasker, hipages, Facebook threads, Reddit and an Instagram profile hold
+five and three page-one slots respectively, which a substantive kitchens page
+can displace. On **joinery gold coast** (40),
+the top 3 are two contact pages and an Instagram profile, which is the softest
+entry and the first link-building target. CPC ($7.54 head, $14.12 kitchens) is
+not part of the case: there were zero ads on 8 of the 9 queries, and the one
+advertiser, Oz Wardrobes on **wardrobes gold coast**, sells wardrobes only.
+The ceiling is also explicit. **cabinet maker near me** is local-pack only and
+needs the renter's Google Business Profile, and **kitchen renovations gold
+coast** belongs to renovation builders, so the rent case rests on organic
+top 3 for the head, kitchens and joinery queries (~660 a month). Two of the
+gaps it leans on, cost and licensing, can only be filled from primary sources
+at T20. If those sources can't be found, the page leans on process, lead-time
+drivers, materials and suburbs.
 
 ## Renter evidence
 
@@ -173,8 +254,16 @@ Paying for leads, observed in the 15 October 2026 SERP pull: Oz Wardrobes Gold
 Coast runs a Google ad on "wardrobes gold coast", the only ad across nine
 queries. Airtasker and hipages category pages rank on the head and kitchens
 queries, but no named Gold Coast cabinet maker's profile page was seen ranking.
-Count: 1 named. [NEEDS INPUT: T05 check of hipages / Oneflare Gold Coast
-cabinet maker listings]
+Count: 1 named.
+
+Directory check, 15 October 2026: hipages refuses web fetch, so its Gold Coast
+cabinet maker listings were not read. Oneflare's Gold Coast cabinet maker URL
+now 301-redirects to Airtasker, and Airtasker's category URL returns 404 when
+fetched directly. Open item in `05-log.md`; it does not block T06.
+
+From the teardown: Quality Cabinets (Nerang, 29 reviews) and Signature Joinery
+(Burleigh Heads) are plausible renters from Brad's list. Neither shows a QBCC
+number, and both run a site that ranks for none of the nine queries.
 
 Renter pool, from the 174 Google Maps listings pulled 21 August 2026
 (`build/data/renter-pool-maps-2026-08-21.csv`), classified by name and

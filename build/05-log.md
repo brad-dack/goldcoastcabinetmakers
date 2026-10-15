@@ -18,6 +18,7 @@ Specialists.
 | 2026-10-15 | T00 | Repo created from template c06f4b9 as "Gold Coast Cabinet Makers" | Brad | none | Brad asked for T00 before the T05 teardown and T06 decision; repo name is a working name, brand is T08 |
 | 2026-10-15 | T02 | "kitchen renovations gold coast" (260) gets no page | Code, accepted by Brad | none | T03: renovation builders and a franchise own the SERP, not cabinet makers (differs from Cairns) |
 | 2026-10-15 | T02 | "kitchens robina" (210) dropped | Code, accepted by Brad | none | T03: the SERP is "The Kitchens" food precinct at Robina Town Centre |
+| 2026-10-15 | T05 | Teardown set: the five ranking sites from SERP ownership, plus Brad's own list (gcacabinets, thecabinetryco, qualitycabinetsgc, signaturejoinery, lanbuild) as a lighter non-ranking pass | Code, accepted by Brad | none | Brad's list overlapped the ranking set on only currumbincabinets and coastalcabinets; the thesis must cite the SERP table |
 
 ## Open items
 
@@ -37,6 +38,8 @@ closing evidence.**
 | Referring domains not pulled for kitchenbuildersqueensland.com.au and goldcoastcabinets.com.au (#1 and #3, kitchen cabinets gold coast, 50/mo) | none | Code | 2026-10-15 | both have counts in the SERP ownership table | | |
 | Gold Coast job value for custom kitchens not sourced; the $1,120 rent case leans on a Sydney benchmark | T20 | Code | 2026-10-15 | a sourced Gold Coast or QLD figure is cited in `build/03-plan.md` evidence | | |
 | QBCC advertising rules for a lead-gen site before rental (see Cairns Cabinet Makers `build/01-market.md`) | T21 | Me | 2026-10-15 | a written position on pre-rental copy is recorded under Decisions | | |
+| Directory renter check not read: hipages refuses web fetch; Oneflare 301s to Airtasker, whose category URL 404s | none | Me | 2026-10-15 | named Gold Coast cabinet makers seen on hipages or Airtasker are listed in `01-market.md` Renter evidence | | |
+| gcacabinets.com classified "exclude, trade supplier / flatpack" by name, but its site sells custom work to homeowners | none | Code | 2026-10-15 | `renter-pool-classified-2026-10-15.csv` row re-judged and the 109 count updated or confirmed in `01-market.md` | | |
 
 ## QA
 
