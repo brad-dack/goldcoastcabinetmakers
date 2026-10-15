@@ -1,6 +1,6 @@
 # 01 Market read
 
-Status: DRAFT | [NEEDS INPUT: set to GO or NO-GO with the date at T06]
+Status: GO | 2026-10-15, Brad
 
 Written by T01 to T06. Read by T07 and T17. See PLAYBOOK.md.
 
@@ -340,8 +340,11 @@ assets. The head term's top 3 (49 to 267, with a 2-4x higher field than
 Cairns) may need supplier or local links that do not work remotely; #1 at 49
 suggests it is reachable, but not quickly. The local pack, and so "near me"
 and probably bare "cabinet maker", is out of reach without a Google Business
-Profile, which needs the renter's address. [NEEDS INPUT: accepted or rejected
-by Brad at T06]
+Profile, which needs the renter's address.
+
+Accepted by Brad at T06, 15 October 2026. The ceiling is taken knowingly: the
+rent case rests on organic top 3 for the head, kitchens and joinery queries,
+not on the local pack.
 
 ## Data files
 
