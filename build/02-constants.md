@@ -70,10 +70,10 @@ T07 checks run 15 October 2026:
 | field | value |
 |---|---|
 | registrar | GoDaddy |
-| hosting | [NEEDS INPUT: GitHub Pages or Cloudflare Workers] |
+| hosting | GitHub Pages, from brad-dack/goldcoastcabinetmakers, branch main |
 | dns provider | Cloudflare (nameservers evan.ns.cloudflare.com, thea.ns.cloudflare.com). .au registry RDAP shows both, last changed 2026-10-18T22:29Z; public resolvers (router and 1.1.1.1) still returned ns13/ns14.domaincontrol.com at 22:30Z, pending propagation |
-| proxy status | [NEEDS INPUT: proxied or DNS-only] |
-| workers_dev | [NEEDS INPUT: false, or n/a on GitHub Pages. See rule R5] |
+| proxy status | DNS-only |
+| workers_dev | n/a, this is a GitHub Pages build |
 | dns verified | [NEEDS INPUT: T10, paste the nslookup output and the date] |
 | ga4 measurement id | [NEEDS INPUT: T11, the G- one, used on the page] |
 | ga4 property id | [NEEDS INPUT: T11, the numeric one, used by the dashboard] |
