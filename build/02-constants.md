@@ -75,7 +75,9 @@ T07 checks run 15 October 2026:
 | proxy status | DNS-only |
 | workers_dev | n/a, this is a GitHub Pages build |
 | dns verified | 18 October 2026, 22:38 UTC (19 October AEST), through 1.1.1.1 and 8.8.8.8 (identical): `nslookup -type=NS` gives evan.ns.cloudflare.com and thea.ns.cloudflare.com; `nslookup -type=A` on the apex gives 185.199.108.153, .109.153, .110.153, .111.153; `nslookup www.goldcoastcabinetmaker.com.au` gives alias to brad-dack.github.io, which resolves to the same four addresses. Queried at evan.ns.cloudflare.com directly, the apex returns the GitHub addresses, not Cloudflare's, so DNS-only holds. www to apex redirect not yet checkable: GitHub Pages and its custom domain are not set up (T26) |
-| twilio number | (07) 5651 3804, bought by Brad; reported 20 October 2026. Brad reports the voice and status webhooks set as in the T11 checklist (twilio-voice and twilio-status on bnfgnglzswtrvzfqkgjh.functions.supabase.co, POST). The config page has not been seen by Code: send a screenshot, or T14's test call proves it |
+| twilio number | +61756513804, friendly name "Gold Coast Cabinet Maker", Local, Queensland, number SID PN88bfc011788fc2cd23a0045e134cf62a. Seen on Brad's Twilio screenshot, 20 October 2026 (Twilio displays it as +61 (756) 513-804) |
+| twilio voice webhook | https://bnfgnglzswtrvzfqkgjh.functions.supabase.co/twilio-voice, POST, primary and backup both set to it. Same screenshot, active region Australia (AU1) |
+| twilio status webhook | https://bnfgnglzswtrvzfqkgjh.functions.supabase.co/twilio-status, POST; caller name lookup disabled. Same screenshot. Not yet tested by a call: that is the T14 and T28 check |
 | ga4 measurement id | [NEEDS INPUT: T11, the G- one, used on the page] |
 | ga4 property id | [NEEDS INPUT: T11, the numeric one, used by the dashboard] |
 | turnstile site key | [NEEDS INPUT: T11, copied from the Cloudflare dashboard] |
