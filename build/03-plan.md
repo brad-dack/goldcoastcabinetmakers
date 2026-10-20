@@ -363,3 +363,5 @@ Review date: October 2027, 12 months from compilation.
 T19. H1 map and nav signed off by Brad in this file, not in a message.
 
 20 October 2026. Brad signed off the plan as drafted in the Code session: the inventory (Home, kitchens-gold-coast, About, Privacy), the Head table (titles, metas and H1s as written, including the plural Home H1), the nav (Home, Kitchens, About; Privacy in the footer), the cannibalisation map, the link graph, the image direction (new generated images, not the Cairns files) and `conversion asset only`. The template fit (T18: no engine changes) was in the file at sign-off. The plan is the record; a later change to a title, meta, H1 or the nav needs this section re-signed.
+
+Changed after sign-off, 20 October 2026, by Brad: the Linkable asset moved from `conversion asset only` to the kitchens page, built ready, with no outreach before a renter (see Linkable asset and `05-log.md` Decisions). No title, meta, H1 or nav changed, so no re-sign was needed.
