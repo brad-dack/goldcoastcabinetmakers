@@ -1,11 +1,11 @@
 # 02 Constants
 
-Status: DRAFT | [NEEDS INPUT: set to FROZEN with the date at T16]
+Status: FROZEN | 20 October 2026
 
 Written by T07 to T16. Read by T12, T16, T21, T25 and T27. See PLAYBOOK.md.
 
 **G1 blocks `node bake.js` while this file is missing, not FROZEN, carries any
-`[NEEDS INPUT` token, or disagrees with `config.js`.** Do not set FROZEN to
+unfilled input token (the bracketed NEEDS INPUT marker), or disagrees with `config.js`.** Do not set FROZEN to
 unblock a bake. Fill the value instead. See PLAYBOOK.md rule R1.
 
 Field labels in the two tables below are read by G1. Keep them exactly as

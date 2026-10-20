@@ -46,12 +46,12 @@ window.SITE_CONFIG = {
      UI element while the field is empty, rather than rendering something
      broken. Fill them in only once there's a real line to answer. */
   business: {
-    name: "Springfield Home Services",
-    phone: "",         // tel: link format, e.g. "+15551234567" — leave "" until real
-    phoneDisplay: "",  // human-readable, e.g. "(555) 123-4567"
-    email: "",         // leave "" until a real inbox exists
-    city: "Springfield",
-    state: "IL",
+    name: "Gold Coast Cabinet Maker",
+    phone: "+61756513804", // tel: link format, e.g. "+15551234567" — leave "" until real
+    phoneDisplay: "(07) 5651 3804", // human-readable, e.g. "(555) 123-4567"
+    email: "hello@goldcoastcabinetmaker.com.au", // leave "" until a real inbox exists
+    city: "Gold Coast",
+    state: "QLD",
     serviceArea: "Springfield and surrounding areas within 25 miles",
     hours: ""          // e.g. "Mon–Sat, 7am–7pm" — only once a renter has real hours
   },
@@ -59,7 +59,7 @@ window.SITE_CONFIG = {
   /* Used for canonical URLs, schema, and OG tags. No trailing slash.
      bake.js derives CNAME, robots.txt, and sitemap.xml from this — you
      never edit those files by hand. */
-  domain: "https://yourdomain.com",
+  domain: "https://goldcoastcabinetmaker.com.au",
 
   /* Build options, off by default (README "Build options"). */
   cleanUrls: false,        // true: extensionless routes, /about not about.html
@@ -105,7 +105,7 @@ window.SITE_CONFIG = {
   /* --- Tracking / integrations ----------------------------------------- */
   /* GA4 measurement ID. The snippet is only injected when this doesn't
      contain "XXXX", so the placeholder below keeps tracking OFF. */
-  ga4Id: "G-XXXXXXXXXX",
+  ga4Id: "G-GLJW8055PP",
 
   /* Form leads POST straight to our own ingest endpoint, not to a third-party
      form service — see rank-and-rent-backend's docs/DASHBOARD_PLAN.md, Phase 2
@@ -114,9 +114,9 @@ window.SITE_CONFIG = {
      turnstileSiteKey is the Cloudflare Turnstile key used for spam filtering.
      Whichever services host the endpoint receive enquiry data, so name them in
      the privacy policy copy (see privacyContentHtml in bake.js). */
-  ingestUrl: "YOUR_INGEST_URL",
-  ingestSecret: "YOUR_INGEST_SECRET",
-  turnstileSiteKey: "",
+  ingestUrl: "https://bnfgnglzswtrvzfqkgjh.functions.supabase.co/ingest-form",
+  ingestSecret: "67e99514240b7a277ff564a92dcf0a98",
+  turnstileSiteKey: "0x4AAAAAAEHD1tLftcrbDXIx",
 
   /* --- Structured data ---------------------------------------------------
      Organization, sitewide, until a renter's real premises/hours exist —
@@ -558,7 +558,7 @@ window.SITE_CONFIG = {
        (read the rule, not a summary of it). The other half
        of it is the voicemail greeting: sites.greeting_audio_url AND
        sites.greeting_text must carry the same notice. */
-    reassurance: "No spam and no obligation. Your details go to a local contractor so they can quote your job - the contractor pays for the enquiry, you do not. We never sell your details or add you to a marketing list. [How we handle your information](privacy.html).",
+    reassurance: "No spam and no obligation. Your details go to a local cabinet maker so they can quote your job, and the cabinet maker pays for the enquiry. We never add you to a marketing list. [How we handle your information](privacy.html).",
     fields: [
       { name: "name", label: "Name", type: "text", autocomplete: "name" },
       { name: "phone", label: "Phone", type: "tel", autocomplete: "tel" }
