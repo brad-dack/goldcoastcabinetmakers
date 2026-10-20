@@ -1,6 +1,6 @@
 # 03 Page plan
 
-Status: FITS | 20 October 2026 (T18). [NEEDS INPUT: SIGNED-OFF with the date at T19]
+Status: SIGNED-OFF | Brad, 20 October 2026
 Evidence: OPEN | [NEEDS INPUT: set to CLEAR at T20]
 
 Written by T16a to T20. Read by T21, T24 and T25. See PLAYBOOK.md.
@@ -301,4 +301,4 @@ Review date: [NEEDS INPUT: 12 months from compilation]
 
 T19. H1 map and nav signed off by Brad in this file, not in a message.
 
-[NEEDS INPUT: date]
+20 October 2026. Brad signed off the plan as drafted in the Code session: the inventory (Home, kitchens-gold-coast, About, Privacy), the Head table (titles, metas and H1s as written, including the plural Home H1), the nav (Home, Kitchens, About; Privacy in the footer), the cannibalisation map, the link graph, the image direction (new generated images, not the Cairns files) and `conversion asset only`. The template fit (T18: no engine changes) was in the file at sign-off. The plan is the record; a later change to a title, meta, H1 or the nav needs this section re-signed.
