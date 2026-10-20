@@ -1,7 +1,7 @@
 # 03 Page plan
 
 Status: SIGNED-OFF | Brad, 20 October 2026
-Evidence: OPEN | [NEEDS INPUT: set to CLEAR at T20]
+Evidence: CLEAR | 20 October 2026
 
 Written by T16a to T20. Read by T21, T24 and T25. See PLAYBOOK.md.
 
@@ -248,26 +248,31 @@ T17 lists every safety, regulatory or standards claim and the primary source
 required. T20 resolves every row. Status is `sourced` or `dropped`, never
 `open`, before Evidence goes CLEAR. See PLAYBOOK.md rule R2.
 
-Rows 1, 2, 4 and 7 were sourced for Cairns on 13 October 2026 from QBCC pages.
-They are Queensland-wide, so they apply here, but T20 re-reads each page and
-re-dates it before this build relies on it. Status stays `open` until then.
+Rows 1, 2, 4 and 7 were sourced for Cairns on 13 October 2026 from QBCC pages
+and re-read for this build on 20 October 2026 (page fetched, wording and figures
+checked on the page itself, review dates unchanged). Rows 3, 5 and 6 were
+searched again. Where a row is narrowed, the claim column carries the narrowed
+wording, which is all the copy may say.
 
 | # | claim as it will appear | page | primary source required | status | source | edition | url | date checked |
 |---|---|---|---|---|---|---|---|---|
-| 1 | In Queensland, building work valued over $3,300 needs a QBCC licence, and the Cabinet making licence class covers installing, refurbishing or repairing kitchen and other fitted cabinets on site | kitchens, About | QBCC Act and the QBCC's own guidance | open | Cairns read: QBCC, "Who must hold a QBCC licence" and the "Cabinet making" licence page | | https://www.qbcc.qld.gov.au/my/node/7081 ; https://www.qbcc.qld.gov.au/licences/apply-licence/available-licences/other-trade/cabinet-making | |
-| 2 | For domestic building work over $3,300 the QBCC says a written contract is essential, with cooling-off advice; maximum deposits by contract value, with a higher limit where most of the price is made-to-measure work done off site (cabinetry is the QBCC's example) | kitchens | QBCC Act, domestic building contracts provisions | open | Cairns read: QBCC, "Contracts and payments" and "Deposits and progress payments" | | https://qbcc.qld.gov.au/node/1331 ; https://www.qbcc.qld.gov.au/home-owner-hub/build-renovate/contracts-payments/deposits-progress-payments | |
-| 3 | Practical advice only: ask what the carcass is made of, whether it is a moisture-resistant grade, and whether cut edges are sealed. No standard or board class is named unless a primary source is read | kitchens | a board manufacturer's technical data, or Standards Australia for the board standard | open | Cairns dropped the standard (no readable primary source; the particleboard classes differ by edition) | | | |
-| 4 | Queensland Home Warranty insurance applies to residential building work valued over $3,300 including materials, labour and GST, and the QBCC lists replacing or refitting fixtures or fittings in a kitchen among it. Cabinetry is not named, so the copy does not name it | kitchens, About | QBCC home warranty scheme page | open | Cairns read: QBCC, "What work requires insurance" | | https://www.qbcc.qld.gov.au/my/node/2886 | |
-| 5 | Any duration for a kitchen or cabinet job, or a lead-time range | kitchens, Home | a peak body (Master Builders, HIA) or a named published source, not a competitor | open | Cairns found none and dropped it. The T05 gap (no competitor states a lead time) makes it worth one more search | | | |
-| 6 | Any Gold Coast or Queensland kitchen or cabinetry cost figure | kitchens | a Gold Coast or Queensland source (R10) | open | none in hand. The $1,120 rent case leans on a Sydney benchmark, which is not used in copy | | | |
-| 7 | Every page carries: "Gold Coast Cabinet Maker cannot perform building work valued in excess of $3,300. For work above that value, discuss it with the cabinet maker who quotes your job." The first sentence follows the QBCC's own example wording | all pages | the QBCC's advertising guidance (whether it is legally required stays with a solicitor) | open | Cairns read: QBCC advertising page | | https://www.qbcc.qld.gov.au/running-your-business/advertising | |
+| 1 | In Queensland, building work valued over $3,300 needs a QBCC licence, and the Cabinet making licence class covers installing, refurbishing, restoring or repairing kitchen, bathroom, laundry and other fitted cabinets | kitchens, About | QBCC Act and the QBCC's own guidance | sourced | QBCC, "Who must hold a QBCC licence" and the "Cabinet making" licence page (scope: "Install, refurbish, restore or repair kitchen, bathroom, laundry and other fitted c[abinets]") | licence page last reviewed 16 April 2026; cabinet making page last reviewed 30 August 2021 | https://www.qbcc.qld.gov.au/my/node/7081 ; https://www.qbcc.qld.gov.au/licences/apply-licence/available-licences/other-trade/cabinet-making | 20 October 2026 |
+| 2 | For building work over $3,300 the QBCC says a written, dated and signed contract is essential and must include advice about a cooling-off period; the maximum deposit is 10% of the contract price from $3,301 to $19,999 and 5% above $20,000, with up to 20% allowed where more than half the price (labour, materials and GST) is made-to-measure work done off site, kitchen modules and cabinetry being an example the QBCC gives | kitchens | QBCC Act, domestic building contracts provisions | sourced | QBCC, "Contracts and payments" and "Deposits and progress payments". The QBCC is the licensing authority; the Act itself was not read | contracts page last reviewed 14 May 2026; deposits page last reviewed 27 June 2025 | https://qbcc.qld.gov.au/node/1331 ; https://www.qbcc.qld.gov.au/home-owner-hub/build-renovate/contracts-payments/deposits-progress-payments | 20 October 2026 |
+| 3 | Practical advice: ask what the carcass is made of, whether it is a moisture-resistant (MR) grade, and whether cut edges are sealed. Board makers sell MR melamine-faced particleboard recommended for interior areas with high humidity, such as kitchen cupboards and vanities. **No standard, no board class and no performance figure is named in the copy** | kitchens | a board manufacturer's technical data, or Standards Australia for the board standard | sourced | ForestOne, DesignerOne MR Particleboard technical data sheet: "recommended for interior applications subject to high humidity conditions ... kitchen cupboards". One manufacturer, so the copy says "board makers sell", not that all MR board performs the same | TDS dated April 2025 (file revision July 2025) | https://forest.one/media/sparsh/product_attachment/ForestOne_DesignerOne_MR_Particleboard-TDS_07.25.pdf | 20 October 2026 |
+| 4 | Queensland Home Warranty insurance applies to most residential building work valued over $3,300 including materials, labour and GST, and the QBCC lists replacing or refitting fixtures or fittings in a kitchen or bathroom among it. Cabinetry is not named, so the copy does not name it | kitchens, About | QBCC home warranty scheme page | sourced | QBCC, "What work requires insurance" | last reviewed 1 August 2024 | https://www.qbcc.qld.gov.au/my/node/2886 | 20 October 2026 |
+| 5 | None. The copy says to ask for a written timeline, and whether a quoted time covers cabinet and benchtop manufacture or only the work on site, with no durations | kitchens, Home | a peak body (Master Builders, HIA) or a named published source, not a competitor | dropped | no Master Builders, HIA or government timeline found; every duration came from renovation builders and templated guide pages, and they disagree (3 to 5 weeks against 6 to 12 weeks) | n/a | n/a | 20 October 2026 |
+| 6 | Published Gold Coast kitchen renovation ranges, shown as source data in a table by publisher type, never as our price or a quote: see "Cost figures" | kitchens | a Gold Coast or Queensland source (R10) | sourced | one independent cost-guide site and three Gold Coast renovation builders; see Cost figures for each | October 2026 and earlier, per row | see Cost figures | 20 October 2026 |
+| 7 | Every page carries: "Gold Coast Cabinet Maker cannot perform building work valued in excess of $3,300. For work above that value, discuss it with the cabinet maker who quotes your job." The first sentence is one of the QBCC's own example value statements | all pages | the QBCC's advertising guidance (whether it is legally required stays with a solicitor) | sourced | the QBCC advertising page says unlicensed contractors must state the value of work they can do, with the example "Cannot perform building work valued in excess of $3,300". It does not say whether a pre-rental referral site is such an advertiser, which is the legal question | last reviewed 30 August 2021, last published 30 June 2025 | https://www.qbcc.qld.gov.au/running-your-business/advertising | 20 October 2026 |
 
 ## Dropped claims
 
 T20. The claim text and why it went. A dropped claim is deleted from the copy,
 not just from this table.
 
-[NEEDS INPUT: or "none"]
+| claim | reason |
+|---|---|
+| Any kitchen or cabinet job duration or stage timeline (register row 5) | No peak body or government source; builder and templated-guide figures disagree (3 to 5 weeks against 6 to 12 weeks) |
+| Any standard, board class or performance figure for cabinet board (narrowed in row 3) | The copy keeps the practical advice and the manufacturer's stated use; the standard and the test values are not repeated |
 
 ## Traps found
 
@@ -276,7 +281,22 @@ Western Australian waterproofing licence is the worked example: every source
 asserting it traced back to training provider marketing, and the licence
 belongs to a different state.
 
-[NEEDS INPUT: or "none found"]
+- **The standard named in search summaries was the wrong part.** A search
+  summary tied MR particleboard to AS/NZS 1859.1. The manufacturer's own data
+  sheet cites AS/NZS 1859.2 for its moisture resistance and substrate
+  properties, and 1859.3 for the decorative surface. No part is named in copy.
+- **A Queensland cost page priced cabinets per linear foot.** gcbconstructions
+  .com.au gives "$100 - $300/linear ft" stock and "$500 - $1,200/linear ft"
+  custom cabinets, a US convention, with no Gold Coast source. Excluded.
+- **Templated "guide" pages are not sources.** Several kitchen cost and timing
+  results were near-identical pages on sitesau.github.io for Brisbane and the
+  Gold Coast, with no publisher named. Excluded, as were directory and
+  lead-generation pages.
+- **"$3,300" has different bases on different QBCC pages**, as Cairns found: the
+  home warranty page counts materials, labour and GST, the licence page does not
+  say. The copy states the figure only as each page states it.
+- **Search summaries are not sources.** Every figure here was re-read on the
+  page itself on 20 October 2026.
 
 ## Cost figures
 
@@ -285,17 +305,45 @@ type, never the business name. Peak bodies may be named.
 
 Method, in the words that will appear on the page:
 
-[NEEDS INPUT: the method paragraph]
+These are published price ranges for a kitchen renovation on the Gold Coast,
+from one independent cost-guide site and three Gold Coast renovation builders,
+read in October 2026. They are not our prices and not a quote. Each publisher
+defines its tiers differently, and a renovation figure usually includes work
+beyond the cabinets, such as demolition, plumbing, electrical and appliances.
+The cabinet maker who quotes your job prices it on your kitchen.
 
 | item | low | high | publisher type | source name | url | date |
 |---|---|---|---|---|---|---|
-| [NEEDS INPUT: one row per figure] | | | | | | |
+| cosmetic refresh (new door faces and paint) | $7,850 | $19,600 | cost-guide site | What's The Damage? (Gold Coast kitchen renovation cost guide) | https://whatsthedamage.com.au/kitchen-renovation-cost-gold-coast/ | updated 10 October 2026 |
+| budget renovation with new cabinetry | $11,750 | $24,500 | cost-guide site | What's The Damage? | same | same |
+| mid-range renovation | $24,500 | $44,100 | cost-guide site | What's The Damage? (mid-range total quoted as $34,300) | same | same |
+| custom joinery, premium finishes | $44,100 | $78,400 | cost-guide site | What's The Damage? | same | same |
+| budget kitchen | $15,000 | $25,000 | renovation builder | Design Science | https://designscience.com.au/renovation-costs-gold-coast-2026-complete-guide/ | modified 10 September 2026 |
+| mid-range kitchen | $25,000 | $45,000 | renovation builder | Design Science | same | same |
+| premium kitchen | $45,000 | $80,000+ | renovation builder | Design Science | same | same |
+| straight replacement, same layout | $25,000 | $40,000 | renovation builder | Orange Projects | https://orangeprojects.au/blog/kitchen-renovation-cost-gold-coast | 22 September 2026 |
+| custom joinery, larger island | $40,000 | $60,000 | renovation builder | Orange Projects | same | same |
+| premium or open plan | $60,000 | $80,000 | renovation builder | Orange Projects | same | same |
+| cosmetic refresh (new doors, benchtop, splashback) | $15,000 | $30,000 | renovation builder | CD Construct (from its own Gold Coast projects, past 12 months) | https://www.cdconstruct.com.au/blog/gold-coast-renovation-costs-complete-guide | 17 March 2026 |
+| mid-range full renovation, same layout | $35,000 | $55,000 | renovation builder | CD Construct | same | same |
+| high-end full renovation, layout changes | $55,000 | $80,000 | renovation builder | CD Construct | same | same |
 
-Convergence and disagreement: [NEEDS INPUT: what agrees, what diverges, why]
+Convergence and disagreement: three of the four put a mid-range Gold Coast
+kitchen at roughly $25,000 to $45,000 (What's The Damage? $24,500 to $44,100,
+Design Science $25,000 to $45,000, Orange Projects $25,000 to $40,000 for a
+same-layout replacement). Premium tops out around $78,000 to $80,000+ in all
+four. CD Construct is higher at every tier ($35,000 to $55,000 mid-range), and
+says its figures come from its own projects and include demolition, appliances,
+painting and project management, which the lower tiers may not. The cosmetic
+tier diverges most ($7,850 against $15,000 at the bottom) because the
+publishers scope it differently (door faces and paint against doors, benchtop
+and splashback).
 
-Gaps: [NEEDS INPUT: figures wanted but not found]
+Gaps: no peak body (Master Builders, HIA) or government kitchen cost figure for
+the Gold Coast or Queensland; no cabinetry-only figure (every range is a whole
+renovation); no figure for wardrobes or joinery, so the Home page carries none.
 
-Review date: [NEEDS INPUT: 12 months from compilation]
+Review date: October 2027, 12 months from compilation.
 
 ## Sign-off
 
