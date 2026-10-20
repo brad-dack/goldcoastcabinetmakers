@@ -79,7 +79,7 @@ T07 checks run 15 October 2026:
 | twilio voice webhook | https://bnfgnglzswtrvzfqkgjh.functions.supabase.co/twilio-voice, POST, primary and backup both set to it. Same screenshot, active region Australia (AU1) |
 | twilio status webhook | https://bnfgnglzswtrvzfqkgjh.functions.supabase.co/twilio-status, POST; caller name lookup disabled. Same screenshot. Not yet tested by a call: that is the T14 and T28 check |
 | ga4 measurement id | G-GLJW8055PP |
-| ga4 settings | [NEEDS INPUT: T11. Measurement ID from the gtag snippet Brad pasted, 20 October 2026. Still owed: timezone Australia/Brisbane, stream URL the apex, retention 14 months, internal-traffic IP and date, filter left in Testing] |
+| ga4 settings | 20 October 2026. Measurement ID from the gtag snippet Brad pasted, and the same ID shown on the internal-traffic screenshot. Web stream ID 1616284832 (typed by Brad). Internal traffic rule "internal", traffic_type "internal", match "IP address equals" 180.150.80.120, listed as rule 1 (Brad's screenshot, 20 October 2026). [NEEDS INPUT: T11. Still owed: timezone Australia/Brisbane, stream URL the apex, retention 14 months, Internal traffic filter left in Testing] |
 | ga4 property id | [NEEDS INPUT: T11, the numeric one, used by the dashboard] |
 | turnstile site key | [NEEDS INPUT: T11, copied from the Cloudflare dashboard] |
 | turnstile hostname added | [NEEDS INPUT: Y or N] |
