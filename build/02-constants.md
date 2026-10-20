@@ -122,12 +122,14 @@ text carries the notice.
 **Form notice** (`contact.reassurance` in `config.js`, rendered above every
 form):
 
-[NEEDS INPUT: exact text, naming the trade, saying the trade pays, linking the privacy policy]
+No spam and no obligation. Your details go to a local cabinet maker so they can quote your job, and the cabinet maker pays for the enquiry. We never add you to a marketing list. [How we handle your information](privacy.html).
 
 **Voicemail greeting** (`sites.greeting_text` and the MP3 at
 `sites.greeting_audio_url`, both columns, same words):
 
-[NEEDS INPUT: exact text]
+Hi, thanks for calling Gold Coast Cabinet Maker. Leave your name, location and job details after the tone. We will pass your enquiry on to a local cabinet maker who can quote the job, and the cabinet maker pays for the enquiry.
+
+Drafted at T12, 20 October 2026, from the Cairns Cabinet Makers wording Brad approved on 13 October 2026 (including "location", not "suburb"), with only the brand changed, so both sites say the same thing (R11). Both name the trade, say the enquiry goes to that trade in the present tense, and say the cabinet maker pays for the enquiry (R3, R4). The form text carries the privacy link, which cannot be spoken. Neither says "licensed": that waits on the QBCC item in `05-log.md`. [NEEDS INPUT: Brad's approval of both texts. The MP3 (T13) must then say the greeting words exactly]
 
 | field | value |
 |---|---|
