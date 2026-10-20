@@ -83,12 +83,12 @@ T07 checks run 15 October 2026:
 | ga4 property id | 559772207 (web stream id 1616284832), per Brad's Property details screenshot, 20 October 2026 |
 | turnstile site key | 0x4AAAAAAEHD1tLftcrbDXIx |
 | turnstile hostname added | Y. Shared widget "Rank and Rent forms" (Managed mode), seen on Brad's screenshots, 20 October 2026: goldcoastcabinetmaker.com.au is in the hostname list, which re-sorted alphabetically on the second screenshot (saved). 6 of 10 hostnames now used. Site key read from the same page; it matches the Cairns record. Not yet checked live: T28 |
-| supabase site_id | [NEEDS INPUT: T14] |
-| ingest url | [NEEDS INPUT: T14, the shared ingest-form function URL] |
-| ingest secret location | [NEEDS INPUT: where it is set, never the value] |
+| supabase site_id | dac96949-0195-4911-830c-7715c22dab9c (slug gold-coast-cabinet-maker), created by migration 037 in rank-and-rent-backend, commit 7282a57, applied 20 October 2026. `supabase migration list --linked` shows 037 applied on the remote. Before it, 035 and 036 were listed unapplied though their changes were already live (launched_on with its backfill and comment; the four leads.ai_* columns), so `db push` failed on 035 with "column launched_on already exists"; both were marked applied with `supabase migration repair --status applied 035 036` and not re-run. `select` on the remote returns the row with twilio_number +61756513804, inbound_email and forward_from_email hello@goldcoastcabinetmaker.com.au, ga4_property_id 559772207, a 32-character ingest_secret, timezone Australia/Brisbane, launched_on null |
+| ingest url | https://bnfgnglzswtrvzfqkgjh.functions.supabase.co/ingest-form |
+| ingest secret location | `sites.ingest_secret` on the Gold Coast row (32 hex characters, set by migration 037 in the backend repo). It is the form's hidden field, so it is also placed in `config.js` as `ingestSecret` at T16 |
 | inbound email | hello@goldcoastcabinetmaker.com.au, Cloudflare Email Routing rule Active, action is the Worker rank-and-rent-email-ingest (seen on Brad's screenshot, 20 October 2026). Catch-all is Disabled (Drop). Public check through 1.1.1.1, 20 October 2026 04:20 UTC: MX route1/2/3.mx.cloudflare.net, apex TXT v=spf1 include:_spf.mx.cloudflare.net ~all, and cf2024-1._domainkey returns a DKIM key. Not yet tested by sending a message: that is the T14 and T28 check |
 | resend domain | goldcoastcabinetmaker.com.au, region apne1 (Tokyo), to name in privacy copy. DNS records seen in Cloudflare on Brad's screenshot, 20 October 2026, all DNS only. Public check through 1.1.1.1 at 04:26 UTC: TXT resend._domainkey returns the DKIM key; CNAME rsend gives rsend-apne1.forge.rmta.net and send gives send.forge.rmta.net. Verified in Resend (DKIM, rsend and send all Verified; sending enabled, receiving off), seen on Brad's screenshot, 20 October 2026. DMARC _dmarc TXT v=DMARC1; p=none; added the same day: returned through 1.1.1.1 at 04:28 UTC |
-| forward from email | [NEEDS INPUT: T14, after the Resend domain is verified] |
+| forward from email | hello@goldcoastcabinetmaker.com.au, set on the site row by migration 037 |
 | storage regions | [NEEDS INPUT: Supabase and Cloudflare regions, named in privacy copy] |
 | retention rule | [NEEDS INPUT: what is deleted, after how long, and by what] |
 
@@ -134,8 +134,8 @@ Drafted at T12, 20 October 2026, from the Cairns Cabinet Makers wording Brad app
 | field | value |
 |---|---|
 | mp3 recorded | Y, uploaded by Brad to the Greetings bucket as GoldCoastCabinetMaker.mp3 (final file name, T13 note); https://bnfgnglzswtrvzfqkgjh.supabase.co/storage/v1/object/public/Greetings/GoldCoastCabinetMaker.mp3 returns HTTP 200, audio/mpeg, 185,294 bytes, checked 20 October 2026 07:39 UTC. The words in it are not yet checked by ear: T28 does that on a real call |
-| greeting_audio_url set | [NEEDS INPUT: T14, Y or N] |
-| greeting_text set | [NEEDS INPUT: T14, Y or N] |
+| greeting_audio_url set | Y. https://bnfgnglzswtrvzfqkgjh.supabase.co/storage/v1/object/public/Greetings/GoldCoastCabinetMaker.mp3, set by migration 037; read back from the remote 20 October 2026 |
+| greeting_text set | Y, on the site row, the approved T12 words exactly (migration 037; read back from the remote 20 October 2026) |
 | greeting heard on a real call | [NEEDS INPUT: T28, date] |
 
 ## Search Console
