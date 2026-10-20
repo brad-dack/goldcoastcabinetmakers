@@ -89,20 +89,30 @@ T07 checks run 15 October 2026:
 | inbound email | hello@goldcoastcabinetmaker.com.au, Cloudflare Email Routing rule Active, action is the Worker rank-and-rent-email-ingest (seen on Brad's screenshot, 20 October 2026). Catch-all is Disabled (Drop). Public check through 1.1.1.1, 20 October 2026 04:20 UTC: MX route1/2/3.mx.cloudflare.net, apex TXT v=spf1 include:_spf.mx.cloudflare.net ~all, and cf2024-1._domainkey returns a DKIM key. Not yet tested by sending a message: that is the T14 and T28 check |
 | resend domain | goldcoastcabinetmaker.com.au, region apne1 (Tokyo), to name in privacy copy. DNS records seen in Cloudflare on Brad's screenshot, 20 October 2026, all DNS only. Public check through 1.1.1.1 at 04:26 UTC: TXT resend._domainkey returns the DKIM key; CNAME rsend gives rsend-apne1.forge.rmta.net and send gives send.forge.rmta.net. Verified in Resend (DKIM, rsend and send all Verified; sending enabled, receiving off), seen on Brad's screenshot, 20 October 2026. DMARC _dmarc TXT v=DMARC1; p=none; added the same day: returned through 1.1.1.1 at 04:28 UTC |
 | forward from email | hello@goldcoastcabinetmaker.com.au, set on the site row by migration 037 |
-| storage regions | [NEEDS INPUT: Supabase and Cloudflare regions, named in privacy copy] |
-| retention rule | [NEEDS INPUT: what is deleted, after how long, and by what] |
+| storage regions | Supabase: ap-northeast-1, Tokyo (project "Rank&Rent", ref bnfgnglzswtrvzfqkgjh), read from `supabase projects list` on 20 October 2026, to be named on the privacy page. Resend sends from apne1 (Tokyo), seen in its rsend CNAME. Cloudflare: nothing stored at rest, the shared email Worker has no storage bindings (carried from the Perth Tiling Specialists and Cairns records, not re-checked here). Twilio, GitHub Pages and Google are not pinned to a region; the privacy page says they may store data outside Australia |
+| retention rule | `prune-storage` runs monthly and deletes voicemail audio and email attachments older than 12 months (`RETENTION_MONTHS = 12` in `supabase/functions/prune-storage/index.ts`, read 20 October 2026). The leads and call_events rows are kept, because they are the invoicing evidence. GA4 event data is kept 14 months |
 
 ## Positioning
 
 | field | value |
 |---|---|
-| level | [NEEDS INPUT: 1, 2 or 3] |
-| voice rule | [NEEDS INPUT: including the named-individual decision] |
-| renter signed | [NEEDS INPUT: Y or N] |
+| level | 2 |
+| voice rule | "We" for the business throughout. First person singular for Brad's own section on About. Naming the individual is allowed, as on Cairns Cabinet Makers, Perth Tiling Specialists, Canberra Tile Layers and Perth Limestone Group, and matches "Brad, first name only" in Identity |
+| renter signed | N |
 
 Claim restriction list, written out in full rather than referenced:
 
-[NEEDS INPUT: what may not be said at this level]
+- No claim that we do the work. The site takes enquiries and passes them on.
+- No invented reviews, star ratings, photos of work, years in business or job counts. Generated illustrative images are allowed as long as nothing presents them as our work or a renter's work: no caption, no "our projects" wording, alt text that describes the illustration (carried from Cairns, Brad, 13 October 2026).
+- No licence number and no "licensed" wording before a renter is signed (PLAYBOOK R14). Instead, every page carries the QBCC value statement: "Gold Coast Cabinet Maker cannot perform building work valued in excess of $3,300. For work above that value, discuss it with the cabinet maker who quotes your job." This is the Cairns answer to the same QBCC question, with the brand changed. The $3,300 figure is carried from Cairns and gets its primary source at T20 (R2).
+- No response-time promise.
+- No pricing presented as ours. A Gold Coast cost source is still open (R10; job-value item in `05-log.md`), so no cost figures until one is in `03-plan.md`. The Sydney benchmark is not used.
+- No "free quote". This site does not quote, and no draft says the cabinet maker's quote is free.
+- No showroom, workshop or street address, and no "visit us". The T05 teardown found buyers expect a visit; that is the renter's to offer, not this site's.
+- Commercial disclosure on About: the cabinet maker pays, we do not take a cut.
+- `schema.type` stays `Organization`. No premises, no hours, no reviews.
+
+Drafted at T16, 20 October 2026, from the Cairns positions Brad approved on 13 October 2026. [NEEDS INPUT: Brad's approval of the Positioning section, including the QBCC value statement, which would also close the QBCC open item in `05-log.md`]
 
 ## Privacy position
 
@@ -136,7 +146,7 @@ Drafted at T12, 20 October 2026, from the Cairns Cabinet Makers wording Brad app
 | mp3 recorded | Y, uploaded by Brad to the Greetings bucket as GoldCoastCabinetMaker.mp3 (final file name, T13 note); https://bnfgnglzswtrvzfqkgjh.supabase.co/storage/v1/object/public/Greetings/GoldCoastCabinetMaker.mp3 returns HTTP 200, audio/mpeg, 185,294 bytes, checked 20 October 2026 07:39 UTC. The words in it are not yet checked by ear: T28 does that on a real call |
 | greeting_audio_url set | Y. https://bnfgnglzswtrvzfqkgjh.supabase.co/storage/v1/object/public/Greetings/GoldCoastCabinetMaker.mp3, set by migration 037; read back from the remote 20 October 2026 |
 | greeting_text set | Y, on the site row, the approved T12 words exactly (migration 037; read back from the remote 20 October 2026) |
-| greeting heard on a real call | [NEEDS INPUT: T28, date] |
+| greeting heard on a real call | N, owed at T28 |
 
 ## Search Console
 
@@ -145,4 +155,4 @@ Drafted at T12, 20 October 2026, from the Cairns Cabinet Makers wording Brad app
 | property verified | Y. Brad's Search Console screenshot, 20 October 2026, shows the goldcoastcabinetmaker.com.au Domain property (globe icon) open on Overview, "Processing data"; Search Console only opens a property once it is verified. Settings > Users and permissions (Brad's second screenshot, same day) shows Brad Dack, Owner, Verified, and the reporting service account leads-reporting@local-abbey-420810.iam.gserviceaccount.com as Restricted, as the backend README requires for the digest. GA4 Viewer access for that account on property 559772207 not seen |
 | method | DNS TXT (Domain property). `nslookup -type=TXT goldcoastcabinetmaker.com.au` through 1.1.1.1 and 8.8.8.8 on 20 October 2026 07:49 UTC returns google-site-verification=AlW0Yt49Qk-VSH06RwGYY7fBK4bOwcCq-49qx0b6gP4 beside the SPF record |
 | date | 20 October 2026 |
-| gsc_site_url set on the site row | [NEEDS INPUT: T29, Y or N] |
+| gsc_site_url set on the site row | N, owed at T29 |
