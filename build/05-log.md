@@ -21,6 +21,7 @@ Specialists.
 | 2026-10-15 | T01 | Reason the build won over the close runners-up: high search volume, high job cost, lower competitor strength than the others | Brad | none | Workbook scores ranked several BUILD rows closely; recorded in `01-market.md` Chosen with the 15 Oct checks beside it |
 | 2026-10-15 | T01 | Runner-up: interior decorators, Adelaide SA (gap 1.44, opportunity 3.81); lost on rental ($800 vs $1,120) and renter pool (54 vs 174) | Code, accepted by Brad | none | Next highest gap on the Verdict tab rows in Brad's 15 Oct screenshot |
 | 2026-10-15 | T08 | Brand "Gold Coast Cabinet Maker", domain goldcoastcabinetmaker.com.au | Code, accepted by Brad | T00 working name "Gold Coast Cabinet Makers" (repo name only) | Both exact-match plural .com.au domains were registered and parked on 15 Aug 2026; the singular is clean on ASIC, ABN Lookup and RDAP (`02-constants.md` Naming history) |
+| 2026-10-20 | T12 | Collection notices approved: Cairns wording with the brand changed, form and greeting | Code, accepted by Brad | none | R3, R4, R11; same words across sites |
 | 2026-10-19 | T09 | Hosting: GitHub Pages from brad-dack/goldcoastcabinetmakers, DNS-only on Cloudflare | Brad | none | Same as Cairns Cabinet Makers |
 | 2026-10-19 | T08 | Entity: sole trader, Brad, ABN 78 538 005 810; published name Brad, first name only, on About and Privacy | Brad | none | Same structure as Cairns Cabinet Makers |
 | 2026-10-15 | T06 | GO: cabinet makers, Gold Coast QLD | Brad | none | T01 to T05 checks pass; see `01-market.md` Commercial thesis |
