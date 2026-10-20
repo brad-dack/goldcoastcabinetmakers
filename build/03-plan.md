@@ -80,7 +80,35 @@ T17, with the Template fit column filled at T18.
 
 | file | route | config key | priority | primary keyword | secondary keywords | template fit |
 |---|---|---|---|---|---|---|
-| [NEEDS INPUT: e.g. index.html] | | | | | | |
+| index.html | / | pages.home | 1, built first | cabinet makers gold coast | cabinet maker gold coast, cabinetmakers gold coast, cabinetmaker gold coast, cabinet maker, cabinet maker near me, joinery gold coast, joiners gold coast, joinery near me, custom cabinets gold coast, custom cabinets, wardrobes gold coast, built in wardrobes gold coast, custom wardrobes gold coast, walk in wardrobe gold coast | [NEEDS INPUT: T18] |
+| kitchens-gold-coast.html | /kitchens-gold-coast | services[0] | 1 on volume | kitchens gold coast | kitchen cabinets gold coast, custom kitchens gold coast, kitchen makers gold coast, kitchen manufacturers gold coast, kitchen design gold coast, kitchen benchtops gold coast, flat pack kitchens gold coast, outdoor kitchens gold coast | [NEEDS INPUT: T18] |
+| about.html | /about | pages.about | 3 | n/a | cabinet maker quote gold coast | [NEEDS INPUT: T18] |
+| privacy.html | /privacy | pages.privacy | 3 | n/a | n/a | [NEEDS INPUT: T18] |
+
+Two money pages, as `01-market.md` planned (about 660 targetable searches a
+month): the home page owns the head group (390) and takes joinery and wardrobes
+as sections; the kitchens page owns the kitchen terms. Everything else is a
+section on one of them or no page, per the Keyword table: wardrobes (110 plus
+long tail) and joinery (40, plus 30 for "joinery near me") are sections on Home;
+kitchen design, benchtops, flat pack and outdoor kitchens are sections on the
+kitchens page; kitchen renovations, kitchen resurfacing, vanities, shopfitting,
+stone benchtops, entertainment units, laundry cabinets, "kitchens robina" and
+every null term get no page. Nerang, Burleigh Heads and Southport appear only in
+service-area copy, and Tweed Heads (NSW) not at all.
+
+The kitchens page takes "kitchens gold coast" (110) as primary, not "kitchen
+renovations gold coast" (260): T03 found renovation builders and a franchise
+own that SERP (decision of 15 October 2026 in `05-log.md`). The page may mention
+renovation once, as context, and does not target it. "kitchen cabinets gold
+coast" (50) is the strongest secondary: its top 3 carry 87, directory-scale and
+39 referring domains.
+
+Joinery is the softest query read (two contact pages and an Instagram profile
+in the top 3), so the Home joinery section is written to answer that query on
+its own, and the Home title names joinery.
+
+Contact is not a page. It is a section inside About, with the enquiry form on
+Home, the kitchens page and About, as on Cairns and Perth Tiling Specialists.
 
 Template fit is `fits`, `engine change: <reason>`, or `dropped`. A page whose
 fit is unknown does not get drafted. On Perth Tiling Specialists, whether a
@@ -93,15 +121,26 @@ T17. Character counts include spaces. Title 60 or under, meta 155 or under.
 The H1 is literal, including its local term, and is approved here rather than
 polished later.
 
+No head says "licensed", "free", a price, a years claim or a response time
+(Positioning claim restrictions, R11). The Home H1 is plural, as Cairns settled
+on 13 October 2026, so it reads as a route to cabinet makers and not as a claim
+that we do the work. The brand itself is singular.
+
 | file | title | chars | meta | chars | h1 |
 |---|---|---|---|---|---|
-| [NEEDS INPUT: one row per inventory row] | | | | | |
+| index.html | Cabinet Makers Gold Coast \| Kitchens, Wardrobes, Joinery | 56 | Looking for a Gold Coast cabinet maker? Tell us about your kitchen, wardrobe or joinery job and we pass it to a local cabinet maker who can quote it. | 149 | Cabinet Makers on the Gold Coast for Kitchens, Wardrobes and Joinery |
+| kitchens-gold-coast.html | Kitchens Gold Coast \| Custom Kitchen Cabinets and Design | 56 | Custom kitchens on the Gold Coast: what a new kitchen involves, cabinet, benchtop and layout choices, and how to get a local cabinet maker to quote. | 148 | Kitchens on the Gold Coast: Custom Cabinets, Benchtops and Design |
+| about.html | About Gold Coast Cabinet Maker \| How This Site Works | 52 | What Gold Coast Cabinet Maker is, the area we cover, what happens when you enquire, how the service is paid for, and how to get in touch. | 137 | About Gold Coast Cabinet Maker |
+| privacy.html | Privacy Policy \| Gold Coast Cabinet Maker | 41 | What Gold Coast Cabinet Maker collects when you make an enquiry or call, who your details go to, how long they are kept, and how to have them removed. | 150 | Privacy Policy |
 
 ## Nav
 
 T17. Ordered. Footer-only pages listed separately.
 
-[NEEDS INPUT: nav order, then footer-only pages]
+Ordered: Home, Kitchens, About. No Services item and no dropdown. The call
+button sits beside them. Footer-only: Privacy. The footer mirrors the nav plus
+Privacy and the QBCC value statement (Positioning), and carries a licence line
+only once a renter is signed (R14).
 
 ## Cannibalisation map
 
@@ -109,13 +148,26 @@ T17. See PLAYBOOK.md rule R12.
 
 | page | owns | must not expand into | sends readers to |
 |---|---|---|---|
-| [NEEDS INPUT: one row per page] | | | |
+| index.html | routing the reader, how the site works, a short outline of how a cabinet job runs, joinery and wardrobes as sections that each answer their own query, service-area suburbs in copy, commercial disclosure in brief | any cost figure, kitchen detail beyond a summary, benchtop or design detail, kitchen renovation as a topic | kitchens page, About |
+| kitchens-gold-coast.html | kitchen cabinets, layout and design, benchtops, flat pack against custom, outdoor kitchens in brief, how a kitchen job runs and what affects how long it takes, QBCC contract and deposit basics (each only once sourced) | wardrobes, joinery, vanities, shopfitting, stone benchtops as a trade, kitchen renovation as a target, any Gold Coast cost figure until a source is in "Cost figures" | Home for other rooms and joinery, About |
+| about.html | who runs this, what the business does and does not do, the service area (Gold Coast, with Nerang, Burleigh Heads and Southport named in copy only), how it is paid for, contact | service detail, prices | Home, kitchens page |
+| privacy.html | collection, disclosure, retention, access | commercial explanation beyond what disclosure needs | About |
 
 ## Internal link graph
 
 T17. Name the inbound hub and the outbound hub. No orphans.
 
-[NEEDS INPUT: inbound hub, outbound hub, then per-page inbound and outbound anchors]
+Inbound hub: the kitchens page, the page outreach would point at and the one
+with the clearest weak slots (Airtasker, hipages, Facebook and Instagram on page
+1). Outbound hub: Home. No orphans: every page is in the nav except Privacy,
+which is in the footer on every page.
+
+| page | inbound anchors | outbound anchors |
+|---|---|---|
+| index.html | every page's logo and nav "Home" | "kitchens on the Gold Coast" to the kitchens page; "how this site works" to About |
+| kitchens-gold-coast.html | nav "Kitchens"; the kitchens block on Home | "wardrobes and joinery" to Home; "how this site works" to About |
+| about.html | nav "About"; the call-to-action band | "Gold Coast kitchens" to the kitchens page; "home" to Home |
+| privacy.html | footer, every page; the form notice link | "about this site" to About |
 
 ## Image direction
 
@@ -123,9 +175,26 @@ T17 writes what each image must show; T24 fills the measured columns. An image
 that would make a factual or diagnostic claim is drawn as an SVG, never a
 near-miss photo. No captions.
 
+Two kinds of image, as on Cairns (Positioning carries the rule):
+
+- **Illustrative images**, generated at T23, never presented as our work or a
+  renter's work: no caption, no "our projects" or "recent work" wording, no
+  before and after, no readable business name or logo, and alt text that says
+  what is illustrated, not what was done. R10 applies. These are new images:
+  the Cairns files are not reused, so the two sites do not share pictures.
+- **Diagrams**, drawn as SVG, wherever an image would make a factual claim. Each
+  is tied to a sourced Claim register row, or not drawn.
+
 | file | image | shows | photo or diagram | alt text | width | height | KB | widths |
 |---|---|---|---|---|---|---|---|---|
-| [NEEDS INPUT: one row per image] | | | | | | | | |
+| index.html | images/home-hero-gold-coast.jpg | a bright fitted kitchen opening onto a living area with built-in joinery (shelving or a media wall) in a light, airy coastal home; no people, no text | illustrative image (generated) | An illustrated light-filled kitchen and living area with built-in timber joinery | | | | |
+| index.html | images/wardrobe-joinery.jpg | a built-in wardrobe or walk-in robe with open shelving and drawers; no people, no text | illustrative image (generated) | An illustrated built-in wardrobe with shelving, drawers and hanging space | | | | |
+| kitchens-gold-coast.html | images/kitchens-gold-coast.jpg | a different modern kitchen from a three-quarter angle across an island: cabinetry, stone-look benchtop, overhead cupboards; no people, no text | illustrative image (generated) | An illustrated modern kitchen with an island bench and pale cabinetry | | | | |
+| kitchens-gold-coast.html | images/kitchen-cabinet-parts-gc.svg | the named parts of a kitchen base cabinet (benchtop, carcass, shelf, kickboard, hinge, door, edge); labels only, no performance or moisture claim; redrawn in this site's palette rather than copied from Cairns | diagram | Diagram naming the parts of a kitchen base cabinet: benchtop, carcass, shelf, kickboard, hinge, door and edge | 1200 | 800 | | none |
+
+Generation prompts are written at T23, from the Cairns prompts with a coastal
+south-east Queensland feel and the same rules (no people, no text, no logos, no
+identifiable place, realistic proportions).
 
 ## Linkable asset
 
@@ -133,7 +202,13 @@ T17. Which page, and six named outreach targets, or the words
 `conversion asset only`. An asset nominated with no named target is a page
 nobody will link to.
 
-[NEEDS INPUT: page, then targets]
+`conversion asset only`. The page worth linking to would be a Gold Coast
+kitchen cost and process guide on the kitchens page, but there is no Gold Coast
+or Queensland cost source yet (R10; job-value item in `05-log.md`), so no asset
+is nominated and no outreach targets are named. If T20 finds a source, nominate
+the kitchens page here and name six targets before drafting. The
+remote-execution verdict accepted at T06 expects citations and directories for
+the kitchens and joinery terms; that is link work, not an asset.
 
 ## Claim register
 
@@ -141,9 +216,19 @@ T17 lists every safety, regulatory or standards claim and the primary source
 required. T20 resolves every row. Status is `sourced` or `dropped`, never
 `open`, before Evidence goes CLEAR. See PLAYBOOK.md rule R2.
 
+Rows 1, 2, 4 and 7 were sourced for Cairns on 13 October 2026 from QBCC pages.
+They are Queensland-wide, so they apply here, but T20 re-reads each page and
+re-dates it before this build relies on it. Status stays `open` until then.
+
 | # | claim as it will appear | page | primary source required | status | source | edition | url | date checked |
 |---|---|---|---|---|---|---|---|---|
-| [NEEDS INPUT: one row per high-risk claim] | | | | | | | | |
+| 1 | In Queensland, building work valued over $3,300 needs a QBCC licence, and the Cabinet making licence class covers installing, refurbishing or repairing kitchen and other fitted cabinets on site | kitchens, About | QBCC Act and the QBCC's own guidance | open | Cairns read: QBCC, "Who must hold a QBCC licence" and the "Cabinet making" licence page | | https://www.qbcc.qld.gov.au/my/node/7081 ; https://www.qbcc.qld.gov.au/licences/apply-licence/available-licences/other-trade/cabinet-making | |
+| 2 | For domestic building work over $3,300 the QBCC says a written contract is essential, with cooling-off advice; maximum deposits by contract value, with a higher limit where most of the price is made-to-measure work done off site (cabinetry is the QBCC's example) | kitchens | QBCC Act, domestic building contracts provisions | open | Cairns read: QBCC, "Contracts and payments" and "Deposits and progress payments" | | https://qbcc.qld.gov.au/node/1331 ; https://www.qbcc.qld.gov.au/home-owner-hub/build-renovate/contracts-payments/deposits-progress-payments | |
+| 3 | Practical advice only: ask what the carcass is made of, whether it is a moisture-resistant grade, and whether cut edges are sealed. No standard or board class is named unless a primary source is read | kitchens | a board manufacturer's technical data, or Standards Australia for the board standard | open | Cairns dropped the standard (no readable primary source; the particleboard classes differ by edition) | | | |
+| 4 | Queensland Home Warranty insurance applies to residential building work valued over $3,300 including materials, labour and GST, and the QBCC lists replacing or refitting fixtures or fittings in a kitchen among it. Cabinetry is not named, so the copy does not name it | kitchens, About | QBCC home warranty scheme page | open | Cairns read: QBCC, "What work requires insurance" | | https://www.qbcc.qld.gov.au/my/node/2886 | |
+| 5 | Any duration for a kitchen or cabinet job, or a lead-time range | kitchens, Home | a peak body (Master Builders, HIA) or a named published source, not a competitor | open | Cairns found none and dropped it. The T05 gap (no competitor states a lead time) makes it worth one more search | | | |
+| 6 | Any Gold Coast or Queensland kitchen or cabinetry cost figure | kitchens | a Gold Coast or Queensland source (R10) | open | none in hand. The $1,120 rent case leans on a Sydney benchmark, which is not used in copy | | | |
+| 7 | Every page carries: "Gold Coast Cabinet Maker cannot perform building work valued in excess of $3,300. For work above that value, discuss it with the cabinet maker who quotes your job." The first sentence follows the QBCC's own example wording | all pages | the QBCC's advertising guidance (whether it is legally required stays with a solicitor) | open | Cairns read: QBCC advertising page | | https://www.qbcc.qld.gov.au/running-your-business/advertising | |
 
 ## Dropped claims
 
