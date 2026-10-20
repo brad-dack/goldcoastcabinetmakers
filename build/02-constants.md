@@ -78,7 +78,8 @@ T07 checks run 15 October 2026:
 | twilio number | +61756513804, friendly name "Gold Coast Cabinet Maker", Local, Queensland, number SID PN88bfc011788fc2cd23a0045e134cf62a. Seen on Brad's Twilio screenshot, 20 October 2026 (Twilio displays it as +61 (756) 513-804) |
 | twilio voice webhook | https://bnfgnglzswtrvzfqkgjh.functions.supabase.co/twilio-voice, POST, primary and backup both set to it. Same screenshot, active region Australia (AU1) |
 | twilio status webhook | https://bnfgnglzswtrvzfqkgjh.functions.supabase.co/twilio-status, POST; caller name lookup disabled. Same screenshot. Not yet tested by a call: that is the T14 and T28 check |
-| ga4 measurement id | [NEEDS INPUT: T11, the G- one, used on the page] |
+| ga4 measurement id | G-GLJW8055PP |
+| ga4 settings | [NEEDS INPUT: T11. Measurement ID from the gtag snippet Brad pasted, 20 October 2026. Still owed: timezone Australia/Brisbane, stream URL the apex, retention 14 months, internal-traffic IP and date, filter left in Testing] |
 | ga4 property id | [NEEDS INPUT: T11, the numeric one, used by the dashboard] |
 | turnstile site key | [NEEDS INPUT: T11, copied from the Cloudflare dashboard] |
 | turnstile hostname added | [NEEDS INPUT: Y or N] |
