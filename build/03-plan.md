@@ -230,17 +230,30 @@ identifiable place, realistic proportions).
 
 ## Linkable asset
 
-T17. Which page, and six named outreach targets, or the words
-`conversion asset only`. An asset nominated with no named target is a page
-nobody will link to.
+T17, revised 20 October 2026 after T20. **The kitchens page
+(kitchens-gold-coast.html)**, built as a linkable asset: the sourced Gold Coast
+cost table from "Cost figures" with its method and disagreement explained, the
+QBCC contract, deposit and home warranty basics (claim rows 1, 2 and 4), and
+what to ask a cabinet maker (row 3). No other page on the Gold Coast SERP
+publishes cost guidance (Competitor gaps 1), which is what makes it citable.
 
-`conversion asset only`. The page worth linking to would be a Gold Coast
-kitchen cost and process guide on the kitchens page, but there is no Gold Coast
-or Queensland cost source yet (R10; job-value item in `05-log.md`), so no asset
-is nominated and no outreach targets are named. If T20 finds a source, nominate
-the kitchens page here and name six targets before drafting. The
-remote-execution verdict accepted at T06 expects citations and directories for
-the kitchens and joinery terms; that is link work, not an asset.
+**No outreach before a renter is signed** (Brad, 20 October 2026). The page is
+built ready, so links can start the day a renter signs. The targets below are
+named now so the page is written for real readers, not so they are contacted.
+
+| # | target | why it would cite the page | checked |
+|---|---|---|---|
+| 1 | Conrad Hyslop (Gold Coast real estate), article "Should You Renovate Before Selling a Property on the Gold Coast?" | a Gold Coast renovation-before-sale article with no cost figures; the table is the missing data | page fetched, HTTP 200, 20 October 2026 |
+| 2 | Gold Coast Bulletin, real estate and homes coverage | local paper; a sourced Gold Coast kitchen cost range is a data point for a renovation or property story | site is live but refuses automated fetch (HTTP 403); no article read |
+| 3 | realestate.com.au News, renovation and cost features | national property news that covers Gold Coast markets and renovation spend | section fetched, HTTP 200, 20 October 2026 |
+| 4 | Domain, Living / Renovating section | national renovation editorial that cites cost sources | refuses automated fetch (HTTP 403); not read |
+| 5 | Home Beautiful, Gold Coast home tours (e.g. "Gold Coast penthouse renovation") | runs Gold Coast renovation features with kitchens at the centre and no cost context | page fetched, HTTP 200, 20 October 2026 |
+| 6 | LJ Hooker, "Preparing Your Home For Sale" guide for Gold Coast homes | a pre-sale guide for the same homeowners, with no kitchen cost figures | found by search, 20 October 2026; not fetched |
+
+Targets 2 and 4 were not read, so their fit rests on what the outlets are known
+to publish. Re-check all six, and look for Gold Coast-specific additions, when a
+renter is signed and outreach starts. The cost table's review date (October
+2027) applies to the asset too: a stale figure is a reason not to be cited.
 
 ## Claim register
 
