@@ -1,6 +1,6 @@
 # 03 Page plan
 
-Status: DRAFT | [NEEDS INPUT: FITS at T18, then SIGNED-OFF with the date at T19]
+Status: FITS | 20 October 2026 (T18). [NEEDS INPUT: SIGNED-OFF with the date at T19]
 Evidence: OPEN | [NEEDS INPUT: set to CLEAR at T20]
 
 Written by T16a to T20. Read by T21, T24 and T25. See PLAYBOOK.md.
@@ -80,10 +80,10 @@ T17, with the Template fit column filled at T18.
 
 | file | route | config key | priority | primary keyword | secondary keywords | template fit |
 |---|---|---|---|---|---|---|
-| index.html | / | pages.home | 1, built first | cabinet makers gold coast | cabinet maker gold coast, cabinetmakers gold coast, cabinetmaker gold coast, cabinet maker, cabinet maker near me, joinery gold coast, joiners gold coast, joinery near me, custom cabinets gold coast, custom cabinets, wardrobes gold coast, built in wardrobes gold coast, custom wardrobes gold coast, walk in wardrobe gold coast | [NEEDS INPUT: T18] |
-| kitchens-gold-coast.html | /kitchens-gold-coast | services[0] | 1 on volume | kitchens gold coast | kitchen cabinets gold coast, custom kitchens gold coast, kitchen makers gold coast, kitchen manufacturers gold coast, kitchen design gold coast, kitchen benchtops gold coast, flat pack kitchens gold coast, outdoor kitchens gold coast | [NEEDS INPUT: T18] |
-| about.html | /about | pages.about | 3 | n/a | cabinet maker quote gold coast | [NEEDS INPUT: T18] |
-| privacy.html | /privacy | pages.privacy | 3 | n/a | n/a | [NEEDS INPUT: T18] |
+| index.html | / | pages.home | 1, built first | cabinet makers gold coast | cabinet maker gold coast, cabinetmakers gold coast, cabinetmaker gold coast, cabinet maker, cabinet maker near me, joinery gold coast, joiners gold coast, joinery near me, custom cabinets gold coast, custom cabinets, wardrobes gold coast, built in wardrobes gold coast, custom wardrobes gold coast, walk in wardrobe gold coast | fits: `pages.home.blocks` renders Home from the block system (wardrobe and joinery sections, the job outline, the disclosure, a `form` block, a `faqs` block for FAQPage schema). Stock how-it-works, testimonials and the services grid do not render on a block Home |
+| kitchens-gold-coast.html | /kitchens-gold-coast | services[0] | 1 on volume | kitchens gold coast | kitchen cabinets gold coast, custom kitchens gold coast, kitchen makers gold coast, kitchen manufacturers gold coast, kitchen design gold coast, kitchen benchtops gold coast, flat pack kitchens gold coast, outdoor kitchens gold coast | fits: `services[0]` with `page: "kitchens-gold-coast.html"` and name "Kitchens" takes the block copy; a `form` block with `presetService` puts the enquiry form on the page and suppresses the compact how-it-works strip; a `faqs` block feeds FAQPage schema; the Service schema names the provider as Organization. The JPEG takes `widths`; the SVG needs none |
+| about.html | /about | pages.about | 3 | n/a | cabinet maker quote gold coast | fits: `pages.about.blocks` carries headed sections (what we do and do not do, how it is paid for, service area) and the contact section, then the engine's own form |
+| privacy.html | /privacy | pages.privacy | 3 | n/a | n/a | fits: `pages.privacy.blocks` replaces the stock text, which describes the wrong data flow (no voicemail recording, no Supabase in Tokyo, Resend, Twilio or 12-month retention) |
 
 Two money pages, as `01-market.md` planned (about 660 targetable searches a
 month): the home page owns the head group (390) and takes joinery and wardrobes
@@ -112,6 +112,38 @@ Home, the kitchens page and About, as on Cairns and Perth Tiling Specialists.
 
 Template fit is `fits`, `engine change: <reason>`, or `dropped`. A page whose
 fit is unknown does not get drafted. On Perth Tiling Specialists, whether a
+contact page could exist at all was settled by dropping the page rather than
+by reading the engine.
+
+**Template fit, T18, 20 October 2026.** Read against this repo's `bake.js` and
+`config.js` (the template as of c06f4b9). Every change Cairns had to make to its
+own engine on 13 October 2026 is now a config switch in the template, so this
+build plans **no engine changes**:
+
+1. **Header nav.** `navFromServices: true` gives Home, then each `services[]`
+   page, then About, with a single footer "Pages" column plus Privacy. With one
+   service named "Kitchens", that is the planned Home, Kitchens, About.
+2. **Call-to-action band.** `contact.ctaBandAction` replaces "request your free
+   quote online" (for example "send an enquiry online"), so no page says "free
+   quote".
+3. **How-it-works section.** `howItWorksSection` returns nothing when
+   `howItWorks` is empty, so the stock "within 24 hours" and "Get it done" steps
+   never render. Any process copy goes in blocks, once sourced.
+4. **Job-type picker.** `contact.jobTypes` sets the options (for example
+   Kitchens, Wardrobes, Joinery, Other) instead of the service names.
+5. **QBCC value statement on every page.** `licence.required: true` with
+   `licence.preRenterStatement` set to the Positioning wording renders it in
+   the footer; G11 checks it while "renter signed" is N, and that no licence
+   number shows.
+6. **Not needed:** no new schema type (Service with an Organization provider is
+   what the engine emits), no new image handling, no area pages (`areas` stays
+   empty), no separate Contact page, no 404 change. The template's five demo
+   service pages are removed in config, leaving one.
+
+Because nothing in `bake.js`, `js/main.js`, `css/styles.css` or the page shell
+is planned to change, T30's Backport table should read "none". If a later task
+finds real copy that does not fit, that is an engine change to raise with Brad
+first (CODE-SESSION-START rules), not something to make quietly. On Perth Tiling Specialists, whether a
 contact page could exist at all was settled by dropping the page rather than
 by reading the engine.
 
