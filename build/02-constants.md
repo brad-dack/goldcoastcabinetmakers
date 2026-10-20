@@ -142,7 +142,7 @@ Drafted at T12, 20 October 2026, from the Cairns Cabinet Makers wording Brad app
 
 | field | value |
 |---|---|
-| property verified | Y. Brad's Search Console screenshot, 20 October 2026, shows the goldcoastcabinetmaker.com.au Domain property (globe icon) open on Overview, "Processing data"; Search Console only opens a property once it is verified. The Settings "verified owner" line was not on the screenshot |
+| property verified | Y. Brad's Search Console screenshot, 20 October 2026, shows the goldcoastcabinetmaker.com.au Domain property (globe icon) open on Overview, "Processing data"; Search Console only opens a property once it is verified. Settings > Users and permissions (Brad's second screenshot, same day) shows Brad Dack, Owner, Verified, and the reporting service account leads-reporting@local-abbey-420810.iam.gserviceaccount.com as Restricted, as the backend README requires for the digest. GA4 Viewer access for that account on property 559772207 not seen |
 | method | DNS TXT (Domain property). `nslookup -type=TXT goldcoastcabinetmaker.com.au` through 1.1.1.1 and 8.8.8.8 on 20 October 2026 07:49 UTC returns google-site-verification=AlW0Yt49Qk-VSH06RwGYY7fBK4bOwcCq-49qx0b6gP4 beside the SPF record |
 | date | 20 October 2026 |
 | gsc_site_url set on the site row | [NEEDS INPUT: T29, Y or N] |
