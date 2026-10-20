@@ -133,7 +133,7 @@ Drafted at T12, 20 October 2026, from the Cairns Cabinet Makers wording Brad app
 
 | field | value |
 |---|---|
-| mp3 recorded | [NEEDS INPUT: T13, Y or N] |
+| mp3 recorded | Y, uploaded by Brad to the Greetings bucket as GoldCoastCabinetMaker.mp3 (final file name, T13 note); https://bnfgnglzswtrvzfqkgjh.supabase.co/storage/v1/object/public/Greetings/GoldCoastCabinetMaker.mp3 returns HTTP 200, audio/mpeg, 185,294 bytes, checked 20 October 2026 07:39 UTC. The words in it are not yet checked by ear: T28 does that on a real call |
 | greeting_audio_url set | [NEEDS INPUT: T14, Y or N] |
 | greeting_text set | [NEEDS INPUT: T14, Y or N] |
 | greeting heard on a real call | [NEEDS INPUT: T28, date] |
