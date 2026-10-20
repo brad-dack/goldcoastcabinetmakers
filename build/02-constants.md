@@ -20,7 +20,7 @@ written.
 | entity | Sole trader. Brad, trading as Gold Coast Cabinet Maker (business name to be registered with ASIC before the domain) |
 | abn | 78 538 005 810 |
 | published name | Brad, first name only, on About and Privacy |
-| email | [NEEDS INPUT: or the literal word none until an inbox exists] |
+| email | hello@goldcoastcabinetmaker.com.au |
 | phone e164 | +61756513804 |
 | phone display | (07) 5651 3804 |
 
@@ -86,7 +86,7 @@ T07 checks run 15 October 2026:
 | supabase site_id | [NEEDS INPUT: T14] |
 | ingest url | [NEEDS INPUT: T14, the shared ingest-form function URL] |
 | ingest secret location | [NEEDS INPUT: where it is set, never the value] |
-| inbound email | [NEEDS INPUT: T11, and the Cloudflare routing rule it points at] |
+| inbound email | hello@goldcoastcabinetmaker.com.au, Cloudflare Email Routing rule Active, action is the Worker rank-and-rent-email-ingest (seen on Brad's screenshot, 20 October 2026). Catch-all is Disabled (Drop). Public check through 1.1.1.1, 20 October 2026 04:20 UTC: MX route1/2/3.mx.cloudflare.net, apex TXT v=spf1 include:_spf.mx.cloudflare.net ~all, and cf2024-1._domainkey returns a DKIM key. Not yet tested by sending a message: that is the T14 and T28 check |
 | forward from email | [NEEDS INPUT: T14, after the Resend domain is verified] |
 | storage regions | [NEEDS INPUT: Supabase and Cloudflare regions, named in privacy copy] |
 | retention rule | [NEEDS INPUT: what is deleted, after how long, and by what] |
