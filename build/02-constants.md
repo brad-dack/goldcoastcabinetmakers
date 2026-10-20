@@ -142,7 +142,7 @@ Drafted at T12, 20 October 2026, from the Cairns Cabinet Makers wording Brad app
 
 | field | value |
 |---|---|
-| property verified | [NEEDS INPUT: T15, Y or N] |
-| method | [NEEDS INPUT: DNS TXT] |
-| date | [NEEDS INPUT: T15] |
+| property verified | Y. Brad's Search Console screenshot, 20 October 2026, shows the goldcoastcabinetmaker.com.au Domain property (globe icon) open on Overview, "Processing data"; Search Console only opens a property once it is verified. The Settings "verified owner" line was not on the screenshot |
+| method | DNS TXT (Domain property). `nslookup -type=TXT goldcoastcabinetmaker.com.au` through 1.1.1.1 and 8.8.8.8 on 20 October 2026 07:49 UTC returns google-site-verification=AlW0Yt49Qk-VSH06RwGYY7fBK4bOwcCq-49qx0b6gP4 beside the SPF record |
+| date | 20 October 2026 |
 | gsc_site_url set on the site row | [NEEDS INPUT: T29, Y or N] |
