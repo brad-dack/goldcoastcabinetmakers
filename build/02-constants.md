@@ -112,7 +112,7 @@ Claim restriction list, written out in full rather than referenced:
 - Commercial disclosure on About: the cabinet maker pays, we do not take a cut.
 - `schema.type` stays `Organization`. No premises, no hours, no reviews.
 
-Drafted at T16, 20 October 2026, from the Cairns positions Brad approved on 13 October 2026. [NEEDS INPUT: Brad's approval of the Positioning section, including the QBCC value statement, which would also close the QBCC open item in `05-log.md`]
+Drafted at T16, 20 October 2026, from the Cairns positions Brad approved on 13 October 2026. Approved by Brad, 20 October 2026.
 
 ## Privacy position
 
