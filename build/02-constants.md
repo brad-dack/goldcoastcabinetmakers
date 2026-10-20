@@ -81,8 +81,8 @@ T07 checks run 15 October 2026:
 | ga4 measurement id | G-GLJW8055PP |
 | ga4 settings | 20 October 2026. Measurement ID from the gtag snippet Brad pasted, and the same ID shown on the internal-traffic screenshot. Web stream ID 1616284832 (typed by Brad). Internal traffic rule "internal", traffic_type "internal", match "IP address equals" 180.150.80.120, listed as rule 1 (Brad's screenshot, 20 October 2026). Property details screenshot, 20 October 2026: name Gold Coast Cabinet Maker, currency Australian Dollar. Brad reports the stream URL (apex), 14-month retention and the filter in Testing done (not seen). The reporting time zone read "(GMT+08:00) Perth Time" on that screenshot; Brad reports it changed to (GMT+10:00) Brisbane Time the same day (not seen) |
 | ga4 property id | 559772207 (web stream id 1616284832), per Brad's Property details screenshot, 20 October 2026 |
-| turnstile site key | [NEEDS INPUT: T11, copied from the Cloudflare dashboard] |
-| turnstile hostname added | [NEEDS INPUT: Y or N] |
+| turnstile site key | 0x4AAAAAAEHD1tLftcrbDXIx |
+| turnstile hostname added | Y. Shared widget "Rank and Rent forms" (Managed mode), seen on Brad's screenshots, 20 October 2026: goldcoastcabinetmaker.com.au is in the hostname list, which re-sorted alphabetically on the second screenshot (saved). 6 of 10 hostnames now used. Site key read from the same page; it matches the Cairns record. Not yet checked live: T28 |
 | supabase site_id | [NEEDS INPUT: T14] |
 | ingest url | [NEEDS INPUT: T14, the shared ingest-form function URL] |
 | ingest secret location | [NEEDS INPUT: where it is set, never the value] |
