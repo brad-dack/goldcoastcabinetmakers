@@ -224,9 +224,62 @@ Two kinds of image, as on Cairns (Positioning carries the rule):
 | kitchens-gold-coast.html | images/kitchens-gold-coast.jpg | a different modern kitchen from a three-quarter angle across an island: cabinetry, stone-look benchtop, overhead cupboards; no people, no text | illustrative image (generated) | An illustrated modern kitchen with an island bench and pale cabinetry | | | | |
 | kitchens-gold-coast.html | images/kitchen-cabinet-parts-gc.svg | the named parts of a kitchen base cabinet (benchtop, carcass, shelf, kickboard, hinge, door, edge); labels only, no performance or moisture claim; redrawn in this site's palette rather than copied from Cairns | diagram | Diagram naming the parts of a kitchen base cabinet: benchtop, carcass, shelf, kickboard, hinge, door and edge | 1200 | 800 | | none |
 
-Generation prompts are written at T23, from the Cairns prompts with a coastal
-south-east Queensland feel and the same rules (no people, no text, no logos, no
-identifiable place, realistic proportions).
+### Generation prompts for T23
+
+Written 21 October 2026, from the Cairns prompts, with new scenes so the two
+sites share no pictures. Brad runs these in Gemini and saves the chosen image
+into `images/` under the file name shown. Landscape 3:2 (about 1200 by 800 after
+T24), subject centred because the hero crops differently on phones. The shared
+rules are repeated in each prompt because Gemini forgets them.
+
+**home-hero-gold-coast.jpg** (Home hero)
+
+> A photorealistic photograph of a bright, airy open-plan kitchen and living
+> area in a modern coastal Queensland home. Light oak-look and soft white
+> cabinetry, a pale stone-look island benchtop, and a built-in timber joinery
+> wall with open shelving and a media unit in the living area beyond. Natural
+> afternoon light, sheer curtains, a glimpse of greenery through glass sliding
+> doors. Eye level, 3:2 landscape, subject centred. No people, no text or
+> lettering, no logos or brand names, no signage, no ocean or landmark that
+> identifies a place. Realistic proportions: straight cabinet lines, one sink,
+> matching handles, nothing duplicated or floating.
+
+**wardrobe-joinery.jpg** (Home, wardrobes section)
+
+> A photorealistic photograph of a built-in bedroom wardrobe with the doors
+> open, showing hanging space, open shelving, a bank of drawers and shoe
+> shelves, in light timber-look and white finishes. Soft natural daylight from
+> one side, a calm coastal bedroom with a neutral palette. 3:2 landscape,
+> subject centred. No people, no text or lettering, no logos or brand names, no
+> visible clothing labels. Realistic proportions: straight lines, even shelf
+> spacing, doors that hang square.
+
+**kitchens-gold-coast.jpg** (Kitchens page hero)
+
+> A photorealistic photograph of a different modern kitchen, seen from a
+> three-quarter angle across a large island bench. Muted sage or soft grey
+> cabinetry with slim handles, a light stone-look benchtop with a square edge,
+> overhead cupboards to the ceiling and a simple tiled splashback, bright
+> natural light. A relaxed subtropical feel without palm trees or beach in
+> frame. 3:2 landscape, subject centred. No people, no text or lettering, no
+> logos or brand names, no signage. Realistic proportions: one sink, one
+> cooktop, matching handles, no warped or duplicated objects.
+
+**kitchen-cabinet-parts-gc.svg** (Kitchens page): not a Gemini image. Code draws
+it at T24 as an SVG in this site's palette, with labels only (benchtop, carcass,
+shelf, kickboard, hinge, door, edge) and no performance or moisture claim.
+
+Check each image before saving:
+
+- Handles, taps and appliances are not warped, doubled or fused
+- Cabinet lines are straight and doors meet cleanly
+- No readable text on any surface, and no brand shapes on appliances
+- Nothing in the frame looks like a specific named place or business
+- It reads as a plausible home, not a luxury showroom a renter could not build
+- It does not look like the Cairns images (different colours and angle)
+
+Gemini's output terms and any generated-image labelling are Brad's to confirm
+for his own account. Nothing on the site calls these images work we did.
 
 ## Linkable asset
 
