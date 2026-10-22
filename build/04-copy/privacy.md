@@ -91,6 +91,10 @@ Standing position: PLAYBOOK.md Appendix A, R3. This page implements it and does 
 - Titles, meta and H1 match `build/03-plan.md`.
 - Wording is the Cairns page with this build's name, ABN line, phone and email. The storage and retention statements are unchanged because the backend is shared: Supabase in Tokyo (read 20 October 2026), `prune-storage` at twelve months (read 20 October 2026), GA4 at fourteen months.
 
+## T25 transcription notes
+
+Transcribed 23 October 2026 by script (32 blocks). `pages.privacy.lastUpdated` is "23 October 2026", the day the page was baked.
+
 ## Markers outstanding
 
 None.

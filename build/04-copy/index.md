@@ -105,6 +105,10 @@ Collection notice above the form is `contact.reassurance`, held in `build/02-con
 - The plan's cannibalisation map gives Home "a short outline of how a cabinet job runs". It is not written: its source claim, the sequence and timing of a job (register row 5), was dropped at T20. In its place Home carries "What a good quote covers", which is advice, states no duration, and adds the question of whether a quoted time includes making the cabinets (the T05 lead-time gap, answered as a question).
 - The wardrobe image (`images/wardrobe-joinery.jpg`) is in the plan's Image direction for Home; it is placed in the wardrobes section.
 
+## T25 transcription notes
+
+Transcribed 23 October 2026 by script from this file's Blocks section (31 blocks), not retyped. `contact.jobTypes` is Kitchens, Wardrobes and storage, Joinery: the picker adds "Something else" itself from `otherServiceLabel`, so the operator note's fourth option is not a jobTypes entry. The wardrobe image block carries the plan's alt text and the 400 to 960 `widths`.
+
 ## Markers outstanding
 
 None.

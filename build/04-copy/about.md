@@ -54,6 +54,10 @@ The engine then renders About's own quote section: heading from `contact.formHea
 - Titles, meta and H1 match `build/03-plan.md`.
 - "What we do not do" differs from Cairns: this site shows published price ranges on the kitchens page, so the line is "we do not set prices", with the ranges named as other publishers'.
 
+## T25 transcription notes
+
+Transcribed 23 October 2026 by script (17 blocks). The quote section after the blocks is the engine's own, headed by `contact.formHeadline` ("Send an enquiry").
+
 ## Markers outstanding
 
 None.

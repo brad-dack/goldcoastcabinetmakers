@@ -138,6 +138,10 @@ Hero image: `images/kitchens-gold-coast.jpg`, T23 and T24, alt text at T24.
 - The moisture section uses register row 3 as narrowed at T20: what one board maker recommends MR board for, said as "board makers sell", with no standard, class or figure.
 - The cost table names publisher types, not businesses, as `03-plan.md` Cost figures requires. The businesses and URLs are recorded there.
 
+## T25 transcription notes
+
+Transcribed 23 October 2026 by script (41 blocks). The cost table is a `table` block with headers Published by, Their tier, From, To. At phone width it scrolls sideways inside its own wrapper (overflow auto); the page itself does not scroll sideways. The diagram is `images/kitchen-cabinet-parts-gc.svg` with the plan's alt text.
+
 ## Markers outstanding
 
 None.
