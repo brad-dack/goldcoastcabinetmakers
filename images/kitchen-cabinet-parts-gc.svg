@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="t d">
+  <title id="t">Diagram naming the parts of a kitchen base cabinet</title>
+  <desc id="d">A kitchen base cabinet drawn as a side cutaway, with the front of the cabinet on the left. Labels on the left name the door, hinge and edge. Labels on the right name the benchtop, carcass, shelf and kickboard.</desc>
+  <rect width="1200" height="800" fill="#f4efe6"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#2e3a33">
+    <!-- floor -->
+    <line x1="120" y1="700" x2="1080" y2="700" stroke="#b9ad98" stroke-width="4"/>
+    <!-- carcass: the box, cut away to show inside -->
+    <rect x="420" y="214" width="380" height="406" fill="#ece3d3" stroke="#6f8574" stroke-width="10"/>
+    <!-- back panel -->
+    <rect x="788" y="214" width="12" height="406" fill="#d9cdb6"/>
+    <!-- shelf -->
+    <rect x="432" y="408" width="356" height="16" fill="#d2c2a4" stroke="#6f8574" stroke-width="3"/>
+    <!-- edge: banding on the shelf's front edge -->
+    <rect x="432" y="408" width="8" height="16" fill="#3f5446"/>
+    <!-- kickboard: set back under the carcass -->
+    <rect x="462" y="620" width="14" height="80" fill="#c7b796" stroke="#6f8574" stroke-width="3"/>
+    <line x1="640" y1="620" x2="640" y2="700" stroke="#b9ad98" stroke-width="6"/>
+    <line x1="760" y1="620" x2="760" y2="700" stroke="#b9ad98" stroke-width="6"/>
+    <!-- door, in front of the carcass -->
+    <rect x="396" y="220" width="20" height="396" fill="#dfd2b9" stroke="#6f8574" stroke-width="3"/>
+    <rect x="388" y="400" width="8" height="70" rx="3" fill="#6f8574"/>
+    <!-- hinge: cup in the door, arm to the carcass side -->
+    <rect x="410" y="262" width="34" height="18" rx="4" fill="#3f5446"/>
+    <!-- benchtop, overhanging the front -->
+    <rect x="360" y="170" width="470" height="44" fill="#cfc8bd" stroke="#6f8574" stroke-width="4"/>
+
+    <!-- leaders and labels: right -->
+    <g stroke="#3f5446" stroke-width="3" fill="none">
+      <polyline points="830,192 900,192"/>
+      <polyline points="800,300 900,300"/>
+      <polyline points="788,416 900,416"/>
+      <polyline points="476,670 560,670 600,740 900,740"/>
+    </g>
+    <text x="915" y="204">Benchtop</text>
+    <text x="915" y="312">Carcass</text>
+    <text x="915" y="428">Shelf</text>
+    <text x="915" y="752">Kickboard</text>
+
+    <!-- leaders and labels: left -->
+    <g stroke="#3f5446" stroke-width="3" fill="none">
+      <polyline points="410,271 300,271"/>
+      <polyline points="396,540 300,540"/>
+      <polyline points="436,416 360,416 330,380 300,380"/>
+    </g>
+    <text x="290" y="283" text-anchor="end">Hinge</text>
+    <text x="290" y="392" text-anchor="end">Edge</text>
+    <text x="290" y="552" text-anchor="end">Door</text>
+  </g>
+</svg>

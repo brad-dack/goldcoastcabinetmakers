@@ -219,10 +219,20 @@ Two kinds of image, as on Cairns (Positioning carries the rule):
 
 | file | image | shows | photo or diagram | alt text | width | height | KB | widths |
 |---|---|---|---|---|---|---|---|---|
-| index.html | images/home-hero-gold-coast.jpg | a bright fitted kitchen opening onto a living area with built-in joinery (shelving or a media wall) in a light, airy coastal home; no people, no text | illustrative image (generated) | An illustrated light-filled kitchen and living area with built-in timber joinery | | | | |
-| index.html | images/wardrobe-joinery.jpg | a built-in wardrobe or walk-in robe with open shelving and drawers; no people, no text | illustrative image (generated) | An illustrated built-in wardrobe with shelving, drawers and hanging space | | | | |
-| kitchens-gold-coast.html | images/kitchens-gold-coast.jpg | a different modern kitchen from a three-quarter angle across an island: cabinetry, stone-look benchtop, overhead cupboards; no people, no text | illustrative image (generated) | An illustrated modern kitchen with an island bench and pale cabinetry | | | | |
-| kitchens-gold-coast.html | images/kitchen-cabinet-parts-gc.svg | the named parts of a kitchen base cabinet (benchtop, carcass, shelf, kickboard, hinge, door, edge); labels only, no performance or moisture claim; redrawn in this site's palette rather than copied from Cairns | diagram | Diagram naming the parts of a kitchen base cabinet: benchtop, carcass, shelf, kickboard, hinge, door and edge | 1200 | 800 | | none |
+| index.html | images/home-hero-gold-coast.jpg | a bright fitted kitchen opening onto a living area with built-in joinery (shelving or a media wall) in a light, airy coastal home; no people, no text | illustrative image (generated) | An illustrated light-filled kitchen and living area with built-in timber joinery | 1200 | 800 | 140 | 400, 560, 720, 960 |
+| index.html | images/wardrobe-joinery.jpg | a built-in wardrobe or walk-in robe with open shelving and drawers; no people, no text | illustrative image (generated) | An illustrated built-in wardrobe with shelving, drawers and hanging space | 1200 | 800 | 144 | 400, 560, 720, 960 |
+| kitchens-gold-coast.html | images/kitchens-gold-coast.jpg | a different modern kitchen from a three-quarter angle across an island: cabinetry, stone-look benchtop, overhead cupboards; no people, no text | illustrative image (generated) | An illustrated modern kitchen with an island bench and pale cabinetry | 1200 | 800 | 134 | 400, 560, 720, 960 |
+| kitchens-gold-coast.html | images/kitchen-cabinet-parts-gc.svg | the named parts of a kitchen base cabinet (benchtop, carcass, shelf, kickboard, hinge, door, edge); labels only, no performance or moisture claim; redrawn in this site's palette rather than copied from Cairns | diagram | Diagram naming the parts of a kitchen base cabinet: benchtop, carcass, shelf, kickboard, hinge, door and edge | 1200 | 800 | 3 | none |
+
+T24, 23 October 2026. The three Gemini images arrived as `.jpeg` (1264 by 848),
+were checked against the list below (no text, no logos, straight lines; the
+hero's oven dial was zoomed and carries no brand mark), cropped to 3:2, resized
+to 1200 by 800 and saved under the file names above, with `-400`, `-560`,
+`-720` and `-960` variants. The originals are kept in `build/source-images/`,
+which `_config.yml` keeps off the live site. The SVG was drawn by Code as a
+side cutaway in a warm oak and sage palette, so it does not repeat the Cairns
+front view, with its own title and description inside the file. Wiring the
+image entries into `config.js` is part of T25, with the copy, as on Cairns.
 
 ### Generation prompts for T23
 
