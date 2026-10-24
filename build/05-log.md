@@ -75,8 +75,8 @@ Status: [NEEDS INPUT: PASS or FAIL at T28]
 | greeting_audio_url | [NEEDS INPUT] | `curl -I` on the URL returns 200 audio/mpeg, and heard on the call | |
 | greeting_text | [NEEDS INPUT] | column set, same words | |
 | ga4 realtime | [NEEDS INPUT] | pageview and click_to_call | |
-| single indexable hostname | [NEEDS INPUT] | platform hostname fetched directly | |
-| operator files not served | [NEEDS INPUT] | 404 on PLAYBOOK.md and README.md | |
+| single indexable hostname | PASS | `curl -sI https://brad-dack.github.io/goldcoastcabinetmakers/` 301 to https://goldcoastcabinetmaker.com.au/; www 301 to the apex; http 301 to https | 2026-10-24 |
+| operator files not served | PASS | 404 on PLAYBOOK.md, README.md, bake.js, CODE-SESSION-START.md, TEMPLATE_SUMMARY.md, New site prompt.txt, build/02-constants.md, build/source-images/ and _config.yml | 2026-10-24 |
 
 ## Index log
 
