@@ -61,14 +61,14 @@ Status: [NEEDS INPUT: PASS or FAIL at T28]
 
 | check | result | evidence | date |
 |---|---|---|---|
-| no-js crawl | [NEEDS INPUT] | word count per page, with the command | |
-| console errors | [NEEDS INPUT] | | |
-| layout | [NEEDS INPUT] | mobile, tablet, desktop | |
-| pagespeed | [NEEDS INPUT] | the two heaviest pages | |
-| internal links | [NEEDS INPUT] | no orphans | |
-| sitemap | [NEEDS INPUT] | matches disk | |
-| notice above form | [NEEDS INPUT] | rendered, on every page with a form | |
-| preflight on deployed commit | [NEEDS INPUT] | `node bake.js --check` output | |
+| no-js crawl | PASS | `python` fetch of each live URL with a non-JS user agent, scripts, styles, noscript, header, footer and nav removed to count body words: `/` 1,072, `/kitchens-gold-coast` 1,655, `/about` 516, `/privacy` 881. Each returns HTTP 200 with its own H1 in the served HTML. The nav (`/`, `/kitchens-gold-coast`, `/about`, the tel link) and the footer with the Privacy link are in the served HTML on every page | 2026-10-24 |
+| console errors | PASS | Browser pane, https://goldcoastcabinetmaker.com.au/, `/kitchens-gold-coast`, `/about`, `/privacy` loaded at 375, 768 and 1280 wide: `read_console_messages` returns one entry, a 404 for the deliberate request to `/nonexistent-page` that tested the 404 page; `read_network_requests` shows every other request 200. The Turnstile widget rendered on `/about` with no console error (T26) | 2026-10-24 |
+| layout | PASS | Browser pane emulation, `document.documentElement.scrollWidth` against `innerWidth`: 375 wide, 375 on all four pages and the 404 page, nav toggle shown, no broken images; 768 wide, 753 on all four (the scrollbar), nav toggle shown; 1280 wide, 1265 on all four (the scrollbar), nav toggle hidden. Home hero loads `home-hero-gold-coast-560.jpg` at 450 px; the cabinet-parts diagram renders at 720 by 480; the cost table fits its wrapper at 1280 and scrolls inside it (overflow auto) at 375 | 2026-10-24 |
+| pagespeed | PASS | pagespeed.web.dev, mobile, Lighthouse 13.5.0, 25 Oct 2026 06:45 and 06:47 AEST (the anonymous API was over quota). Kitchens (the heaviest page, 1,655 words, two images and a table): Performance 98, Accessibility 100, Best Practices 100, SEO 100; FCP 0.9 s, LCP 2.4 s, TBT 30 ms, CLS 0, Speed Index 1.1 s. Home (1,072 words, two images): 100, 100, 100, 100; FCP 0.8 s, LCP 1.2 s, TBT 60 ms, CLS 0, Speed Index 0.9 s | 2026-10-24 |
+| internal links | PASS | Every same-site `href` on the four live pages: `/`, `/about`, `/kitchens-gold-coast` and `/privacy` all return 200; none broken. One external link, https://www.oaic.gov.au, on Privacy, not fetched. Each page has inbound links from the other three, so no orphans | 2026-10-24 |
+| sitemap | PASS | `https://goldcoastcabinetmaker.com.au/sitemap.xml` lists `/`, `/kitchens-gold-coast`, `/about`, `/privacy`. The `.html` files on disk, excluding `404.html`, are `index`, `kitchens-gold-coast`, `about` and `privacy`. They match one to one. robots.txt serves ("User-agent: * / Allow: /") and names the sitemap | 2026-10-24 |
+| notice above form | PASS | Served HTML on `/`, `/kitchens-gold-coast` and `/about`: one `<form>` each, and the `reassurance` paragraph carrying "Your details go to a local cabinet maker so they can quote your job, and the cabinet maker pays for the enquiry" sits 209 characters before it. `/privacy` has no form. Seen rendered above the job picker on the live About page (T26 screenshot) | 2026-10-24 |
+| preflight on deployed commit | PASS | `gh api .../pages/builds/latest` commit e2bb09a8015488d5479099333f1ddb1ba5a856e3 (built 2026-10-24T22:42:27Z) equals `git rev-parse HEAD`. A fresh `git clone` of GitHub at that commit, `node bake.js --check`: "Preflight passed with 1 warning(s)", exit 0, the warning being that this QA Status is not PASS yet | 2026-10-24 |
 | form end to end | [NEEDS INPUT] | row landed against the right site_id | |
 | turnstile widget | [NEEDS INPUT] | renders on the live hostname with no console error, and a token is issued | |
 | call routes and logs | [NEEDS INPUT] | call_events row | |
