@@ -87,9 +87,9 @@ T29.
 | sitemap submitted | [NEEDS INPUT: date] |
 | sitemap last read | [NEEDS INPUT: date Search Console reports] |
 | pages requested | [NEEDS INPUT] |
-| review dates set | [NEEDS INPUT: what, and when it falls due] |
-| link inventory | [NEEDS INPUT: the named pre-renter linkable assets] |
-| outreach targets and status | [NEEDS INPUT] |
+| review dates set | Cost figures table on the kitchens page (`03-plan.md` Cost figures, claim row 6): October 2027. QBCC claims, rows 1, 2, 4 and 7 (licence threshold, contracts and deposits, home warranty, value statement): re-read the QBCC pages at each maintenance review and by April 2027, six months after T20. GA4 internal traffic IP 180.150.80.120 (20 Oct 2026): re-check at each maintenance review and after any outage (T29 note). GitHub Pages certificate expires 23 January 2027 and renews automatically: confirm HTTPS still serves after that date. Turnstile shared widget: 6 of 10 hostnames used; check capacity before the next build |
+| link inventory | One pre-renter linkable asset: the kitchens page (`/kitchens-gold-coast`), with the sourced Gold Coast cost table and QBCC basics, six outreach targets named in `03-plan.md` Linkable asset. No links built and no outreach before a renter is signed (Brad, 20 Oct 2026). Citations and directories for the kitchens and joinery terms (remote-execution verdict, T06) also wait for a renter |
+| outreach targets and status | Six named in `03-plan.md` Linkable asset (Conrad Hyslop, Gold Coast Bulletin, realestate.com.au News, Domain Renovating, Home Beautiful, LJ Hooker). Status: none contacted, by decision, until a renter is signed |
 
 ## Backport
 
