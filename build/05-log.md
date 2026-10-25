@@ -57,7 +57,7 @@ T27 and T28. Status goes PASS only when every row below has a result and its
 evidence. **G7 fails `--check` if Status is PASS with a required row missing.**
 Keep the check names in the first column exactly as written.
 
-Status: [NEEDS INPUT: PASS or FAIL at T28]
+Status: PASS | 25 October 2026
 
 | check | result | evidence | date |
 |---|---|---|---|
@@ -69,12 +69,12 @@ Status: [NEEDS INPUT: PASS or FAIL at T28]
 | sitemap | PASS | `https://goldcoastcabinetmaker.com.au/sitemap.xml` lists `/`, `/kitchens-gold-coast`, `/about`, `/privacy`. The `.html` files on disk, excluding `404.html`, are `index`, `kitchens-gold-coast`, `about` and `privacy`. They match one to one. robots.txt serves ("User-agent: * / Allow: /") and names the sitemap | 2026-10-24 |
 | notice above form | PASS | Served HTML on `/`, `/kitchens-gold-coast` and `/about`: one `<form>` each, and the `reassurance` paragraph carrying "Your details go to a local cabinet maker so they can quote your job, and the cabinet maker pays for the enquiry" sits 209 characters before it. `/privacy` has no form. Seen rendered above the job picker on the live About page (T26 screenshot) | 2026-10-24 |
 | preflight on deployed commit | PASS | `gh api .../pages/builds/latest` commit e2bb09a8015488d5479099333f1ddb1ba5a856e3 (built 2026-10-24T22:42:27Z) equals `git rev-parse HEAD`. A fresh `git clone` of GitHub at that commit, `node bake.js --check`: "Preflight passed with 1 warning(s)", exit 0, the warning being that this QA Status is not PASS yet | 2026-10-24 |
-| form end to end | [NEEDS INPUT] | row landed against the right site_id | |
-| turnstile widget | [NEEDS INPUT] | renders on the live hostname with no console error, and a token is issued | |
-| call routes and logs | [NEEDS INPUT] | call_events row | |
-| greeting_audio_url | [NEEDS INPUT] | `curl -I` on the URL returns 200 audio/mpeg, and heard on the call | |
-| greeting_text | [NEEDS INPUT] | column set, same words | |
-| ga4 realtime | [NEEDS INPUT] | pageview and click_to_call | |
+| form end to end | PASS | Brad sent a real test enquiry from the live Home page on his phone, 25 Oct 2026 00:02:41 UTC. `select` on the remote `leads` table: id c577ffc3-cdd3-4a21-a845-3a64948c6056, site_id dac96949-0195-4911-830c-7715c22dab9c (gold-coast-cabinet-maker), channel form, contact_name "T28 Test", fields service Kitchens, suburb Burleigh Heads, message "Test enquiry for T28, please ignore"; spam_status clean, forward_status held (034 holds all forms), ai_label for_owner. Sent from `/`, Landed on `/`, Came from empty (`_page`, `_landing`, `_referrer` in raw_payload): correct, because Brad typed the address and sent from Home (his answer, same day). A visit whose landing and sending pages differ was not exercised | 2026-10-25 |
+| turnstile widget | PASS | Renders on https://goldcoastcabinetmaker.com.au/about with no console error (T26, 24 Oct 2026). Token issued: the test lead's raw_payload carries `cf-turnstile-response` of 730 characters, and the ingest function accepted it (spam_status clean) | 2026-10-25 |
+| call routes and logs | PASS | Brad rang (07) 5651 3804 from his mobile by tapping the site's Call button, 25 Oct 2026. `call_events` for the Gold Coast site_id: 00:01:21 UTC call_status ringing, inbound to +61756513804; 00:01:44 completed, 22 s; 00:01:46 recording event, 7 s, recording_path CA0052c969936d725f782b3dd748f6d7e9.mp3. A voicemail lead row was created (id 8f45af54-fcb8-4c35-bf64-6834715d2f78, forward_status pending, no renter yet) | 2026-10-25 |
+| greeting_audio_url | PASS | `curl -I` https://bnfgnglzswtrvzfqkgjh.supabase.co/storage/v1/object/public/Greetings/GoldCoastCabinetMaker.mp3: HTTP 200, Content-Type audio/mpeg, 185,294 bytes, 25 Oct 2026 00:05 UTC. Heard on Brad's test call the same day; he confirmed it says the approved words exactly | 2026-10-25 |
+| greeting_text | PASS | `select greeting_text from sites where slug = 'gold-coast-cabinet-maker'` returns the T12 words exactly ("Hi, thanks for calling Gold Coast Cabinet Maker. Leave your name, location and job details after the tone. We will pass your enquiry on to a local cabinet maker who can quote the job, and the cabinet maker pays for the enquiry."), the same words Brad heard on the recording | 2026-10-25 |
+| ga4 realtime | PASS | Brad's GA4 Realtime screenshots, property Gold Coast Cabinet Maker, 25 Oct 2026: Event count by Event name shows page_view 4, click_to_call 1, form_start 1, first_visit 4, session_start 4, user_engagement 2, scroll 1; Views by Page title shows the Home title | 2026-10-25 |
 | single indexable hostname | PASS | `curl -sI https://brad-dack.github.io/goldcoastcabinetmakers/` 301 to https://goldcoastcabinetmaker.com.au/; www 301 to the apex; http 301 to https | 2026-10-24 |
 | operator files not served | PASS | 404 on PLAYBOOK.md, README.md, bake.js, CODE-SESSION-START.md, TEMPLATE_SUMMARY.md, New site prompt.txt, build/02-constants.md, build/source-images/ and _config.yml | 2026-10-24 |
 

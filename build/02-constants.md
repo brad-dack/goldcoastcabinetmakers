@@ -147,7 +147,7 @@ Drafted at T12, 20 October 2026, from the Cairns Cabinet Makers wording Brad app
 | mp3 recorded | Y, uploaded by Brad to the Greetings bucket as GoldCoastCabinetMaker.mp3 (final file name, T13 note); https://bnfgnglzswtrvzfqkgjh.supabase.co/storage/v1/object/public/Greetings/GoldCoastCabinetMaker.mp3 returns HTTP 200, audio/mpeg, 185,294 bytes, checked 20 October 2026 07:39 UTC. The words in it are not yet checked by ear: T28 does that on a real call |
 | greeting_audio_url set | Y. https://bnfgnglzswtrvzfqkgjh.supabase.co/storage/v1/object/public/Greetings/GoldCoastCabinetMaker.mp3, set by migration 037; read back from the remote 20 October 2026 |
 | greeting_text set | Y, on the site row, the approved T12 words exactly (migration 037; read back from the remote 20 October 2026) |
-| greeting heard on a real call | N, owed at T28 |
+| greeting heard on a real call | Y. Brad rang (07) 5651 3804 on 25 October 2026 and heard the greeting; he confirmed it says the approved words exactly. `call_events` shows ringing at 00:01:21 UTC, completed after 22 s, and a 7 s recording event |
 
 ## Search Console
 
