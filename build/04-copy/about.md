@@ -1,6 +1,6 @@
 # About: /about
 
-Status: APPROVED | v1, Brad, 21 October 2026
+Status: APPROVED | v1.1, Brad, 27 October 2026. v1 approved 21 October 2026
 
 ## Head
 
@@ -15,7 +15,7 @@ Status: APPROVED | v1, Brad, 21 October 2026
 
 1. `h2`: Who runs this
 
-2. `p`: Gold Coast Cabinet Maker is run by Brad, trading as Gold Coast Cabinet Maker. ABN 78 538 005 810. I run this website and I am a sole trader.
+2. `p`: Gold Coast Cabinet Maker is run by Brad, trading as Gold Coast Cabinet Maker. ABN 78 538 005 810. I run this website and I cannot build a kitchen - but I will help send someone who is great at them!
 
 3. `h2`: What this site does
 
@@ -41,16 +41,17 @@ Status: APPROVED | v1, Brad, 21 October 2026
 
 14. `h2`: Where we cover
 
-15. `p`: The Gold Coast, including Southport, Nerang and Burleigh Heads. If you are somewhere else in south-east Queensland, tell us where and we will say straight away whether we can find someone.
+15. `p`: The Gold Coast, including Southport, Nerang and Burleigh Heads. If you are somewhere else in south-east Queensland, tell us where and we will try our best!
 
 16. `h2`: Contact
 
-17. `p`: Phone: (07) 5651 3804. Calls are not answered live. They go to voicemail, and if you leave a message it is recorded and passed on with your enquiry. Email: hello@goldcoastcabinetmaker.com.au.
+17. `p`: Phone: (07) 5651 3804. If your call goes to voicemail, leave a message and it will be passed on with your enquiry. Email: hello@goldcoastcabinetmaker.com.au.
 
 The engine then renders About's own quote section: heading from `contact.formHeadline` ("Send an enquiry"), the collection notice (`contact.reassurance`), then the form, with the job picker from `contact.jobTypes`. No `form` block here, because `validateForms` forbids one on About (Cairns T25 note, 13 October 2026).
 
 ## Changes from plan
 
+- v1.1, Brad, 27 October 2026, after launch, in Brad's words: "Who runs this" ends "I run this website and I cannot build a kitchen - but I will help send someone who is great at them!" (was "...and I am a sole trader."; the sole-trader statement stays on the privacy page). "Where we cover" ends "tell us where and we will try our best!" (was "...we will say straight away whether we can find someone."), matching Home. Contact drops "Calls are not answered live." and reads "If your call goes to voicemail, leave a message and it will be passed on with your enquiry."
 - Titles, meta and H1 match `build/03-plan.md`.
 - "What we do not do" differs from Cairns: this site shows published price ranges on the kitchens page, so the line is "we do not set prices", with the ranges named as other publishers'.
 
@@ -67,7 +68,7 @@ None.
 Live as `/* TODO (Brad) */` comments in `config.js`:
 
 - Every sentence in "Who runs this" must be true of Brad specifically. If any is not, cut it rather than soften it. Nothing about years, volumes or numbers of clients, and nothing about other businesses.
-- "Calls are not answered live" is true while no renter is attached. When a renter is signed and calls forward, change this line and the voicemail greeting together.
+- Contact now says "If your call goes to voicemail" (v1.1). While no renter is attached every call goes to voicemail, which the privacy page still states; when a renter is signed and calls forward, check this line, the privacy page and the voicemail greeting together.
 - "We do not take a cut" is the commercial disclosure in the Positioning claim restrictions. It stays true only while the model is a flat payment for enquiries (R3, and its note on per-lead pricing).
 - "Your details" is kept in step with the privacy page's "Why we collect it" and "Who we share it with". If either changes, change both.
 - The phone and email lines follow `business.phone`, `business.phoneDisplay` and `business.email` in `config.js`; change them there first.

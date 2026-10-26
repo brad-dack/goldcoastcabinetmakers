@@ -276,7 +276,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "The Gold Coast, from the northern suburbs down to the southern end, including Southport, Nerang and Burleigh Heads. If you are somewhere else in south-east Queensland, tell us where, and we will say straight away whether we can find someone."
+          "text": "The Gold Coast, from the northern suburbs down to the southern end, including Southport, Nerang and Burleigh Heads. If you are somewhere else in south-east Queensland, tell us where, and we will try our best!"
         },
         {
           "type": "h2",
@@ -345,9 +345,9 @@ window.SITE_CONFIG = {
     about: {
       /* TODO (Brad): About copy is build/04-copy/about.md, approved 21 Oct
          2026. Every sentence in "Who runs this" must be true of Brad
-         personally; cut rather than soften. "Calls are not answered live" is
-         true only while no renter is attached: change it with the voicemail
-         greeting. "We do not take a cut" is the commercial disclosure and
+         personally; cut rather than soften. Contact (v1.1, 27 Oct 2026) says "If your
+         call goes to voicemail"; the privacy page says calls are not answered
+         live, true while no renter is attached: check both with the greeting. "We do not take a cut" is the commercial disclosure and
          stays true only while the model is a flat payment for enquiries.
          "Your details" moves with the privacy page. */
       metaTitle: "About Gold Coast Cabinet Maker | How This Site Works",
@@ -360,7 +360,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "Gold Coast Cabinet Maker is run by Brad, trading as Gold Coast Cabinet Maker. ABN 78 538 005 810. I run this website and I am a sole trader."
+          "text": "Gold Coast Cabinet Maker is run by Brad, trading as Gold Coast Cabinet Maker. ABN 78 538 005 810. I run this website and I cannot build a kitchen - but I will help send someone who is great at them!"
         },
         {
           "type": "h2",
@@ -412,7 +412,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "The Gold Coast, including Southport, Nerang and Burleigh Heads. If you are somewhere else in south-east Queensland, tell us where and we will say straight away whether we can find someone."
+          "text": "The Gold Coast, including Southport, Nerang and Burleigh Heads. If you are somewhere else in south-east Queensland, tell us where and we will try our best!"
         },
         {
           "type": "h2",
@@ -420,7 +420,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "Phone: (07) 5651 3804. Calls are not answered live. They go to voicemail, and if you leave a message it is recorded and passed on with your enquiry. Email: hello@goldcoastcabinetmaker.com.au."
+          "text": "Phone: (07) 5651 3804. If your call goes to voicemail, leave a message and it will be passed on with your enquiry. Email: hello@goldcoastcabinetmaker.com.au."
         }
       ]
     },

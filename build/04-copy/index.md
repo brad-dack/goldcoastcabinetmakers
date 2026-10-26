@@ -1,6 +1,6 @@
 # Home: /
 
-Status: APPROVED | v1, Brad, 21 October 2026
+Status: APPROVED | v1.1, Brad, 27 October 2026. v1 approved 21 October 2026
 
 ## Head
 
@@ -67,7 +67,7 @@ Hero image: `images/home-hero-gold-coast.jpg`, T23 and T24. Alt text is written 
 
 21. `h2`: Where we cover
 
-22. `p`: The Gold Coast, from the northern suburbs down to the southern end, including Southport, Nerang and Burleigh Heads. If you are somewhere else in south-east Queensland, tell us where, and we will say straight away whether we can find someone.
+22. `p`: The Gold Coast, from the northern suburbs down to the southern end, including Southport, Nerang and Burleigh Heads. If you are somewhere else in south-east Queensland, tell us where, and we will try our best!
 
 23. `h2`: What to include when you enquire
 
@@ -101,6 +101,7 @@ Collection notice above the form is `contact.reassurance`, held in `build/02-con
 
 ## Changes from plan
 
+- v1.1, Brad, 27 October 2026, after launch: "Where we cover" now ends "tell us where, and we will try our best!" (was "...we will say straight away whether we can find someone."). About's "Where we cover" changed to match.
 - Titles, meta and H1 match `build/03-plan.md`.
 - The plan's cannibalisation map gives Home "a short outline of how a cabinet job runs". It is not written: its source claim, the sequence and timing of a job (register row 5), was dropped at T20. In its place Home carries "What a good quote covers", which is advice, states no duration, and adds the question of whether a quoted time includes making the cabinets (the T05 lead-time gap, answered as a question).
 - The wardrobe image (`images/wardrobe-joinery.jpg`) is in the plan's Image direction for Home; it is placed in the wardrobes section.
