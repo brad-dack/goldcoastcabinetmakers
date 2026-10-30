@@ -86,8 +86,8 @@ T29.
 
 | field | value |
 |---|---|
-| sitemap submitted | [NEEDS INPUT: date] |
-| sitemap last read | [NEEDS INPUT: date Search Console reports] |
+| sitemap submitted | 2026-10-30: https://goldcoastcabinetmaker.com.au/sitemap.xml, Search Console property goldcoastcabinetmaker.com.au (Brad's screenshot, 30 Oct 2026) |
+| sitemap last read | 2026-10-30, status Success, 4 discovered pages (all four sitemap URLs) |
 | pages requested | [NEEDS INPUT] |
 | review dates set | Cost figures table on the kitchens page (`03-plan.md` Cost figures, claim row 6): October 2027. QBCC claims, rows 1, 2, 4 and 7 (licence threshold, contracts and deposits, home warranty, value statement): re-read the QBCC pages at each maintenance review and by April 2027, six months after T20. GA4 internal traffic IP 180.150.80.120 (20 Oct 2026): re-check at each maintenance review and after any outage (T29 note). GitHub Pages certificate expires 23 January 2027 and renews automatically: confirm HTTPS still serves after that date. Turnstile shared widget: 6 of 10 hostnames used; check capacity before the next build |
 | link inventory | One pre-renter linkable asset: the kitchens page (`/kitchens-gold-coast`), with the sourced Gold Coast cost table and QBCC basics, six outreach targets named in `03-plan.md` Linkable asset. No links built and no outreach before a renter is signed (Brad, 20 Oct 2026). Citations and directories for the kitchens and joinery terms (remote-execution verdict, T06) also wait for a renter |
