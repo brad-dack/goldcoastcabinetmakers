@@ -1,6 +1,6 @@
 # Home: /
 
-Status: APPROVED | v1.1, Brad, 27 October 2026. v1 approved 21 October 2026
+Status: APPROVED | v1.2, Brad, 30 October 2026. v1.1 27 October 2026, v1 approved 21 October 2026
 
 ## Head
 
@@ -37,7 +37,7 @@ Hero image: `images/home-hero-gold-coast.jpg`, T23 and T24. Alt text is written 
 
 9. `h2`: Joinery on the Gold Coast
 
-10. `p`: Joinery is the built-in timberwork in a home that is made to measure rather than bought off the shelf: built-in wardrobes, shelving and bookcases, media and entertainment walls, window seats, study nooks, laundry cabinets, bar and butler's pantry fit-outs, and vanity cabinets. On the Gold Coast the words joiner and cabinet maker are used for much the same trade, and many businesses do both.
+10. `p`: Joinery is the built-in timberwork in a home that is made to measure rather than bought off the shelf: built-in wardrobes, shelving and bookcases, media walls, TV and entertainment units, window seats, study nooks, laundry cabinets, bar and butler's pantry fit-outs, and vanity cabinets. On the Gold Coast the words joiner and cabinet maker are used for much the same trade, and many businesses do both.
 
 11. `p`: What makes a joinery job different from buying furniture is that it is designed for one space. That means the cabinet maker needs the measurements, what the piece is for, and how it meets the walls, floor and ceiling. A rough sketch with dimensions is a good start.
 
@@ -85,7 +85,7 @@ Hero image: `images/home-hero-gold-coast.jpg`, T23 and T24. Alt text is written 
 27. `h2`: Common questions
 
 28. `faqs`:
-    - Q: What is the difference between a joiner and a cabinet maker? A: On the Gold Coast the two are used for much the same trade: made-to-measure cabinets and built-in timberwork. Some businesses lean towards kitchens and some towards wardrobes and other joinery. Describe your job and it goes to someone who does that kind of work.
+    - Q: What is the difference between a joiner and a cabinet maker? A: On the Gold Coast the two are used for much the same trade: made-to-measure cabinets and built-in timberwork. You will also see it written as one word, cabinetmaker, and cabinet builder is used for the same trade. Some businesses lean towards kitchens and some towards wardrobes and other joinery. Describe your job and it goes to someone who does that kind of work.
     - Q: Is a custom kitchen different from a flat-pack kitchen? A: Flat-pack cabinets come in standard sizes and are assembled and fitted from parts. Custom cabinets are made to the size of your room. Which suits you depends on the room, the layout and the budget, and a cabinet maker can tell you where each makes sense. More on [kitchens on the Gold Coast](kitchens-gold-coast.html).
     - Q: Does the cabinet maker need a licence? A: In Queensland, building work valued over $3,300 needs a QBCC licence. Ask for the licence number before you agree to anything, and check it with the QBCC. The details are on the [kitchens](kitchens-gold-coast.html) page.
     - Q: Do you give prices? A: We do not quote or set prices. The [kitchens](kitchens-gold-coast.html) page shows price ranges for Gold Coast kitchens that other publishers have put out, with where each comes from. Your price comes from the cabinet maker once they have seen the room.
@@ -102,6 +102,7 @@ Collection notice above the form is `contact.reassurance`, held in `build/02-con
 ## Changes from plan
 
 - v1.1, Brad, 27 October 2026, after launch: "Where we cover" now ends "tell us where, and we will try our best!" (was "...we will say straight away whether we can find someone."). About's "Where we cover" changed to match.
+- v1.2, Brad, 30 October 2026, from the 30 Oct SEO audit review: the joinery list says "media walls, TV and entertainment units" (was "media and entertainment walls"), for the TV cabinet searches in Search Console; the joiner FAQ adds "You will also see it written as one word, cabinetmaker, and cabinet builder is used for the same trade." ("cabinet builders near me", "what is a cabinet maker called"). Neither adds a page or a claim.
 - Titles, meta and H1 match `build/03-plan.md`.
 - The plan's cannibalisation map gives Home "a short outline of how a cabinet job runs". It is not written: its source claim, the sequence and timing of a job (register row 5), was dropped at T20. In its place Home carries "What a good quote covers", which is advice, states no duration, and adds the question of whether a quoted time includes making the cabinets (the T05 lead-time gap, answered as a question).
 - The wardrobe image (`images/wardrobe-joinery.jpg`) is in the plan's Image direction for Home; it is placed in the wardrobes section.

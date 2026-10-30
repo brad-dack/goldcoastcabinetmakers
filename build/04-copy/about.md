@@ -1,6 +1,6 @@
 # About: /about
 
-Status: APPROVED | v1.1, Brad, 27 October 2026. v1 approved 21 October 2026
+Status: APPROVED | v1.2, Brad, 30 October 2026. v1.1 27 October 2026, v1 approved 21 October 2026
 
 ## Head
 
@@ -15,7 +15,7 @@ Status: APPROVED | v1.1, Brad, 27 October 2026. v1 approved 21 October 2026
 
 1. `h2`: Who runs this
 
-2. `p`: Gold Coast Cabinet Maker is run by Brad, trading as Gold Coast Cabinet Maker. ABN 78 538 005 810. I run this website and I cannot build a kitchen - but I will help send someone who is great at them!
+2. `p`: Gold Coast Cabinet Maker is run by Brad, trading as Gold Coast Cabinet Maker. ABN 78 538 005 810. I run this website and I cannot build a kitchen, but I will pass your enquiry to a cabinet maker who can quote it.
 
 3. `h2`: What this site does
 
@@ -52,6 +52,7 @@ The engine then renders About's own quote section: heading from `contact.formHea
 ## Changes from plan
 
 - v1.1, Brad, 27 October 2026, after launch, in Brad's words: "Who runs this" ends "I run this website and I cannot build a kitchen - but I will help send someone who is great at them!" (was "...and I am a sole trader."; the sole-trader statement stays on the privacy page). "Where we cover" ends "tell us where and we will try our best!" (was "...we will say straight away whether we can find someone."), matching Home. Contact drops "Calls are not answered live." and reads "If your call goes to voicemail, leave a message and it will be passed on with your enquiry."
+- v1.2, Brad, 30 October 2026, from the 30 Oct SEO audit review: "Who runs this" ends "I cannot build a kitchen, but I will pass your enquiry to a cabinet maker who can quote it." (was "...but I will help send someone who is great at them!", a quality claim about a cabinet maker not yet signed).
 - Titles, meta and H1 match `build/03-plan.md`.
 - "What we do not do" differs from Cairns: this site shows published price ranges on the kitchens page, so the line is "we do not set prices", with the ranges named as other publishers'.
 

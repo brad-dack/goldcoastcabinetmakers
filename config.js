@@ -211,7 +211,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "Joinery is the built-in timberwork in a home that is made to measure rather than bought off the shelf: built-in wardrobes, shelving and bookcases, media and entertainment walls, window seats, study nooks, laundry cabinets, bar and butler's pantry fit-outs, and vanity cabinets. On the Gold Coast the words joiner and cabinet maker are used for much the same trade, and many businesses do both."
+          "text": "Joinery is the built-in timberwork in a home that is made to measure rather than bought off the shelf: built-in wardrobes, shelving and bookcases, media walls, TV and entertainment units, window seats, study nooks, laundry cabinets, bar and butler's pantry fit-outs, and vanity cabinets. On the Gold Coast the words joiner and cabinet maker are used for much the same trade, and many businesses do both."
         },
         {
           "type": "p",
@@ -309,7 +309,7 @@ window.SITE_CONFIG = {
           "items": [
             {
               "q": "What is the difference between a joiner and a cabinet maker?",
-              "a": "On the Gold Coast the two are used for much the same trade: made-to-measure cabinets and built-in timberwork. Some businesses lean towards kitchens and some towards wardrobes and other joinery. Describe your job and it goes to someone who does that kind of work."
+              "a": "On the Gold Coast the two are used for much the same trade: made-to-measure cabinets and built-in timberwork. You will also see it written as one word, cabinetmaker, and cabinet builder is used for the same trade. Some businesses lean towards kitchens and some towards wardrobes and other joinery. Describe your job and it goes to someone who does that kind of work."
             },
             {
               "q": "Is a custom kitchen different from a flat-pack kitchen?",
@@ -360,7 +360,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "Gold Coast Cabinet Maker is run by Brad, trading as Gold Coast Cabinet Maker. ABN 78 538 005 810. I run this website and I cannot build a kitchen - but I will help send someone who is great at them!"
+          "text": "Gold Coast Cabinet Maker is run by Brad, trading as Gold Coast Cabinet Maker. ABN 78 538 005 810. I run this website and I cannot build a kitchen, but I will pass your enquiry to a cabinet maker who can quote it."
         },
         {
           "type": "h2",
@@ -634,6 +634,10 @@ window.SITE_CONFIG = {
           "text": "Ask for a drawing of the proposed kitchen before you agree to anything. It is much cheaper to change a line on paper than a cabinet that has been made. If your plans include an island bench, a butler's pantry or opening the kitchen to the living area, have each one drawn, because each changes how much cabinetry the job needs."
         },
         {
+          "type": "p",
+          "text": "Most kitchens are one of a few shapes: a single-wall kitchen along one wall, a galley with two facing runs, an L, a U, or any of these with an island. In a small kitchen the shape decides how much bench and cupboard space fits, so ask to see on the drawing where the storage goes. If the kitchen is in an apartment, say so in your enquiry, along with how the cabinets get in and whether the body corporate needs to approve the work."
+        },
+        {
           "type": "h2",
           "text": "Custom or flat-pack"
         },
@@ -655,7 +659,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "h2",
-          "text": "What the cabinets are made of"
+          "text": "What kitchen cabinets and cupboards are made of"
         },
         {
           "type": "p",
@@ -803,6 +807,10 @@ window.SITE_CONFIG = {
           "text": "What moves a kitchen up or down these ranges is mostly what this page has covered: whether the layout stays, custom or flat-pack cabinets, the benchtop, and how much has to be removed and re-plumbed."
         },
         {
+          "type": "p",
+          "text": "To have your kitchen priced, [send an enquiry](#quote) with its size, the layout and what is staying, and we pass it to a local cabinet maker who can quote it."
+        },
+        {
           "type": "credit",
           "text": "Sources: one independent cost-guide site (updated October 2026) and three Gold Coast renovation builders (published March to September 2026), each read on 20 October 2026. Published ranges change; this table is reviewed by October 2027."
         },
@@ -862,6 +870,10 @@ window.SITE_CONFIG = {
           "text": "You will not know all of it, and that is fine. A cabinet maker will want to see the room before pricing it properly."
         },
         {
+          "type": "p",
+          "text": "If the job is wardrobes, a laundry or other joinery rather than a kitchen, see [wardrobes and joinery](index.html). [How this site works](about.html) explains where your enquiry goes."
+        },
+        {
           "type": "h2",
           "text": "Common questions"
         },
@@ -873,11 +885,15 @@ window.SITE_CONFIG = {
               "a": "Published ranges put a mid-range Gold Coast kitchen renovation at roughly $25,000 to $45,000, with premium work running to around $80,000 or more. Those are other publishers' figures, set out in the table above, not a quote. A cabinet maker prices your kitchen once they have seen the room."
             },
             {
+              "q": "Is $10,000 or $30,000 enough for a new kitchen?",
+              "a": "On the published ranges above, $10,000 is inside one cost guide's cosmetic refresh range ($7,850 to $19,600, new door faces and paint) but below its budget range with new cabinetry, which starts at $11,750. $30,000 sits inside that guide's mid-range ($24,500 to $44,100), builder A's mid-range ($25,000 to $45,000) and builder B's straight replacement on the same layout ($25,000 to $40,000). These are other publishers' figures, not a quote."
+            },
+            {
               "q": "Does the quote include the benchtop and installation?",
               "a": "Not always. Ask each cabinet maker to list what is included, and who supplies and fits the benchtop and any appliances."
             },
             {
-              "q": "Can I keep my existing cabinets and replace only the doors?",
+              "q": "Can I keep my existing cabinets and replace only the cupboard doors?",
               "a": "Sometimes. It depends on the condition of the cabinet boxes and whether the layout still works. Say so in your enquiry and the cabinet maker can tell you whether it is worth doing."
             },
             {

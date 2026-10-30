@@ -1,6 +1,6 @@
 # Kitchens: /kitchens-gold-coast
 
-Status: APPROVED | v1, Brad, 21 October 2026
+Status: APPROVED | v1.1, Brad, 30 October 2026. v1 approved 21 October 2026
 
 ## Head
 
@@ -29,6 +29,8 @@ Hero image: `images/kitchens-gold-coast.jpg`, T23 and T24, alt text at T24.
 
 4. `p`: Ask for a drawing of the proposed kitchen before you agree to anything. It is much cheaper to change a line on paper than a cabinet that has been made. If your plans include an island bench, a butler's pantry or opening the kitchen to the living area, have each one drawn, because each changes how much cabinetry the job needs.
 
+4a. `p`: Most kitchens are one of a few shapes: a single-wall kitchen along one wall, a galley with two facing runs, an L, a U, or any of these with an island. In a small kitchen the shape decides how much bench and cupboard space fits, so ask to see on the drawing where the storage goes. If the kitchen is in an apartment, say so in your enquiry, along with how the cabinets get in and whether the body corporate needs to approve the work.
+
 5. `h2`: Custom or flat-pack
 
 6. `p`: Flat-pack kitchens arrive as standard-sized cabinets in cartons and are assembled and fitted from parts. Custom kitchens are made to the size of your room, so they fit awkward corners and unusual wall lengths without filler panels. Flat-pack can suit a room that works with standard sizes, and custom suits a room that does not.
@@ -39,7 +41,7 @@ Hero image: `images/kitchens-gold-coast.jpg`, T23 and T24, alt text at T24.
 
 9. `p`: The benchtop is a decision of its own: the material, the thickness, the edge, and the cut-outs for the sink and cooktop. Ask whether the quote includes the benchtop at all, and who is supplying and fitting it. Quotes that look different on price are sometimes the same job with the benchtop in one and out of the other.
 
-10. `h2`: What the cabinets are made of
+10. `h2`: What kitchen cabinets and cupboards are made of
 
 11. `p`: Kitchens are damp places: steam from cooking, water at the sink, and the dishwasher beside it. It is worth asking what the cabinets are made of rather than assuming. Board makers sell moisture-resistant (MR) grades of melamine-faced particleboard, which they recommend for interior areas with high humidity, such as kitchen cupboards and vanities. Questions to put to the cabinet maker:
 
@@ -84,6 +86,8 @@ Hero image: `images/kitchens-gold-coast.jpg`, T23 and T24, alt text at T24.
 
 23. `p`: What moves a kitchen up or down these ranges is mostly what this page has covered: whether the layout stays, custom or flat-pack cabinets, the benchtop, and how much has to be removed and re-plumbed.
 
+23a. `p`: To have your kitchen priced, [send an enquiry](#quote) with its size, the layout and what is staying, and we pass it to a local cabinet maker who can quote it.
+
 24. `credit`: Sources: one independent cost-guide site (updated October 2026) and three Gold Coast renovation builders (published March to September 2026), each read on 20 October 2026. Published ranges change; this table is reviewed by October 2027.
 
 25. `h2`: Before you sign
@@ -116,12 +120,15 @@ Hero image: `images/kitchens-gold-coast.jpg`, T23 and T24, alt text at T24.
 
 36. `p`: You will not know all of it, and that is fine. A cabinet maker will want to see the room before pricing it properly.
 
+36a. `p`: If the job is wardrobes, a laundry or other joinery rather than a kitchen, see [wardrobes and joinery](index.html). [How this site works](about.html) explains where your enquiry goes.
+
 37. `h2`: Common questions
 
 38. `faqs`:
     - Q: What does a new kitchen cost on the Gold Coast? A: Published ranges put a mid-range Gold Coast kitchen renovation at roughly $25,000 to $45,000, with premium work running to around $80,000 or more. Those are other publishers' figures, set out in the table above, not a quote. A cabinet maker prices your kitchen once they have seen the room.
+    - Q: Is $10,000 or $30,000 enough for a new kitchen? A: On the published ranges above, $10,000 is inside one cost guide's cosmetic refresh range ($7,850 to $19,600, new door faces and paint) but below its budget range with new cabinetry, which starts at $11,750. $30,000 sits inside that guide's mid-range ($24,500 to $44,100), builder A's mid-range ($25,000 to $45,000) and builder B's straight replacement on the same layout ($25,000 to $40,000). These are other publishers' figures, not a quote.
     - Q: Does the quote include the benchtop and installation? A: Not always. Ask each cabinet maker to list what is included, and who supplies and fits the benchtop and any appliances.
-    - Q: Can I keep my existing cabinets and replace only the doors? A: Sometimes. It depends on the condition of the cabinet boxes and whether the layout still works. Say so in your enquiry and the cabinet maker can tell you whether it is worth doing.
+    - Q: Can I keep my existing cabinets and replace only the cupboard doors? A: Sometimes. It depends on the condition of the cabinet boxes and whether the layout still works. Say so in your enquiry and the cabinet maker can tell you whether it is worth doing.
     - Q: Should I pay a deposit? A: A deposit is normal, and the QBCC sets a limit on it, set out under "Before you sign" above. A deposit above the limit is not something you have to pay.
 
 39. `h2`: Get a kitchen quote
@@ -137,6 +144,7 @@ Hero image: `images/kitchens-gold-coast.jpg`, T23 and T24, alt text at T24.
 - The plan gives this page "how a kitchen job runs and what affects how long it takes (each only once sourced)". Durations were dropped at T20 (row 5), so "How long it takes" gives no timeframe and turns the T05 lead-time gap into a question to ask.
 - The moisture section uses register row 3 as narrowed at T20: what one board maker recommends MR board for, said as "board makers sell", with no standard, class or figure.
 - The cost table names publisher types, not businesses, as `03-plan.md` Cost figures requires. The businesses and URLs are recorded there.
+- v1.1, Brad, 30 October 2026, from the 30 Oct SEO audit review. Added: 4a (kitchen shapes, small and apartment kitchens), 23a (an enquiry link after the cost ranges), 36a (in-body links to Home and About, which the `03-plan.md` Internal link graph lists for this page and v1 left out), and the "$10,000 or $30,000" FAQ, whose figures are all from the cost table (claim row 6, no new source). H2 10 and the doors FAQ now say "cupboards". Head unchanged.
 
 ## T25 transcription notes
 
