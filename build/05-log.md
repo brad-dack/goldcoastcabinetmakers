@@ -102,4 +102,4 @@ be. See PLAYBOOK.md rule R7.
 
 | divergence | template commit | or reason it stays here |
 |---|---|---|
-| [NEEDS INPUT: or "none"] | | |
+| Internal-traffic opt-out (js/main.js) | | Not yet backported: per-browser `?internal=1` flag added 12 Nov 2026 because the IP rule misses a changing home IP and mobile data. Backport to the template at T30 |

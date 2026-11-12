@@ -484,3 +484,8 @@ README under a "Divergence from the template" heading. It's the fastest way
 to re-apply your changes if this template is ever regenerated, and the
 fastest way for the next person to know your build isn't running the
 stock engine.
+
+### Internal-traffic opt-out (js/main.js)
+
+Open any page with `?internal=1` once per browser: `js/main.js` saves a flag in localStorage and tags every later GA4 visit from that browser `traffic_type: "internal"` (and adds `internal: true` to enquiries), so the Internal Traffic filter drops it whatever the IP.
+Open any page with `?internal=0` to clear the flag; either parameter is removed from the address bar after it is read.
