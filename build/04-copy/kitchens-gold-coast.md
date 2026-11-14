@@ -1,8 +1,12 @@
 # Kitchens: /kitchens-gold-coast
 
-Status: APPROVED | v1.1, Brad, 30 October 2026. v1 approved 21 October 2026
+Status: APPROVED | v1.2, Brad, 15 November 2026. v1.1 30 October 2026, v1 approved 21 October 2026
+
+Why this version exists: 35 of this page's 102 long sentences (8+ words) also appeared, word for word apart from the place name, on Cairns Cabinet Makers' kitchens page. Cairns went live first (13 October; Gold Coast 25 October), so Gold Coast's copy is the one rewritten (plan section 7a). Structure, headings, figures, sources and claims are unchanged. Only the wording of shared sentences is new. Every rewritten block is listed under "Changes in v1.2".
 
 ## Head
+
+Unchanged from v1.1.
 
 | field | value |
 |---|---|
@@ -21,41 +25,41 @@ What to decide, what it tends to cost, and what to check before you agree to a n
 
 Hero image: `images/kitchens-gold-coast.jpg`, T23 and T24, alt text at T24.
 
-1. `lead`: A new kitchen is mostly a set of decisions: the layout, what the cabinets are made of, what the benchtop is, and who does each part. This page sets out those decisions, the price ranges others have published for Gold Coast kitchens, and the questions worth asking, so the quotes you collect are quotes for the same job.
+1. `lead`: Buying a new kitchen comes down to a run of choices: how it is laid out, what the cabinets are built from, which benchtop goes on top, and who handles each stage. This page sets out those decisions, the price ranges others have published for Gold Coast kitchens, and the questions worth asking, so the quotes you collect are quotes for the same job.
 
 2. `h2`: Kitchen design and layout
 
-3. `p`: The layout drives most of the quote. Keeping the sink, cooktop and fridge where they are is a smaller job than moving them, because moving services means more trades and more work behind the walls. Ask each cabinet maker to quote against the same layout, or to say clearly where theirs differs.
+3. `p`: Most of the price follows from the layout. If the sink, cooktop and fridge stay where they are, the job stays smaller; shifting any of them brings in other trades and opens up walls and floors. Give every cabinet maker the same layout to price, or ask each one to mark where their version departs from it.
 
-4. `p`: Ask for a drawing of the proposed kitchen before you agree to anything. It is much cheaper to change a line on paper than a cabinet that has been made. If your plans include an island bench, a butler's pantry or opening the kitchen to the living area, have each one drawn, because each changes how much cabinetry the job needs.
+4. `p`: Ask for a drawing of the proposed kitchen before you agree to anything. A change on paper costs far less than a change to a cabinet that is already built. If your plans include an island bench, a butler's pantry or opening the kitchen to the living area, have each one drawn, because each changes how much cabinetry the job needs.
 
 4a. `p`: Most kitchens are one of a few shapes: a single-wall kitchen along one wall, a galley with two facing runs, an L, a U, or any of these with an island. In a small kitchen the shape decides how much bench and cupboard space fits, so ask to see on the drawing where the storage goes. If the kitchen is in an apartment, say so in your enquiry, along with how the cabinets get in and whether the body corporate needs to approve the work.
 
 5. `h2`: Custom or flat-pack
 
-6. `p`: Flat-pack kitchens arrive as standard-sized cabinets in cartons and are assembled and fitted from parts. Custom kitchens are made to the size of your room, so they fit awkward corners and unusual wall lengths without filler panels. Flat-pack can suit a room that works with standard sizes, and custom suits a room that does not.
+6. `p`: Flat-pack cabinets come boxed in set sizes, and are put together and installed from parts. A custom kitchen is built to your room's measurements, which lets it fill odd corners and uneven wall lengths without filler panels. If your room suits standard cabinet sizes, flat-pack may do the job; if it does not, custom is usually the better fit.
 
-7. `p`: Neither is better in every case. A cabinet maker can tell you which they would use for your room, and why.
+7. `p`: Neither is better in every case. Ask the cabinet maker which they would choose for your kitchen, and what drives that choice.
 
 8. `h2`: Benchtops
 
-9. `p`: The benchtop is a decision of its own: the material, the thickness, the edge, and the cut-outs for the sink and cooktop. Ask whether the quote includes the benchtop at all, and who is supplying and fitting it. Quotes that look different on price are sometimes the same job with the benchtop in one and out of the other.
+9. `p`: A benchtop involves its own set of choices: what it is made of, how thick it is, how the edge is finished, and where the sink and cooktop are cut in. Check whether the benchtop is in the quote at all and, if it is, who supplies it and who fits it. Two prices that look far apart can turn out to be the same kitchen, one with the benchtop and one without.
 
 10. `h2`: What kitchen cabinets and cupboards are made of
 
-11. `p`: Kitchens are damp places: steam from cooking, water at the sink, and the dishwasher beside it. It is worth asking what the cabinets are made of rather than assuming. Board makers sell moisture-resistant (MR) grades of melamine-faced particleboard, which they recommend for interior areas with high humidity, such as kitchen cupboards and vanities. Questions to put to the cabinet maker:
+11. `p`: Kitchens are damp places: steam from cooking, water at the sink, and the dishwasher beside it. So rather than take the material for granted, ask what each cabinet is made of. Board makers sell moisture-resistant (MR) grades of melamine-faced particleboard, which they recommend for interior areas with high humidity, such as kitchen cupboards and vanities. Questions to put to the cabinet maker:
 
 12. `ul`:
-    - What is the cabinet box made of, and is it a moisture-resistant grade?
-    - Are the cut and drilled edges sealed, including the edges that will not be seen?
-    - What are the hinges, runners and handles made of?
-    - Which cabinets sit under the sink or beside the dishwasher, and how is the material there protected?
+    - What are the cabinet boxes built from? Is that board rated moisture-resistant?
+    - Is every cut or drilled edge sealed, hidden edges included?
+    - What material are the hinges, drawer runners and handles?
+    - How are the cabinets under the sink and next to the dishwasher protected from water?
 
-13. `p`: Each of these is a question, not a rule. A good answer names a material and a method, and a vague answer is worth noticing.
+13. `p`: None of these has a single right answer. Listen for a specific material and a specific way of doing it, and if the reply stays general, take note.
 
 14. `h2`: The parts of a cabinet
 
-15. `p`: A few terms come up in every quote. The diagram names them.
+15. `p`: Quotes use a handful of words for the parts of a cabinet. The diagram below labels them.
 
 16. `image`: `images/kitchen-cabinet-parts-gc.svg`, a diagram naming the benchtop, carcass, shelf, kickboard, hinge, door and edge of a base cabinet. No caption. Alt text at T24.
 
@@ -92,17 +96,17 @@ Hero image: `images/kitchens-gold-coast.jpg`, T23 and T24, alt text at T24.
 
 25. `h2`: Before you sign
 
-26. `p`: Queensland has specific rules for building work, and they apply to many kitchen jobs. These are the points the building regulator, the QBCC, sets out.
+26. `p`: Many kitchen jobs fall under Queensland's rules for building work. The points below come from the QBCC, Queensland's building regulator.
 
-27. `p`: **A licence.** Building work valued over $3,300 needs a QBCC licence. The QBCC has a Cabinet making licence class, which covers installing, refurbishing, restoring or repairing kitchen, bathroom, laundry and other fitted cabinets. Ask for the licence number before you agree to anything.
+27. `p`: **A licence.** A QBCC licence is required for building work valued over $3,300. One of its licence classes is Cabinet making. It covers fitting new cabinets and refurbishing, restoring or repairing existing ones, in kitchens, bathrooms, laundries and anywhere else they are built in. Get the licence number before you commit, and check it with the QBCC.
 
-28. `p`: **A written contract.** For work over $3,300 the QBCC says a written, dated and signed contract is essential, and that the contract must include advice about your right to a cooling-off period.
+28. `p`: **A written contract.** Where the work is over $3,300, the QBCC describes a contract that is in writing, dated and signed as essential. That contract must also tell you about your right to a cooling-off period.
 
-29. `p`: **The deposit.** The most a contractor can ask for as a deposit depends on the price of the job. From $3,301 to $19,999 it is 10% of the contract price, and for more than $20,000 it is 5%. There is an exception of up to 20% where more than half the price is made-to-measure work done away from your home, and the QBCC gives made-to-measure kitchen cabinetry as an example.
+29. `p`: **The deposit.** How much a contractor may ask for up front is capped, and the cap depends on the contract price. On a job priced from $3,301 to $19,999 the limit is 10%, and on one of more than $20,000 it is 5%. A higher limit of up to 20% can apply when over half the contract price is for work made to measure off site, and the QBCC names made-to-measure kitchen cabinetry as one example.
 
-30. `p`: **Insurance.** Queensland Home Warranty insurance applies to most residential building work valued over $3,300, counting materials, labour and GST. The QBCC lists replacing or refitting fixtures or fittings in a kitchen among the work it covers. Ask whether it applies to your job.
+30. `p`: **Insurance.** Most residential building work valued over $3,300, with materials, labour and GST counted together, falls under Queensland Home Warranty insurance. Replacing or refitting kitchen fixtures or fittings is on the QBCC's list of work it covers. Check with the cabinet maker whether your job is covered.
 
-31. `credit`: Sources: the Queensland Building and Construction Commission pages "Who must hold a QBCC licence" (reviewed 16 April 2026), "Cabinet making" (licence class), "Contracts and payments" (reviewed 14 May 2026), "Deposits and progress payments" (reviewed 27 June 2025) and "What work requires insurance" (reviewed 1 August 2024), at qbcc.qld.gov.au. Rules and figures change, so check the QBCC pages for the current position.
+31. `credit`: Sources, all published by the Queensland Building and Construction Commission at qbcc.qld.gov.au: "Who must hold a QBCC licence" (reviewed 16 April 2026), the "Cabinet making" licence class, "Contracts and payments" (reviewed 14 May 2026), "Deposits and progress payments" (reviewed 27 June 2025) and "What work requires insurance" (reviewed 1 August 2024). The QBCC updates these rules from time to time, and its own pages hold the current version.
 
 32. `h2`: How long it takes
 
@@ -111,14 +115,14 @@ Hero image: `images/kitchens-gold-coast.jpg`, T23 and T24, alt text at T24.
 34. `h2`: What to include when you enquire
 
 35. `ul`:
-    - The size of the kitchen, and whether it is a straight run, an L, a U or has an island
-    - Whether you are keeping the layout or changing it
-    - Whether you want custom or flat-pack cabinets, or want advice
-    - What you would like the benchtop to be, if you have a view
-    - Whether the old kitchen needs removing, and whether appliances are staying
-    - Anything unusual about access, timing or the state of the walls and floor
+    - How big the kitchen is, and its shape: one straight run, an L, a U, or with an island
+    - Is the layout staying the same, or changing?
+    - Custom or flat-pack cabinets, or whether you would like a recommendation
+    - Any preference for the benchtop material
+    - If the existing kitchen has to come out, and which appliances you are keeping
+    - Anything awkward about getting in, the timing, or the condition of the walls and floor
 
-36. `p`: You will not know all of it, and that is fine. A cabinet maker will want to see the room before pricing it properly.
+36. `p`: Leave out what you do not know yet. A firm price comes once the cabinet maker has seen the kitchen in person.
 
 36a. `p`: If the job is wardrobes, a laundry or other joinery rather than a kitchen, see [wardrobes and joinery](index.html). [How this site works](about.html) explains where your enquiry goes.
 
@@ -127,15 +131,21 @@ Hero image: `images/kitchens-gold-coast.jpg`, T23 and T24, alt text at T24.
 38. `faqs`:
     - Q: What does a new kitchen cost on the Gold Coast? A: Published ranges put a mid-range Gold Coast kitchen renovation at roughly $25,000 to $45,000, with premium work running to around $80,000 or more. Those are other publishers' figures, set out in the table above, not a quote. A cabinet maker prices your kitchen once they have seen the room.
     - Q: Is $10,000 or $30,000 enough for a new kitchen? A: On the published ranges above, $10,000 is inside one cost guide's cosmetic refresh range ($7,850 to $19,600, new door faces and paint) but below its budget range with new cabinetry, which starts at $11,750. $30,000 sits inside that guide's mid-range ($24,500 to $44,100), builder A's mid-range ($25,000 to $45,000) and builder B's straight replacement on the same layout ($25,000 to $40,000). These are other publishers' figures, not a quote.
-    - Q: Does the quote include the benchtop and installation? A: Not always. Ask each cabinet maker to list what is included, and who supplies and fits the benchtop and any appliances.
-    - Q: Can I keep my existing cabinets and replace only the cupboard doors? A: Sometimes. It depends on the condition of the cabinet boxes and whether the layout still works. Say so in your enquiry and the cabinet maker can tell you whether it is worth doing.
-    - Q: Should I pay a deposit? A: A deposit is normal, and the QBCC sets a limit on it, set out under "Before you sign" above. A deposit above the limit is not something you have to pay.
+    - Q: Are the benchtop and installation part of a kitchen quote? A: Not always. Get each cabinet maker to itemise the quote and say who provides and installs the benchtop and the appliances.
+    - Q: Can I replace just the cupboard doors and keep the cabinets I have? A: Sometimes. That turns on whether the cabinet boxes are still sound and whether you are happy with the layout. Mention it in your enquiry, and the cabinet maker can advise whether a door-only update makes sense for your kitchen.
+    - Q: Should I pay a deposit? A: Paying a deposit is standard. The QBCC caps how large it can be, and the limits are under "Before you sign" above. You are not obliged to pay more than that cap.
 
 39. `h2`: Get a kitchen quote
 
-40. `p`: Tell us the room, roughly how big it is, and what you want done. We pass it to a local cabinet maker who can quote it.
+40. `p`: Describe the kitchen, its rough size and the work you have in mind, and we pass it to a local cabinet maker who can quote the job.
 
 41. `form`: `presetService` Kitchens; no `heading` (the H2 and sentence above already introduce it). The collection notice is `contact.reassurance`.
+
+## Changes in v1.2
+
+Rewritten, same meaning, to remove sentences shared with Cairns Cabinet Makers: blocks 1 (first sentence), 3, 4 (second sentence), 6, 7 (second), 9, 11 (second), 12, 13, 15, 26, 27, 28, 29, 30, 31, 35, 36, 40, and the benchtop, doors and deposit FAQs. Nothing added or removed: same blocks, same headings, same figures and sources, no new claim. Block 27's "check it with the QBCC" is the wording Home's licence FAQ already uses.
+
+Sentence check after the rewrite, against every copy file in `Cairns Cabinet Makers/build/04-copy` (city and brand names treated as equal): 0 of the long sentences shared, down from 35. What still overlaps with Cairns is short fixed wording: QBCC page titles, "$3,300", "local cabinet maker who can quote" (the R11 enquiry flow).
 
 ## Changes from plan
 
@@ -145,10 +155,11 @@ Hero image: `images/kitchens-gold-coast.jpg`, T23 and T24, alt text at T24.
 - The moisture section uses register row 3 as narrowed at T20: what one board maker recommends MR board for, said as "board makers sell", with no standard, class or figure.
 - The cost table names publisher types, not businesses, as `03-plan.md` Cost figures requires. The businesses and URLs are recorded there.
 - v1.1, Brad, 30 October 2026, from the 30 Oct SEO audit review. Added: 4a (kitchen shapes, small and apartment kitchens), 23a (an enquiry link after the cost ranges), 36a (in-body links to Home and About, which the `03-plan.md` Internal link graph lists for this page and v1 left out), and the "$10,000 or $30,000" FAQ, whose figures are all from the cost table (claim row 6, no new source). H2 10 and the doors FAQ now say "cupboards". Head unchanged.
+- v1.2, 14 November 2026: wording only, see "Changes in v1.2". Head unchanged.
 
 ## T25 transcription notes
 
-Transcribed 23 October 2026 by script (41 blocks). The cost table is a `table` block with headers Published by, Their tier, From, To. At phone width it scrolls sideways inside its own wrapper (overflow auto); the page itself does not scroll sideways. The diagram is `images/kitchen-cabinet-parts-gc.svg` with the plan's alt text.
+v1.1 transcribed 23 October 2026 by script (41 blocks). v1.2 transcribed 15 November 2026 by script: each changed line was swapped in config.js, matched exactly once inside this page's section.
 
 ## Markers outstanding
 
@@ -163,6 +174,7 @@ Live as `/* TODO (Brad) */` comments in `config.js`:
 - The moisture section is advice plus one manufacturer's stated use (row 3). Do not add a standard (search summaries cite the wrong part of AS/NZS 1859, see Traps found), a board class, or a claim that any material "withstands" moisture or salt air.
 - This page is the linkable asset (`03-plan.md` Linkable asset). No outreach before a renter is signed.
 - Kitchen design, benchtops, flat-pack and outdoor kitchens are sections here, not pages (plan, Inventory). Stone benchtops as a trade is not covered.
+- Every sentence on this page is written for this site. Do not copy a sentence to or from another site's repo.
 
 ## Decisions locked on this page
 

@@ -157,7 +157,7 @@ window.SITE_CONFIG = {
       metaTitle: "Cabinet Makers Gold Coast | Kitchens, Wardrobes, Joinery",
       metaDescription: "Looking for a Gold Coast cabinet maker? Tell us about your kitchen, wardrobe or joinery job and we pass it to a local cabinet maker who can quote it.",
       headline: "Cabinet Makers on the Gold Coast for Kitchens, Wardrobes and Joinery",
-      subheadline: "Tell us what you want built, and we pass it to a local cabinet maker who can quote the job.",
+      subheadline: "Describe what you would like built, and we pass your enquiry to a cabinet maker near you who can quote it.",
       ctaText: "Get a cabinet quote",
       image: {
         "src": "images/home-hero-gold-coast.jpg",
@@ -179,7 +179,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "Most people looking for a cabinet maker on the Gold Coast are in one of three situations. They are different jobs, and knowing which one you are in makes the quote more useful."
+          "text": "Most people looking for a cabinet maker on the Gold Coast are in one of three situations. Each is a different kind of job, and working out which is yours gets you a more useful quote."
         },
         {
           "type": "h3",
@@ -187,7 +187,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "New cabinets, a new layout, a new benchtop, or all three. A kitchen is the biggest cabinet job in most homes, and the quote depends on the layout, the materials and what has to come out first. [Kitchens on the Gold Coast](kitchens-gold-coast.html)"
+          "text": "That might mean fresh cabinets, a changed layout, a replacement benchtop, or the lot. In most houses the kitchen is the largest cabinet job there is, and its price turns on the layout, the materials, and how much has to be removed before work starts. [Kitchens on the Gold Coast](kitchens-gold-coast.html)"
         },
         {
           "type": "h3",
@@ -195,7 +195,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "Built-in wardrobes, a walk-in robe, a laundry, shelving or a media wall. These are made to the size of the space, so the cabinet maker will want to measure before quoting."
+          "text": "Built-in wardrobes, a walk-in robe, a laundry, shelving or a media wall. Each is built to the exact space, so expect the cabinet maker to measure up before giving a price."
         },
         {
           "type": "h3",
@@ -203,7 +203,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "Describe the room and what is not working. A cabinet maker can say whether it is a kitchen job, a joinery job, or something smaller, and the form below takes as much or as little detail as you have."
+          "text": "Tell us about the room and what bothers you about it now. From that, a cabinet maker can work out whether it calls for a kitchen, some joinery or a smaller fix. The form below accepts whatever detail you have, a little or a lot."
         },
         {
           "type": "h2",
@@ -253,17 +253,17 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "Quotes for the same job can differ because they cover different things. Whoever you hear from, it is worth asking:"
+          "text": "Two quotes for what sounds like one job can differ simply because they include different work. Whichever cabinet maker gets in touch, these questions are worth putting to them:"
         },
         {
           "type": "ul",
           "items": [
             "What is included: the cabinets, the benchtop, removing the old ones, installation",
-            "What the cabinets are made of, and whether the cut edges are sealed",
-            "Who supplies and fits anything that is not the cabinets, such as the benchtop or appliances",
+            "The material used for the cabinets, and whether cut edges get sealed",
+            "Who provides and installs the parts that are not cabinets, like the benchtop and appliances",
             "Whether the time quoted covers making the cabinets as well as the work in your home",
-            "What happens if the job changes once work has started",
-            "Their QBCC licence number, and whether the job needs a written contract"
+            "How changes are handled if the scope shifts partway through",
+            "Whether your job needs a written contract, and the QBCC licence number they hold"
           ]
         },
         {
@@ -284,21 +284,21 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "The more specific you are, the more useful the quote. Worth including:"
+          "text": "Detail helps: a specific enquiry gets a more useful quote. Worth including:"
         },
         {
           "type": "ul",
           "items": [
-            "The room, and roughly how big it is",
-            "Whether it is new work, a replacement or a repair",
+            "Which room it is, and its rough size",
+            "New work, a replacement, or a repair",
             "Whether you have a layout, drawings or photos, or just an idea",
-            "What you want it made of, if you have a view",
-            "Anything unusual about access, timing or the state of the room"
+            "Any materials you have in mind",
+            "Anything tricky about access, timing or the room's condition"
           ]
         },
         {
           "type": "p",
-          "text": "You will not know all of it, and that is fine. A cabinet maker will want to see the room before pricing it properly."
+          "text": "Fill in what you can. The cabinet maker will look at the room before settling on a price."
         },
         {
           "type": "h2",
@@ -312,20 +312,20 @@ window.SITE_CONFIG = {
               "a": "On the Gold Coast the two are used for much the same trade: made-to-measure cabinets and built-in timberwork. You will also see it written as one word, cabinetmaker, and cabinet builder is used for the same trade. Some businesses lean towards kitchens and some towards wardrobes and other joinery. Describe your job and it goes to someone who does that kind of work."
             },
             {
-              "q": "Is a custom kitchen different from a flat-pack kitchen?",
-              "a": "Flat-pack cabinets come in standard sizes and are assembled and fitted from parts. Custom cabinets are made to the size of your room. Which suits you depends on the room, the layout and the budget, and a cabinet maker can tell you where each makes sense. More on [kitchens on the Gold Coast](kitchens-gold-coast.html)."
+              "q": "How does a custom kitchen differ from a flat-pack one?",
+              "a": "Flat-pack cabinets are made in set sizes and assembled on site from parts. Custom cabinets are built to your room's measurements. The right choice comes down to your room, layout and budget, and a cabinet maker can explain which fits where. More on [kitchens on the Gold Coast](kitchens-gold-coast.html)."
             },
             {
-              "q": "Does the cabinet maker need a licence?",
-              "a": "In Queensland, building work valued over $3,300 needs a QBCC licence. Ask for the licence number before you agree to anything, and check it with the QBCC. The details are on the [kitchens](kitchens-gold-coast.html) page."
+              "q": "Do cabinet makers in Queensland need a licence?",
+              "a": "For any building work valued over $3,300, yes: Queensland requires a QBCC licence. Get the number before you commit to the job, and confirm it with the QBCC. The details are on the [kitchens](kitchens-gold-coast.html) page."
             },
             {
               "q": "Do you give prices?",
               "a": "We do not quote or set prices. The [kitchens](kitchens-gold-coast.html) page shows price ranges for Gold Coast kitchens that other publishers have put out, with where each comes from. Your price comes from the cabinet maker once they have seen the room."
             },
             {
-              "q": "What happens when I send an enquiry?",
-              "a": "Your details go to a local cabinet maker who can quote the job, and they contact you directly. The cabinet maker pays for the enquiry and you do not. The [About page](about.html) has the full account."
+              "q": "What happens after I send an enquiry?",
+              "a": "We pass your details to a local cabinet maker who can quote the job, and they get in touch with you directly. The enquiry is paid for by the cabinet maker, not by you. The [About page](about.html) has the full account."
             }
           ]
         },
@@ -335,7 +335,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "Tell us the room and what you want built. We pass it to a local cabinet maker who can quote it."
+          "text": "Name the room and the piece you want made, and we pass it on to a local cabinet maker who can quote it."
         },
         {
           "type": "form"
@@ -368,7 +368,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "This is a referral site. You tell us about a kitchen, wardrobe or joinery job, and we pass your enquiry to a local cabinet maker who can quote it. The cabinet maker then contacts you directly."
+          "text": "This is a referral site. When you send us the details of a kitchen, wardrobe or joinery job, we pass them to a local cabinet maker who can quote the work. The cabinet maker then contacts you directly."
         },
         {
           "type": "h2",
@@ -376,7 +376,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "We do not make cabinets, install them or quote for them, and we do not set prices. The [kitchens](kitchens-gold-coast.html) page shows price ranges that other publishers have put out, labelled as theirs, but your price depends on your room, and only the cabinet maker can see the room. If you are asking whether a job can be done or what it will cost, that is a question for the cabinet maker who receives your enquiry."
+          "text": "Making, installing and quoting for cabinets is not something we do, and we do not set prices. The [kitchens](kitchens-gold-coast.html) page shows price ranges that other publishers have put out, labelled as theirs, but your price depends on your room, and only the cabinet maker can see the room. Questions about whether something can be built, or what it will cost, are best answered by the cabinet maker your enquiry goes to."
         },
         {
           "type": "h2",
@@ -384,11 +384,11 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "Your enquiry goes to a local cabinet maker who can quote the job. They contact you directly to talk through what you want, and usually to arrange a time to see the room. If we do not have a cabinet maker for your area or your kind of job, we will tell you rather than pass your details anywhere."
+          "text": "Each enquiry is sent on to a local cabinet maker able to quote that kind of work. They get in touch with you to go over the job and, in most cases, to book a time to look at the room. Where we have no cabinet maker for your suburb or for that type of work, we say so, and your details are not passed to anyone."
         },
         {
           "type": "p",
-          "text": "A whole-kitchen renovation is often a larger job than a single piece of joinery. The cabinet maker will tell you if your enquiry is outside what they do."
+          "text": "Renovating a whole kitchen is often a bigger undertaking than one piece of joinery. If your job falls outside the work they take on, the cabinet maker will let you know."
         },
         {
           "type": "h2",
@@ -396,7 +396,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "When you send an enquiry we collect your name, your phone number, your suburb and what you want done. We pass these to the cabinet maker so they can contact you about the job. We do not sell them, and we do not add you to a marketing list. The [privacy policy](privacy.html) has the full account, including who else handles your details and how long they are kept."
+          "text": "An enquiry gives us your name, phone number and suburb, and a description of the job. These go to the cabinet maker so they can get in touch about your job. Your details are not sold, and you are not put on a marketing list. For the complete picture, including the other services that handle your details and how long they are held, see the [privacy policy](privacy.html)."
         },
         {
           "type": "h2",
@@ -404,7 +404,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "The cabinet maker who receives your enquiry pays for it. You do not pay anything to send an enquiry, and we do not take a cut of the work. A cabinet maker who pays for enquiries has a reason to look at yours."
+          "text": "The enquiry is paid for by the cabinet maker it goes to. Sending an enquiry costs you nothing, and we take no cut of the work itself. Paying for enquiries gives the cabinet maker a reason to take yours seriously."
         },
         {
           "type": "h2",
@@ -619,7 +619,7 @@ window.SITE_CONFIG = {
       blocks: [
         {
           "type": "lead",
-          "text": "A new kitchen is mostly a set of decisions: the layout, what the cabinets are made of, what the benchtop is, and who does each part. This page sets out those decisions, the price ranges others have published for Gold Coast kitchens, and the questions worth asking, so the quotes you collect are quotes for the same job."
+          "text": "Buying a new kitchen comes down to a run of choices: how it is laid out, what the cabinets are built from, which benchtop goes on top, and who handles each stage. This page sets out those decisions, the price ranges others have published for Gold Coast kitchens, and the questions worth asking, so the quotes you collect are quotes for the same job."
         },
         {
           "type": "h2",
@@ -627,11 +627,11 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "The layout drives most of the quote. Keeping the sink, cooktop and fridge where they are is a smaller job than moving them, because moving services means more trades and more work behind the walls. Ask each cabinet maker to quote against the same layout, or to say clearly where theirs differs."
+          "text": "Most of the price follows from the layout. If the sink, cooktop and fridge stay where they are, the job stays smaller; shifting any of them brings in other trades and opens up walls and floors. Give every cabinet maker the same layout to price, or ask each one to mark where their version departs from it."
         },
         {
           "type": "p",
-          "text": "Ask for a drawing of the proposed kitchen before you agree to anything. It is much cheaper to change a line on paper than a cabinet that has been made. If your plans include an island bench, a butler's pantry or opening the kitchen to the living area, have each one drawn, because each changes how much cabinetry the job needs."
+          "text": "Ask for a drawing of the proposed kitchen before you agree to anything. A change on paper costs far less than a change to a cabinet that is already built. If your plans include an island bench, a butler's pantry or opening the kitchen to the living area, have each one drawn, because each changes how much cabinetry the job needs."
         },
         {
           "type": "p",
@@ -643,11 +643,11 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "Flat-pack kitchens arrive as standard-sized cabinets in cartons and are assembled and fitted from parts. Custom kitchens are made to the size of your room, so they fit awkward corners and unusual wall lengths without filler panels. Flat-pack can suit a room that works with standard sizes, and custom suits a room that does not."
+          "text": "Flat-pack cabinets come boxed in set sizes, and are put together and installed from parts. A custom kitchen is built to your room's measurements, which lets it fill odd corners and uneven wall lengths without filler panels. If your room suits standard cabinet sizes, flat-pack may do the job; if it does not, custom is usually the better fit."
         },
         {
           "type": "p",
-          "text": "Neither is better in every case. A cabinet maker can tell you which they would use for your room, and why."
+          "text": "Neither is better in every case. Ask the cabinet maker which they would choose for your kitchen, and what drives that choice."
         },
         {
           "type": "h2",
@@ -655,7 +655,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "The benchtop is a decision of its own: the material, the thickness, the edge, and the cut-outs for the sink and cooktop. Ask whether the quote includes the benchtop at all, and who is supplying and fitting it. Quotes that look different on price are sometimes the same job with the benchtop in one and out of the other."
+          "text": "A benchtop involves its own set of choices: what it is made of, how thick it is, how the edge is finished, and where the sink and cooktop are cut in. Check whether the benchtop is in the quote at all and, if it is, who supplies it and who fits it. Two prices that look far apart can turn out to be the same kitchen, one with the benchtop and one without."
         },
         {
           "type": "h2",
@@ -663,20 +663,20 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "Kitchens are damp places: steam from cooking, water at the sink, and the dishwasher beside it. It is worth asking what the cabinets are made of rather than assuming. Board makers sell moisture-resistant (MR) grades of melamine-faced particleboard, which they recommend for interior areas with high humidity, such as kitchen cupboards and vanities. Questions to put to the cabinet maker:"
+          "text": "Kitchens are damp places: steam from cooking, water at the sink, and the dishwasher beside it. So rather than take the material for granted, ask what each cabinet is made of. Board makers sell moisture-resistant (MR) grades of melamine-faced particleboard, which they recommend for interior areas with high humidity, such as kitchen cupboards and vanities. Questions to put to the cabinet maker:"
         },
         {
           "type": "ul",
           "items": [
-            "What is the cabinet box made of, and is it a moisture-resistant grade?",
-            "Are the cut and drilled edges sealed, including the edges that will not be seen?",
-            "What are the hinges, runners and handles made of?",
-            "Which cabinets sit under the sink or beside the dishwasher, and how is the material there protected?"
+            "What are the cabinet boxes built from? Is that board rated moisture-resistant?",
+            "Is every cut or drilled edge sealed, hidden edges included?",
+            "What material are the hinges, drawer runners and handles?",
+            "How are the cabinets under the sink and next to the dishwasher protected from water?"
           ]
         },
         {
           "type": "p",
-          "text": "Each of these is a question, not a rule. A good answer names a material and a method, and a vague answer is worth noticing."
+          "text": "None of these has a single right answer. Listen for a specific material and a specific way of doing it, and if the reply stays general, take note."
         },
         {
           "type": "h2",
@@ -684,7 +684,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "A few terms come up in every quote. The diagram names them."
+          "text": "Quotes use a handful of words for the parts of a cabinet. The diagram below labels them."
         },
         {
           "type": "image",
@@ -820,27 +820,27 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "Queensland has specific rules for building work, and they apply to many kitchen jobs. These are the points the building regulator, the QBCC, sets out."
+          "text": "Many kitchen jobs fall under Queensland's rules for building work. The points below come from the QBCC, Queensland's building regulator."
         },
         {
           "type": "p",
-          "text": "**A licence.** Building work valued over $3,300 needs a QBCC licence. The QBCC has a Cabinet making licence class, which covers installing, refurbishing, restoring or repairing kitchen, bathroom, laundry and other fitted cabinets. Ask for the licence number before you agree to anything."
+          "text": "**A licence.** A QBCC licence is required for building work valued over $3,300. One of its licence classes is Cabinet making. It covers fitting new cabinets and refurbishing, restoring or repairing existing ones, in kitchens, bathrooms, laundries and anywhere else they are built in. Get the licence number before you commit, and check it with the QBCC."
         },
         {
           "type": "p",
-          "text": "**A written contract.** For work over $3,300 the QBCC says a written, dated and signed contract is essential, and that the contract must include advice about your right to a cooling-off period."
+          "text": "**A written contract.** Where the work is over $3,300, the QBCC describes a contract that is in writing, dated and signed as essential. That contract must also tell you about your right to a cooling-off period."
         },
         {
           "type": "p",
-          "text": "**The deposit.** The most a contractor can ask for as a deposit depends on the price of the job. From $3,301 to $19,999 it is 10% of the contract price, and for more than $20,000 it is 5%. There is an exception of up to 20% where more than half the price is made-to-measure work done away from your home, and the QBCC gives made-to-measure kitchen cabinetry as an example."
+          "text": "**The deposit.** How much a contractor may ask for up front is capped, and the cap depends on the contract price. On a job priced from $3,301 to $19,999 the limit is 10%, and on one of more than $20,000 it is 5%. A higher limit of up to 20% can apply when over half the contract price is for work made to measure off site, and the QBCC names made-to-measure kitchen cabinetry as one example."
         },
         {
           "type": "p",
-          "text": "**Insurance.** Queensland Home Warranty insurance applies to most residential building work valued over $3,300, counting materials, labour and GST. The QBCC lists replacing or refitting fixtures or fittings in a kitchen among the work it covers. Ask whether it applies to your job."
+          "text": "**Insurance.** Most residential building work valued over $3,300, with materials, labour and GST counted together, falls under Queensland Home Warranty insurance. Replacing or refitting kitchen fixtures or fittings is on the QBCC's list of work it covers. Check with the cabinet maker whether your job is covered."
         },
         {
           "type": "credit",
-          "text": "Sources: the Queensland Building and Construction Commission pages \"Who must hold a QBCC licence\" (reviewed 16 April 2026), \"Cabinet making\" (licence class), \"Contracts and payments\" (reviewed 14 May 2026), \"Deposits and progress payments\" (reviewed 27 June 2025) and \"What work requires insurance\" (reviewed 1 August 2024), at qbcc.qld.gov.au. Rules and figures change, so check the QBCC pages for the current position."
+          "text": "Sources, all published by the Queensland Building and Construction Commission at qbcc.qld.gov.au: \"Who must hold a QBCC licence\" (reviewed 16 April 2026), the \"Cabinet making\" licence class, \"Contracts and payments\" (reviewed 14 May 2026), \"Deposits and progress payments\" (reviewed 27 June 2025) and \"What work requires insurance\" (reviewed 1 August 2024). The QBCC updates these rules from time to time, and its own pages hold the current version."
         },
         {
           "type": "h2",
@@ -857,17 +857,17 @@ window.SITE_CONFIG = {
         {
           "type": "ul",
           "items": [
-            "The size of the kitchen, and whether it is a straight run, an L, a U or has an island",
-            "Whether you are keeping the layout or changing it",
-            "Whether you want custom or flat-pack cabinets, or want advice",
-            "What you would like the benchtop to be, if you have a view",
-            "Whether the old kitchen needs removing, and whether appliances are staying",
-            "Anything unusual about access, timing or the state of the walls and floor"
+            "How big the kitchen is, and its shape: one straight run, an L, a U, or with an island",
+            "Is the layout staying the same, or changing?",
+            "Custom or flat-pack cabinets, or whether you would like a recommendation",
+            "Any preference for the benchtop material",
+            "If the existing kitchen has to come out, and which appliances you are keeping",
+            "Anything awkward about getting in, the timing, or the condition of the walls and floor"
           ]
         },
         {
           "type": "p",
-          "text": "You will not know all of it, and that is fine. A cabinet maker will want to see the room before pricing it properly."
+          "text": "Leave out what you do not know yet. A firm price comes once the cabinet maker has seen the kitchen in person."
         },
         {
           "type": "p",
@@ -889,16 +889,16 @@ window.SITE_CONFIG = {
               "a": "On the published ranges above, $10,000 is inside one cost guide's cosmetic refresh range ($7,850 to $19,600, new door faces and paint) but below its budget range with new cabinetry, which starts at $11,750. $30,000 sits inside that guide's mid-range ($24,500 to $44,100), builder A's mid-range ($25,000 to $45,000) and builder B's straight replacement on the same layout ($25,000 to $40,000). These are other publishers' figures, not a quote."
             },
             {
-              "q": "Does the quote include the benchtop and installation?",
-              "a": "Not always. Ask each cabinet maker to list what is included, and who supplies and fits the benchtop and any appliances."
+              "q": "Are the benchtop and installation part of a kitchen quote?",
+              "a": "Not always. Get each cabinet maker to itemise the quote and say who provides and installs the benchtop and the appliances."
             },
             {
-              "q": "Can I keep my existing cabinets and replace only the cupboard doors?",
-              "a": "Sometimes. It depends on the condition of the cabinet boxes and whether the layout still works. Say so in your enquiry and the cabinet maker can tell you whether it is worth doing."
+              "q": "Can I replace just the cupboard doors and keep the cabinets I have?",
+              "a": "Sometimes. That turns on whether the cabinet boxes are still sound and whether you are happy with the layout. Mention it in your enquiry, and the cabinet maker can advise whether a door-only update makes sense for your kitchen."
             },
             {
               "q": "Should I pay a deposit?",
-              "a": "A deposit is normal, and the QBCC sets a limit on it, set out under \"Before you sign\" above. A deposit above the limit is not something you have to pay."
+              "a": "Paying a deposit is standard. The QBCC caps how large it can be, and the limits are under \"Before you sign\" above. You are not obliged to pay more than that cap."
             }
           ]
         },
@@ -908,7 +908,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "Tell us the room, roughly how big it is, and what you want done. We pass it to a local cabinet maker who can quote it."
+          "text": "Describe the kitchen, its rough size and the work you have in mind, and we pass it to a local cabinet maker who can quote the job."
         },
         {
           "type": "form",

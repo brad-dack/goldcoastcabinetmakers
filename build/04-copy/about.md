@@ -1,6 +1,8 @@
 # About: /about
 
-Status: APPROVED | v1.2, Brad, 30 October 2026. v1.1 27 October 2026, v1 approved 21 October 2026
+Status: APPROVED | v1.3, Brad, 15 November 2026. v1.2 30 October 2026, v1.1 27 October 2026, v1 approved 21 October 2026
+
+Why this version exists: sentences on this page also appeared, word for word apart from the place name, on Cairns Cabinet Makers. Cairns went live first (13 October; Gold Coast 25 October), so Gold Coast's copy is the one rewritten (plan section 7a). Head, structure, headings and claims are unchanged. Only the wording of shared sentences is new.
 
 ## Head
 
@@ -19,25 +21,25 @@ Status: APPROVED | v1.2, Brad, 30 October 2026. v1.1 27 October 2026, v1 approve
 
 3. `h2`: What this site does
 
-4. `p`: This is a referral site. You tell us about a kitchen, wardrobe or joinery job, and we pass your enquiry to a local cabinet maker who can quote it. The cabinet maker then contacts you directly.
+4. `p`: This is a referral site. When you send us the details of a kitchen, wardrobe or joinery job, we pass them to a local cabinet maker who can quote the work. The cabinet maker then contacts you directly.
 
 5. `h2`: What we do not do
 
-6. `p`: We do not make cabinets, install them or quote for them, and we do not set prices. The [kitchens](kitchens-gold-coast.html) page shows price ranges that other publishers have put out, labelled as theirs, but your price depends on your room, and only the cabinet maker can see the room. If you are asking whether a job can be done or what it will cost, that is a question for the cabinet maker who receives your enquiry.
+6. `p`: Making, installing and quoting for cabinets is not something we do, and we do not set prices. The [kitchens](kitchens-gold-coast.html) page shows price ranges that other publishers have put out, labelled as theirs, but your price depends on your room, and only the cabinet maker can see the room. Questions about whether something can be built, or what it will cost, are best answered by the cabinet maker your enquiry goes to.
 
 7. `h2`: What happens after you enquire
 
-8. `p`: Your enquiry goes to a local cabinet maker who can quote the job. They contact you directly to talk through what you want, and usually to arrange a time to see the room. If we do not have a cabinet maker for your area or your kind of job, we will tell you rather than pass your details anywhere.
+8. `p`: Each enquiry is sent on to a local cabinet maker able to quote that kind of work. They get in touch with you to go over the job and, in most cases, to book a time to look at the room. Where we have no cabinet maker for your suburb or for that type of work, we say so, and your details are not passed to anyone.
 
-9. `p`: A whole-kitchen renovation is often a larger job than a single piece of joinery. The cabinet maker will tell you if your enquiry is outside what they do.
+9. `p`: Renovating a whole kitchen is often a bigger undertaking than one piece of joinery. If your job falls outside the work they take on, the cabinet maker will let you know.
 
 10. `h2`: Your details
 
-11. `p`: When you send an enquiry we collect your name, your phone number, your suburb and what you want done. We pass these to the cabinet maker so they can contact you about the job. We do not sell them, and we do not add you to a marketing list. The [privacy policy](privacy.html) has the full account, including who else handles your details and how long they are kept.
+11. `p`: An enquiry gives us your name, phone number and suburb, and a description of the job. These go to the cabinet maker so they can get in touch about your job. Your details are not sold, and you are not put on a marketing list. For the complete picture, including the other services that handle your details and how long they are held, see the [privacy policy](privacy.html).
 
 12. `h2`: How the service is paid for
 
-13. `p`: The cabinet maker who receives your enquiry pays for it. You do not pay anything to send an enquiry, and we do not take a cut of the work. A cabinet maker who pays for enquiries has a reason to look at yours.
+13. `p`: The enquiry is paid for by the cabinet maker it goes to. Sending an enquiry costs you nothing, and we take no cut of the work itself. Paying for enquiries gives the cabinet maker a reason to take yours seriously.
 
 14. `h2`: Where we cover
 
@@ -49,6 +51,10 @@ Status: APPROVED | v1.2, Brad, 30 October 2026. v1.1 27 October 2026, v1 approve
 
 The engine then renders About's own quote section: heading from `contact.formHeadline` ("Send an enquiry"), the collection notice (`contact.reassurance`), then the form, with the job picker from `contact.jobTypes`. No `form` block here, because `validateForms` forbids one on About (Cairns T25 note, 13 October 2026).
 
+## Changes in v1.3
+
+Rewritten, same meaning, to remove sentences shared with Cairns Cabinet Makers: blocks 4 (second sentence), 6 (first and last), 8, 9, 11, 13. H2 headings are unchanged (same structure). Block 8 and block 13 keep R11's present-tense flow: the enquiry goes to a local cabinet maker, and the cabinet maker pays. No block, heading or claim added or removed. "We take no cut of the work" keeps the commercial disclosure named in the operator notes, and "Your details" still matches the privacy page in substance (collected, passed to the cabinet maker, not sold, no marketing list).
+
 ## Changes from plan
 
 - v1.1, Brad, 27 October 2026, after launch, in Brad's words: "Who runs this" ends "I run this website and I cannot build a kitchen - but I will help send someone who is great at them!" (was "...and I am a sole trader."; the sole-trader statement stays on the privacy page). "Where we cover" ends "tell us where and we will try our best!" (was "...we will say straight away whether we can find someone."), matching Home. Contact drops "Calls are not answered live." and reads "If your call goes to voicemail, leave a message and it will be passed on with your enquiry."
@@ -58,7 +64,7 @@ The engine then renders About's own quote section: heading from `contact.formHea
 
 ## T25 transcription notes
 
-Transcribed 23 October 2026 by script (17 blocks). The quote section after the blocks is the engine's own, headed by `contact.formHeadline` ("Send an enquiry").
+v1.3 transcribed 15 November 2026 by script: each changed line was swapped in config.js, matched exactly once inside this page's section. Transcribed 23 October 2026 by script (17 blocks). The quote section after the blocks is the engine's own, headed by `contact.formHeadline` ("Send an enquiry").
 
 ## Markers outstanding
 
