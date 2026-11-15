@@ -1,6 +1,6 @@
 # 03 Page plan
 
-Status: DRAFT | wardrobes page added 16 November 2026, awaiting Brad's re-sign (signed off 20 October 2026 for the first four pages)
+Status: SIGNED-OFF | Brad, 16 November 2026 (re-signed for the wardrobes page; first signed 20 October 2026)
 Evidence: CLEAR | 20 October 2026
 
 Written by T16a to T20. Read by T21, T24 and T25. See PLAYBOOK.md.
@@ -472,12 +472,13 @@ T19. H1 map and nav signed off by Brad in this file, not in a message.
 
 20 October 2026. Brad signed off the plan as drafted in the Code session: the inventory (Home, kitchens-gold-coast, About, Privacy), the Head table (titles, metas and H1s as written, including the plural Home H1), the nav (Home, Kitchens, About; Privacy in the footer), the cannibalisation map, the link graph, the image direction (new generated images, not the Cairns files) and `conversion asset only`. The template fit (T18: no engine changes) was in the file at sign-off. The plan is the record; a later change to a title, meta, H1 or the nav needs this section re-signed.
 
-16 November 2026, awaiting re-sign. Changes since 20 October: the wardrobes page
+16 November 2026. Brad re-signed the plan in the Code session ("Approve the plan"),
+after asking for and getting a check that no Gold Coast text is shared with Cairns.
+Changes since 20 October, as drafted: the wardrobes page
 (wardrobes-gold-coast.html) in the Inventory, Head, Nav, cannibalisation map, link
 graph and Image direction (wardrobe-joinery.jpg moves to it); the claim register's
 page columns for rows 1 and 2; three dropped-claim rows for the wardrobes page. The
 Linkable asset is unchanged: the kitchens page's cost table, with no asset on the
-wardrobes page. Brad: approve or change in this file, then set Status to
-SIGNED-OFF with the date.
+wardrobes page.
 
 Changed after sign-off, 20 October 2026, by Brad: the Linkable asset moved from `conversion asset only` to the kitchens page, built ready, with no outreach before a renter (see Linkable asset and `05-log.md` Decisions). No title, meta, H1 or nav changed, so no re-sign was needed.
