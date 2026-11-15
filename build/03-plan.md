@@ -1,6 +1,6 @@
 # 03 Page plan
 
-Status: SIGNED-OFF | Brad, 20 October 2026
+Status: DRAFT | wardrobes page added 16 November 2026, awaiting Brad's re-sign (signed off 20 October 2026 for the first four pages)
 Evidence: CLEAR | 20 October 2026
 
 Written by T16a to T20. Read by T21, T24 and T25. See PLAYBOOK.md.
@@ -80,8 +80,9 @@ T17, with the Template fit column filled at T18.
 
 | file | route | config key | priority | primary keyword | secondary keywords | template fit |
 |---|---|---|---|---|---|---|
-| index.html | / | pages.home | 1, built first | cabinet makers gold coast | cabinet maker gold coast, cabinetmakers gold coast, cabinetmaker gold coast, cabinet maker, cabinet maker near me, joinery gold coast, joiners gold coast, joinery near me, custom cabinets gold coast, custom cabinets, wardrobes gold coast, built in wardrobes gold coast, custom wardrobes gold coast, walk in wardrobe gold coast | fits: `pages.home.blocks` renders Home from the block system (wardrobe and joinery sections, the job outline, the disclosure, a `form` block, a `faqs` block for FAQPage schema). Stock how-it-works, testimonials and the services grid do not render on a block Home |
+| index.html | / | pages.home | 1, built first | cabinet makers gold coast | cabinet maker gold coast, cabinetmakers gold coast, cabinetmaker gold coast, cabinet maker, cabinet maker near me, joinery gold coast, joiners gold coast, joinery near me, custom cabinets gold coast, custom cabinets, cabinetry gold coast (wardrobe terms moved to the wardrobes page, 16 November 2026) | fits: `pages.home.blocks` renders Home from the block system (wardrobe and joinery sections, the job outline, the disclosure, a `form` block, a `faqs` block for FAQPage schema). Stock how-it-works, testimonials and the services grid do not render on a block Home |
 | kitchens-gold-coast.html | /kitchens-gold-coast | services[0] | 1 on volume | kitchens gold coast | kitchen cabinets gold coast, custom kitchens gold coast, kitchen makers gold coast, kitchen manufacturers gold coast, kitchen design gold coast, kitchen benchtops gold coast, flat pack kitchens gold coast, outdoor kitchens gold coast | fits: `services[0]` with `page: "kitchens-gold-coast.html"` and name "Kitchens" takes the block copy; a `form` block with `presetService` puts the enquiry form on the page and suppresses the compact how-it-works strip; a `faqs` block feeds FAQPage schema; the Service schema names the provider as Organization. The JPEG takes `widths`; the SVG needs none |
+| wardrobes-gold-coast.html | /wardrobes-gold-coast | services[1] | 2, added 16 November 2026 | wardrobes gold coast | wardrobes gold coast qld, built in wardrobes gold coast, built in wardrobes, custom wardrobes gold coast, walk in wardrobe gold coast, wardrobe doors gold coast, wardrobe sliding doors gold coast | fits: a second `services[]` entry with `page: "wardrobes-gold-coast.html"` and name "Wardrobes". `navFromServices` is true, so the nav and footer pick it up by themselves; blocks, a `form` block with `presetService`, a `faqs` block and the Service schema with an Organization provider all apply, as on the kitchens page. `contact.jobTypes` already has "Wardrobes and storage". No engine change |
 | about.html | /about | pages.about | 3 | n/a | cabinet maker quote gold coast | fits: `pages.about.blocks` carries headed sections (what we do and do not do, how it is paid for, service area) and the contact section, then the engine's own form |
 | privacy.html | /privacy | pages.privacy | 3 | n/a | n/a | fits: `pages.privacy.blocks` replaces the stock text, which describes the wrong data flow (no voicemail recording, no Supabase in Tokyo, Resend, Twilio or 12-month retention) |
 
@@ -107,8 +108,39 @@ Joinery is the softest query read (two contact pages and an Instagram profile
 in the top 3), so the Home joinery section is written to answer that query on
 its own, and the Home title names joinery.
 
+**Change, 16 November 2026 (stage 3 re-run after the Winnability scan).**
+Wardrobes move from a Home section to their own page, `wardrobes-gold-coast.html`.
+Brad's decision, 16 November 2026. R12 (reworded 14 November) gives a searched job
+in a winnable SERP its own page. On the 16 November scan "wardrobes gold coast"
+(120 a month) passes: onwardjoinery.com.au, a joiner with 41 referring domains,
+is in its top 3 (`01-market.md` Winnability). The page also takes wardrobe doors
+(40), wardrobe sliding doors (40), built in wardrobes (30), custom wardrobes (20)
+and walk in wardrobe (10), none of which passed or was read.
+
+This rests on one reading. On 15 October the same search's top 3 were
+wardrobeconnection.com.au (112), Facebook and justwardrobes.com.au (185), which
+fails the test, and that is why October made wardrobes a Home section. A page 1
+that moved that much in a month can move back. Search Console will show within 90
+days whether the page gets impressions for it. Searches for named wardrobe
+businesses (Just Wardrobes, Designer Wardrobes) are not targets.
+
+The rest of the October split stands, checked against the 16 November scan:
+cabinet makers gold coast, joinery and cabinetry stay on Home; kitchens gold coast,
+kitchen cabinets, outdoor kitchens and kitchen benchtops stay on the kitchens page;
+stone benchtops (stonemasons), shopfitting (commercial), kitchen showroom (needs a
+renter's showroom) and bathroom vanities (mostly retail) get no page, each for the
+reason in the Winnability table. Every winnable job has a page or a written reason.
+That is three ranking pages.
+
+The head term has moved too: on 15 October its top 3 were specialists from 49
+referring domains, read as winnable but contested; on 16 November they are
+wheree.com (a directory), capriqld.com.au (177) and craftsmanbuilt.com.au (210),
+which fails. Nothing in this plan changes for that; it is recorded so the Home
+page's results are read against it.
+
 Contact is not a page. It is a section inside About, with the enquiry form on
-Home, the kitchens page and About, as on Cairns and Perth Tiling Specialists.
+Home, the kitchens page, the wardrobes page and About, as on Cairns and Perth
+Tiling Specialists.
 
 Template fit is `fits`, `engine change: <reason>`, or `dropped`. A page whose
 fit is unknown does not get drafted. On Perth Tiling Specialists, whether a
@@ -162,6 +194,7 @@ that we do the work. The brand itself is singular.
 |---|---|---|---|---|---|
 | index.html | Cabinet Makers Gold Coast \| Kitchens, Wardrobes, Joinery | 56 | Looking for a Gold Coast cabinet maker? Tell us about your kitchen, wardrobe or joinery job and we pass it to a local cabinet maker who can quote it. | 149 | Cabinet Makers on the Gold Coast for Kitchens, Wardrobes and Joinery |
 | kitchens-gold-coast.html | Kitchens Gold Coast \| Custom Kitchen Cabinets and Design | 56 | Custom kitchens on the Gold Coast: what a new kitchen involves, cabinet, benchtop and layout choices, and how to get a local cabinet maker to quote. | 148 | Kitchens on the Gold Coast: Custom Cabinets, Benchtops and Design |
+| wardrobes-gold-coast.html | Wardrobes Gold Coast \| Built-In Wardrobes, Doors and Robes | 58 | Wardrobes on the Gold Coast: built-in and walk-in wardrobes, hinged and sliding doors, the fit-out inside, and how to get a local cabinet maker to quote. | 153 | Wardrobes on the Gold Coast: Built-In, Walk-In and Sliding Doors |
 | about.html | About Gold Coast Cabinet Maker \| How This Site Works | 52 | What Gold Coast Cabinet Maker is, the area we cover, what happens when you enquire, how the service is paid for, and how to get in touch. | 137 | About Gold Coast Cabinet Maker |
 | privacy.html | Privacy Policy \| Gold Coast Cabinet Maker | 41 | What Gold Coast Cabinet Maker collects when you make an enquiry or call, who your details go to, how long they are kept, and how to have them removed. | 150 | Privacy Policy |
 
@@ -169,7 +202,8 @@ that we do the work. The brand itself is singular.
 
 T17. Ordered. Footer-only pages listed separately.
 
-Ordered: Home, Kitchens, About. No Services item and no dropdown. The call
+Ordered: Home, Kitchens, Wardrobes, About (Wardrobes added 16 November 2026,
+awaiting re-sign; the label is `services[1].name`). No Services item and no dropdown. The call
 button sits beside them. Footer-only: Privacy. The footer mirrors the nav plus
 Privacy and the QBCC value statement (Positioning), and carries a licence line
 only once a renter is signed (R14).
@@ -180,8 +214,9 @@ T17. See PLAYBOOK.md rule R12.
 
 | page | owns | must not expand into | sends readers to |
 |---|---|---|---|
-| index.html | routing the reader, how the site works, a short outline of how a cabinet job runs, joinery and wardrobes as sections that each answer their own query, service-area suburbs in copy, commercial disclosure in brief | any cost figure, kitchen detail beyond a summary, benchtop or design detail, kitchen renovation as a topic | kitchens page, About |
-| kitchens-gold-coast.html | kitchen cabinets, layout and design, benchtops, flat pack against custom, outdoor kitchens in brief, how a kitchen job runs and what affects how long it takes, QBCC contract and deposit basics (each only once sourced) | wardrobes, joinery, vanities, shopfitting, stone benchtops as a trade, kitchen renovation as a target, any Gold Coast cost figure until a source is in "Cost figures" | Home for other rooms and joinery, About |
+| index.html | routing the reader, how the site works, a short outline of how a cabinet job runs, joinery as a section that answers its own query, wardrobes as a short summary with a link (since 16 November 2026), service-area suburbs in copy, commercial disclosure in brief | any cost figure, kitchen or wardrobe detail beyond a summary, benchtop or design detail, kitchen renovation as a topic | kitchens page, wardrobes page, About |
+| kitchens-gold-coast.html | kitchen cabinets, layout and design, benchtops, flat pack against custom, outdoor kitchens in brief, how a kitchen job runs and what affects how long it takes, QBCC contract and deposit basics (each only once sourced) | wardrobes, joinery, vanities, shopfitting, stone benchtops as a trade, kitchen renovation as a target, any Gold Coast cost figure until a source is in "Cost figures" | Home for joinery, wardrobes page, About |
+| wardrobes-gold-coast.html | built-in and walk-in wardrobes; wardrobe doors (hinged, sliding, none) and finishes; the layout inside (hanging, drawers, shelves, shoes); what to measure and tell a cabinet maker; QBCC licence, contract and deposit basics as worded in rows 1, 2 and 7 | kitchens, joinery beyond wardrobes, vanities, laundries, any cost figure (Cost figures has none for wardrobes), any claim about humidity or materials, named wardrobe businesses | Home for joinery, kitchens page, About |
 | about.html | who runs this, what the business does and does not do, the service area (Gold Coast, with Nerang, Burleigh Heads and Southport named in copy only), how it is paid for, contact | service detail, prices | Home, kitchens page |
 | privacy.html | collection, disclosure, retention, access | commercial explanation beyond what disclosure needs | About |
 
@@ -196,8 +231,9 @@ which is in the footer on every page.
 
 | page | inbound anchors | outbound anchors |
 |---|---|---|
-| index.html | every page's logo and nav "Home" | "kitchens on the Gold Coast" to the kitchens page; "how this site works" to About |
-| kitchens-gold-coast.html | nav "Kitchens"; the kitchens block on Home | "wardrobes and joinery" to Home; "how this site works" to About |
+| index.html | every page's logo and nav "Home" | "kitchens on the Gold Coast" to the kitchens page; "built-in wardrobes on the Gold Coast" to the wardrobes page, from the wardrobes summary and the "You want storage built to fit a room" block; "how this site works" to About |
+| kitchens-gold-coast.html | nav "Kitchens"; the kitchens block on Home; "kitchens on the Gold Coast" on the wardrobes page | "wardrobes" to the wardrobes page and "joinery" to Home, replacing the one "wardrobes and joinery" link to Home; "how this site works" to About |
+| wardrobes-gold-coast.html | nav "Wardrobes"; two in-copy links on Home; "wardrobes" on the kitchens page | "kitchens on the Gold Coast" to the kitchens page; "joinery" to Home; "how this site works" to About |
 | about.html | nav "About"; the call-to-action band | "Gold Coast kitchens" to the kitchens page; "home" to Home |
 | privacy.html | footer, every page; the form notice link | "about this site" to About |
 
@@ -220,9 +256,15 @@ Two kinds of image, as on Cairns (Positioning carries the rule):
 | file | image | shows | photo or diagram | alt text | width | height | KB | widths |
 |---|---|---|---|---|---|---|---|---|
 | index.html | images/home-hero-gold-coast.jpg | a bright fitted kitchen opening onto a living area with built-in joinery (shelving or a media wall) in a light, airy coastal home; no people, no text | illustrative image (generated) | An illustrated light-filled kitchen and living area with built-in timber joinery | 1200 | 800 | 140 | 400, 560, 720, 960 |
-| index.html | images/wardrobe-joinery.jpg | a built-in wardrobe or walk-in robe with open shelving and drawers; no people, no text | illustrative image (generated) | An illustrated built-in wardrobe with shelving, drawers and hanging space | 1200 | 800 | 144 | 400, 560, 720, 960 |
+| wardrobes-gold-coast.html (was index.html until 16 November 2026) | images/wardrobe-joinery.jpg | a built-in wardrobe or walk-in robe with open shelving and drawers; no people, no text | illustrative image (generated) | An illustrated built-in wardrobe with shelving, drawers and hanging space | 1200 | 800 | 144 | 400, 560, 720, 960 |
 | kitchens-gold-coast.html | images/kitchens-gold-coast.jpg | a different modern kitchen from a three-quarter angle across an island: cabinetry, stone-look benchtop, overhead cupboards; no people, no text | illustrative image (generated) | An illustrated modern kitchen with an island bench and pale cabinetry | 1200 | 800 | 134 | 400, 560, 720, 960 |
 | kitchens-gold-coast.html | images/kitchen-cabinet-parts-gc.svg | the named parts of a kitchen base cabinet (benchtop, carcass, shelf, kickboard, hinge, door, edge); labels only, no performance or moisture claim; redrawn in this site's palette rather than copied from Cairns | diagram | Diagram naming the parts of a kitchen base cabinet: benchtop, carcass, shelf, kickboard, hinge, door and edge | 1200 | 800 | 3 | none |
+
+16 November 2026: `wardrobe-joinery.jpg` moves from the Home wardrobes section to
+the wardrobes page as its hero, so no new image is needed and the Home wardrobes
+summary carries none. If Brad wants Home to keep a wardrobe picture, a second
+wardrobe image is generated at T23 instead (different angle and finish, so the two
+pages do not show the same picture).
 
 T24, 23 October 2026. The three Gemini images arrived as `.jpeg` (1264 by 848),
 were checked against the list below (no text, no logos, straight lines; the
@@ -332,8 +374,8 @@ wording, which is all the copy may say.
 
 | # | claim as it will appear | page | primary source required | status | source | edition | url | date checked |
 |---|---|---|---|---|---|---|---|---|
-| 1 | In Queensland, building work valued over $3,300 needs a QBCC licence, and the Cabinet making licence class covers installing, refurbishing, restoring or repairing kitchen, bathroom, laundry and other fitted cabinets | kitchens, About | QBCC Act and the QBCC's own guidance | sourced | QBCC, "Who must hold a QBCC licence" and the "Cabinet making" licence page (scope: "Install, refurbish, restore or repair kitchen, bathroom, laundry and other fitted c[abinets]") | licence page last reviewed 16 April 2026; cabinet making page last reviewed 30 August 2021 | https://www.qbcc.qld.gov.au/my/node/7081 ; https://www.qbcc.qld.gov.au/licences/apply-licence/available-licences/other-trade/cabinet-making | 20 October 2026 |
-| 2 | For building work over $3,300 the QBCC says a written, dated and signed contract is essential and must include advice about a cooling-off period; the maximum deposit is 10% of the contract price from $3,301 to $19,999 and 5% above $20,000, with up to 20% allowed where more than half the price (labour, materials and GST) is made-to-measure work done off site, kitchen modules and cabinetry being an example the QBCC gives | kitchens | QBCC Act, domestic building contracts provisions | sourced | QBCC, "Contracts and payments" and "Deposits and progress payments". The QBCC is the licensing authority; the Act itself was not read | contracts page last reviewed 14 May 2026; deposits page last reviewed 27 June 2025 | https://qbcc.qld.gov.au/node/1331 ; https://www.qbcc.qld.gov.au/home-owner-hub/build-renovate/contracts-payments/deposits-progress-payments | 20 October 2026 |
+| 1 | In Queensland, building work valued over $3,300 needs a QBCC licence, and the Cabinet making licence class covers installing, refurbishing, restoring or repairing kitchen, bathroom, laundry and other fitted cabinets | kitchens, wardrobes (as worded: the QBCC names "other fitted cabinets", not wardrobes, so the copy does not say wardrobes need this licence), About | QBCC Act and the QBCC's own guidance | sourced | QBCC, "Who must hold a QBCC licence" and the "Cabinet making" licence page (scope: "Install, refurbish, restore or repair kitchen, bathroom, laundry and other fitted c[abinets]") | licence page last reviewed 16 April 2026; cabinet making page last reviewed 30 August 2021 | https://www.qbcc.qld.gov.au/my/node/7081 ; https://www.qbcc.qld.gov.au/licences/apply-licence/available-licences/other-trade/cabinet-making | 20 October 2026 |
+| 2 | For building work over $3,300 the QBCC says a written, dated and signed contract is essential and must include advice about a cooling-off period; the maximum deposit is 10% of the contract price from $3,301 to $19,999 and 5% above $20,000, with up to 20% allowed where more than half the price (labour, materials and GST) is made-to-measure work done off site, kitchen modules and cabinetry being an example the QBCC gives | kitchens, wardrobes (as worded) | QBCC Act, domestic building contracts provisions | sourced | QBCC, "Contracts and payments" and "Deposits and progress payments". The QBCC is the licensing authority; the Act itself was not read | contracts page last reviewed 14 May 2026; deposits page last reviewed 27 June 2025 | https://qbcc.qld.gov.au/node/1331 ; https://www.qbcc.qld.gov.au/home-owner-hub/build-renovate/contracts-payments/deposits-progress-payments | 20 October 2026 |
 | 3 | Practical advice: ask what the carcass is made of, whether it is a moisture-resistant (MR) grade, and whether cut edges are sealed. Board makers sell MR melamine-faced particleboard recommended for interior areas with high humidity, such as kitchen cupboards and vanities. **No standard, no board class and no performance figure is named in the copy** | kitchens | a board manufacturer's technical data, or Standards Australia for the board standard | sourced | ForestOne, DesignerOne MR Particleboard technical data sheet: "recommended for interior applications subject to high humidity conditions ... kitchen cupboards". One manufacturer, so the copy says "board makers sell", not that all MR board performs the same | TDS dated April 2025 (file revision July 2025) | https://forest.one/media/sparsh/product_attachment/ForestOne_DesignerOne_MR_Particleboard-TDS_07.25.pdf | 20 October 2026 |
 | 4 | Queensland Home Warranty insurance applies to most residential building work valued over $3,300 including materials, labour and GST, and the QBCC lists replacing or refitting fixtures or fittings in a kitchen or bathroom among it. Cabinetry is not named, so the copy does not name it | kitchens, About | QBCC home warranty scheme page | sourced | QBCC, "What work requires insurance" | last reviewed 1 August 2024 | https://www.qbcc.qld.gov.au/my/node/2886 | 20 October 2026 |
 | 5 | None. The copy says to ask for a written timeline, and whether a quoted time covers cabinet and benchtop manufacture or only the work on site, with no durations | kitchens, Home | a peak body (Master Builders, HIA) or a named published source, not a competitor | dropped | no Master Builders, HIA or government timeline found; every duration came from renovation builders and templated guide pages, and they disagree (3 to 5 weeks against 6 to 12 weeks) | n/a | n/a | 20 October 2026 |
@@ -349,6 +391,9 @@ not just from this table.
 |---|---|
 | Any kitchen or cabinet job duration or stage timeline (register row 5) | No peak body or government source; builder and templated-guide figures disagree (3 to 5 weeks against 6 to 12 weeks) |
 | Any standard, board class or performance figure for cabinet board (narrowed in row 3) | The copy keeps the practical advice and the manufacturer's stated use; the standard and the test values are not repeated |
+| Queensland Home Warranty insurance on the wardrobes page (row 4) | The QBCC page names replacing or refitting kitchen and bathroom fixtures and fittings, not wardrobes, so the claim stays on the kitchens page and About only |
+| Moisture-resistant board advice on the wardrobes page (row 3) | The manufacturer's data sheet names kitchen cupboards and vanities, not wardrobes |
+| Any wardrobe cost or price | Cost figures has no wardrobe source (Gaps) |
 
 ## Traps found
 
@@ -426,5 +471,13 @@ Review date: October 2027, 12 months from compilation.
 T19. H1 map and nav signed off by Brad in this file, not in a message.
 
 20 October 2026. Brad signed off the plan as drafted in the Code session: the inventory (Home, kitchens-gold-coast, About, Privacy), the Head table (titles, metas and H1s as written, including the plural Home H1), the nav (Home, Kitchens, About; Privacy in the footer), the cannibalisation map, the link graph, the image direction (new generated images, not the Cairns files) and `conversion asset only`. The template fit (T18: no engine changes) was in the file at sign-off. The plan is the record; a later change to a title, meta, H1 or the nav needs this section re-signed.
+
+16 November 2026, awaiting re-sign. Changes since 20 October: the wardrobes page
+(wardrobes-gold-coast.html) in the Inventory, Head, Nav, cannibalisation map, link
+graph and Image direction (wardrobe-joinery.jpg moves to it); the claim register's
+page columns for rows 1 and 2; three dropped-claim rows for the wardrobes page. The
+Linkable asset is unchanged: the kitchens page's cost table, with no asset on the
+wardrobes page. Brad: approve or change in this file, then set Status to
+SIGNED-OFF with the date.
 
 Changed after sign-off, 20 October 2026, by Brad: the Linkable asset moved from `conversion asset only` to the kitchens page, built ready, with no outreach before a renter (see Linkable asset and `05-log.md` Decisions). No title, meta, H1 or nav changed, so no re-sign was needed.
