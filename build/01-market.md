@@ -187,6 +187,72 @@ $7 to $14 CPC, so the CPC does not prove anyone is paying for these clicks on
 mobile. Two small operators (KW Cabinets, Flawless Cabinets) already hold the
 head-term pack.
 
+## Winnability
+
+Stage 1.4, added 16 November 2026 after launch (plan C7). Scored every
+distinct job people search for on the Gold Coast, not just the head term. A
+job is **winnable** when all three hold:
+
+- (a) city volume is 20 or more a month, or its close variants add up to 20;
+- (b) at least one of its top 3 organic results is a small specialist site
+  with under 100 referring domains (not a directory, marketplace, national
+  brand or government site);
+- (c) keyword difficulty is 30 or under, or not shown.
+
+Source: the Niches tab scan of 16 November 2026 (Google Ads volume located in
+Gold Coast, Labs difficulty for Australia, mobile page 1 located in Gold
+Coast, referring domains from DataForSEO Backlinks; $1.12, after a first run
+of $0.77 whose grouping was faulty and is not used). Every job is in
+`build/data/niche-scan-gold-coast-2026-11-16.csv`. Close variants that Google
+Ads gives one shared figure are merged (kitchen renovations, kitchen reno and
+kitchen remodel gold coast are one 260). Top 3 counts are referring main
+domains. wheree.com, yellowpages.net and goldcoastdirectory.com are
+directories although the scan gave them a count; it changes no verdict below.
+
+| job | city volume | top 3 domains | small specialist under 100 RD in top 3? | difficulty | winnable | intended page |
+|---|---|---|---|---|---|---|
+| cabinet makers gold coast / cabinet makers gold coast qld | 390 | wheree.com (directory), capriqld.com.au 177, craftsmanbuilt.com.au 210 | no | 0 | no (b) | index.html |
+| kitchen renovations gold coast / kitchen reno / kitchen remodel gold coast | 260 | Localsearch, Reddit, MapQuest | no, directories only | 9 | no (b) [an all-directory page 1 can be an opening; the October read found renovation builders here, so Brad to judge] | kitchens-gold-coast.html, secondary only |
+| bathroom vanities gold coast | 140 | earlysettler.com.au 1,411, hipages, bcw.net.au 69 | yes (bcw.net.au 69) | 0 | yes, narrowly; a furniture retailer and a directory hold the rest, so most of these searchers may want a vanity off the shelf | no page; Brad to decide |
+| kitchens gold coast / kitchens goldcoast / best kitchens gold coast | 120 | Reddit, yellowpages.net (directory), vertokitchens.com.au 120 | no | 2 | no (b) | kitchens-gold-coast.html |
+| wardrobes gold coast / wardrobes gold coast qld | 120 | shop.moderndesignwardrobes.com.au (not looked up), onwardjoinery.com.au 41, Localsearch | yes (onwardjoinery 41) | 0 | yes | candidate wardrobes page; Brad to decide |
+| shopfitting store gold coast / shopfittings store gold coast | 120 | shopfittingsstore.com.au 646, siretail.com 251, bjfjoinery.com.au 275 | no | 27 | no (b); shop fittings retail | no page |
+| shopfitting gold coast | 110 | Localsearch, elitecj.com.au 38, MapQuest | yes (elitecj 38) | 1 | yes; commercial buyers, a different renter from a home cabinet maker | no page; Brad to decide |
+| stone benchtops gold coast | 110 | cdkstone.com.au 742, customstonesolutions.com.au 167, mjgstone.com.au 50 | yes (mjgstone 50); stonemasons | 0 | yes | section on kitchens-gold-coast.html (stonemason segment) |
+| joinery gold coast | 90 | Yellow Pages, MapQuest, finnmeg.com.au 37 | yes (finnmeg 37) | 3 | yes | index.html (a section today) |
+| kitchen shops gold coast | 90 | kitchenwarehouse.com.au 2,691, rewardhospitality.com.au 862, robinskitchen.com.au 1,284 | no; cookware retail | 24 | no (b) | no page |
+| outdoor kitchens gold coast | 70 | theoutdoorcook.com.au 114, australianoutdooralfrescokitchen.com 55, Instagram | yes (55) | 1 | yes | section on kitchens-gold-coast.html today |
+| cabinetry gold coast | 50 | capriqld.com.au 177, dandsjoinery.com.au 53, Localsearch | yes (dandsjoinery 53) | 0 | yes | index.html |
+| kitchen showroom gold coast | 50 | dreamdoorskitchens.com.au 292, mintdk.com.au 114, thepinnaclekitchen.com.au 72 | yes (pinnacle 72) | 0 | yes; these searchers want a showroom to visit, which only a renter has | no page until a renter |
+| shop fitting store gold coast | 50 | MapQuest, MapQuest, ABR | no, directories only | 27 | no (b) | no page |
+| kitchen displays gold coast | 50 | Reddit, kitchensbyalliance.com.au (not looked up), yellowpages.net | no | 2 | no (b) | no page |
+| kitchen cabinets gold coast | 40 | MapQuest, Facebook, emeraldkitchenrenos.com 62 | yes (emerald 62) | 0 | yes | kitchens-gold-coast.html |
+| kitchen benchtops gold coast | 40 | Instagram, Reddit, granitebenchtops.com.au 35 | yes (35); stonemasons | 0 | yes | section on kitchens-gold-coast.html (stonemason segment) |
+| kitchen cupboards gold coast | 40 | goldcoastdirectory.com, wheree.com, goldcoastdirectory.com (all directories) | no, directories only | 0 | no (b) | kitchens-gold-coast.html |
+| wardrobe doors gold coast | 40 | designerwardrobes.com.au, wdc.com.au, glass and door sites (not looked up) | not known | 0 | no (b): no count read for any of the three | candidate wardrobes page |
+| wardrobe sliding doors gold coast | 40 | asw-online.com.au, goldcoastwardrobedoors.online, glasshouseau.com (not looked up) | not known | 0 | no (b): no count read for any of the three | candidate wardrobes page |
+| just wardrobes nerang / just wardrobes gold coast | 260 | not used | n/a | 0 | no: a business's name (justwardrobes.com.au), not a job | no page |
+| designer wardrobes gold coast, banks benchtops gold coast, a team kitchens gold coast, polytec gold coast | 30, 20, 20, 20 | not read | n/a | 0 to 6 | no: business or product names, not jobs | no page |
+| 17 jobs at 20 to 40 not read (scan limit of 20 page 1 reads): benchtops 40, built in wardrobes 30, laminate benchtops 30, cabinet makers nerang 30, gold coast shop fittings 30, kitchen design 20, kitchen designers 20, kitchen cabinet makers 20, flat pack kitchens 20, custom wardrobes 20, custom cabinets 20 (difficulty 41), cut to size cabinets 20 (35), kitchen company 20 (35), kitchen bathroom renovations 20, shopfitter 20, cabinet makers burleigh / burleigh heads 20 each | 20 to 40 | not read | not read | 0 to 41 | no: not read, counted as no until read | sections where the October table places them |
+| 77 jobs at 10 a month | 10 each | not read | not read | various | no (a) | no page |
+
+Totals: Winnable jobs: 10. Searches a month: 820 (140 + 120 + 110 + 110 + 90 + 70 + 50 + 50 + 40 + 40). Estimated monthly value: $5,740,000 (820 searches x $7,000 job value from the Niches tab; a ceiling that assumes every search is a job, for comparison between sites only, not a forecast). Of the 10, two are stonemason work (stone and kitchen benchtops, 150), one is commercial (shopfitting, 110), one needs a renter's showroom (50) and one is probably retail (vanities, 140). The cabinet-maker core is 5 jobs and 370 searches: wardrobes 120, joinery 90, outdoor kitchens 70, cabinetry 50, kitchen cabinets 40. The head term (390) and kitchens gold coast (120) are not winnable: strong businesses and directories hold them.
+
+## Winnability reference
+
+There is no pass mark (Brad, 14 Nov 2026). Read the totals above against the
+existing sites. Copied from the template's reference table of 14 November
+2026, with Cairns updated from its own scan the same day; not re-measured here.
+
+| site | winnable jobs | outcome at 14 Nov 2026 (site age) |
+|---|---|---|
+| Perth Limestone | 10+ (backtest) | avg position 24.9, 8 leads a month (day 102) |
+| Perth Brickwork | 10+ (backtest) | avg position 48.6, 5 leads a month (day 103) |
+| Cairns Cabinet Makers | 6 by its 16 Nov scan; cabinet-maker core 3 jobs, 370 searches | avg position 69.3, no leads yet (day 32) |
+| Gold Coast Cabinet Makers | 10 by this scan; cabinet-maker core 5 jobs, 370 searches; head term not winnable | avg position 66.7, no leads yet (day 20) |
+| Perth Tiling Specialists | head terms held by directories | avg position 74.4, no leads (day 63) |
+| Canberra Tile Layers | head terms held by directories; volumes mostly 10 or fewer | avg position 70.9, no leads (day 75) |
+
 ## Competitor gaps
 
 T05. What none of the top three publish.
@@ -367,6 +433,7 @@ alongside here as `build/data/keywords.txt`, `serp-queries.txt`,
 | build/data/renter-pool-maps-2026-08-21.csv | workbook renter-pool run (`fill_renters_maps.py`), Gold Coast cabinet rows extracted from `renter_pool.csv` | 2026-08-21 |
 | build/data/renter-pool-classified-2026-10-15.csv | `python classify_gc_renters.py` (exclusion lists by business name, hand-judged) | 2026-10-15 |
 | build/data/serp-batch-goldcoast-2026-09-01.csv | workbook SERP batch (`dfseo.py serp`), Gold Coast cabinet rows extracted from `serp_batch_log.csv`; source of the refdomains target list | 2026-09-01 |
+| build/data/niche-scan-gold-coast-2026-11-16.csv | Niches tab, Cabinet Makers / Gold Coast, Scan again (admin-action niche_scan_start, version 40), exported from niche_jobs with `supabase db query --linked -o csv` | 2026-11-16 |
 
 ## Future niche log
 
