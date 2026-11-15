@@ -1,6 +1,6 @@
 # Home: /
 
-Status: APPROVED | v1.3, Brad, 15 November 2026. v1.2 30 October 2026, v1.1 27 October 2026, v1 approved 21 October 2026
+Status: APPROVED | v1.4, Brad, 16 November 2026 (wardrobes links, approved with `wardrobes-gold-coast.md`). v1.3 15 November 2026. v1.2 30 October 2026, v1.1 27 October 2026, v1 approved 21 October 2026
 
 Why this version exists: sentences on this page also appeared, word for word apart from the place name, on Cairns Cabinet Makers. Cairns went live first (13 October; Gold Coast 25 October), so Gold Coast's copy is the one rewritten (plan section 7a). Head, structure, headings and claims are unchanged. Only the wording of shared sentences is new.
 
@@ -31,7 +31,7 @@ Hero image: `images/home-hero-gold-coast.jpg`, T23 and T24. Alt text is written 
 
 5. `h3`: You want storage built to fit a room
 
-6. `p`: Built-in wardrobes, a walk-in robe, a laundry, shelving or a media wall. Each is built to the exact space, so expect the cabinet maker to measure up before giving a price.
+6. `p`: Built-in wardrobes, a walk-in robe, a laundry, shelving or a media wall. Each is built to the exact space, so expect the cabinet maker to measure up before giving a price. [Built-in wardrobes on the Gold Coast](wardrobes-gold-coast.html) covers doors, layouts and what to measure.
 
 7. `h3`: You are not sure what you need yet
 
@@ -47,11 +47,9 @@ Hero image: `images/home-hero-gold-coast.jpg`, T23 and T24. Alt text is written 
 
 13. `h2`: Wardrobes and built-in storage
 
-14. `p`: Built-in wardrobes are made to the width and height of the wall, so there is no gap above or beside them, and the inside is planned around what you store: hanging space, drawers, shelves and shoe storage. A walk-in robe is the same idea for a whole small room.
+14. `p`: A wardrobe built into a wall or a small room is planned around what you keep in it, from the doors to the last shelf. Our page on [built-in wardrobes on the Gold Coast](wardrobes-gold-coast.html) goes through the choices, what to measure first and the QBCC basics.
 
-15. `p`: The main choices are the doors (hinged, sliding or none), the finish, and the layout inside. If you know how much hanging space you need and how many drawers, say so in your enquiry.
-
-16. `image`: `images/wardrobe-joinery.jpg`, illustrative, no caption. Alt text at T24.
+(Blocks 15 and 16, a second paragraph and the wardrobe image, were removed in v1.4: the detail and the image moved to the wardrobes page.)
 
 17. `h2`: What a good quote covers
 
@@ -111,7 +109,8 @@ Rewritten, same meaning, to remove sentences shared with Cairns Cabinet Makers: 
 - v1.2, Brad, 30 October 2026, from the 30 Oct SEO audit review: the joinery list says "media walls, TV and entertainment units" (was "media and entertainment walls"), for the TV cabinet searches in Search Console; the joiner FAQ adds "You will also see it written as one word, cabinetmaker, and cabinet builder is used for the same trade." ("cabinet builders near me", "what is a cabinet maker called"). Neither adds a page or a claim.
 - Titles, meta and H1 match `build/03-plan.md`.
 - The plan's cannibalisation map gives Home "a short outline of how a cabinet job runs". It is not written: its source claim, the sequence and timing of a job (register row 5), was dropped at T20. In its place Home carries "What a good quote covers", which is advice, states no duration, and adds the question of whether a quoted time includes making the cabinets (the T05 lead-time gap, answered as a question).
-- The wardrobe image (`images/wardrobe-joinery.jpg`) is in the plan's Image direction for Home; it is placed in the wardrobes section.
+- The wardrobe image (`images/wardrobe-joinery.jpg`) was in the plan's Image direction for Home until 16 November 2026; it moved to the wardrobes page in v1.4.
+- v1.4, Brad, 16 November 2026: block 6 gains a link to the wardrobes page; the wardrobes section (13 to 16) becomes one summary paragraph with a link, per the re-signed plan. Head unchanged.
 
 ## T25 transcription notes
 

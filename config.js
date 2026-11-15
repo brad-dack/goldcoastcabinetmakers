@@ -195,7 +195,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "Built-in wardrobes, a walk-in robe, a laundry, shelving or a media wall. Each is built to the exact space, so expect the cabinet maker to measure up before giving a price."
+          "text": "Built-in wardrobes, a walk-in robe, a laundry, shelving or a media wall. Each is built to the exact space, so expect the cabinet maker to measure up before giving a price. [Built-in wardrobes on the Gold Coast](wardrobes-gold-coast.html) covers doors, layouts and what to measure."
         },
         {
           "type": "h3",
@@ -227,25 +227,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "Built-in wardrobes are made to the width and height of the wall, so there is no gap above or beside them, and the inside is planned around what you store: hanging space, drawers, shelves and shoe storage. A walk-in robe is the same idea for a whole small room."
-        },
-        {
-          "type": "p",
-          "text": "The main choices are the doors (hinged, sliding or none), the finish, and the layout inside. If you know how much hanging space you need and how many drawers, say so in your enquiry."
-        },
-        {
-          "type": "image",
-          "src": "images/wardrobe-joinery.jpg",
-          "alt": "An illustrated built-in wardrobe with shelving, drawers and hanging space",
-          "width": 1200,
-          "height": 800,
-          "widths": [
-            400,
-            560,
-            720,
-            960
-          ],
-          "sizes": "(min-width: 900px) 450px, min(520px, calc(100vw - 40px))"
+          "text": "A wardrobe built into a wall or a small room is planned around what you keep in it, from the doors to the last shelf. Our page on [built-in wardrobes on the Gold Coast](wardrobes-gold-coast.html) goes through the choices, what to measure first and the QBCC basics."
         },
         {
           "type": "h2",
@@ -871,7 +853,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "p",
-          "text": "If the job is wardrobes, a laundry or other joinery rather than a kitchen, see [wardrobes and joinery](index.html). [How this site works](about.html) explains where your enquiry goes."
+          "text": "If the job is [wardrobes](wardrobes-gold-coast.html), a laundry or other [joinery](index.html) rather than a kitchen, those pages cover it. [How this site works](about.html) explains where your enquiry goes."
         },
         {
           "type": "h2",
@@ -913,6 +895,183 @@ window.SITE_CONFIG = {
         {
           "type": "form",
           "presetService": "Kitchens"
+        }
+      ]
+    },
+    {
+      /* TODO (Brad): wardrobes page, added 16 Nov 2026 (plan re-signed and copy
+         approved the same day). "Before you sign" is claim rows 1 and 2 as
+         worded: the QBCC names "other fitted cabinets", not wardrobes, so do not
+         say wardrobes need a licence. No home warranty (row 4), no MR board
+         (row 3), no wardrobe price, no wardrobe business names. The page rests
+         on one SERP reading (03-plan.md): check Search Console by mid-February. */
+      page: "wardrobes-gold-coast.html",
+      name: "Wardrobes",
+      shortDescription: "Built-in and walk-in wardrobes, doors and fit-outs on the Gold Coast",
+      metaTitle: "Wardrobes Gold Coast | Built-In Wardrobes, Doors and Robes",
+      metaDescription: "Wardrobes on the Gold Coast: built-in and walk-in wardrobes, hinged and sliding doors, the fit-out inside, and how to get a local cabinet maker to quote.",
+      headline: "Wardrobes on the Gold Coast: Built-In, Walk-In and Sliding Doors",
+      subheadline: "The choices that shape a built-in wardrobe, what to measure first, and what to check before you agree to one on the Gold Coast.",
+      ctaText: "Get a wardrobe quote",
+      image: {
+        "src": "images/wardrobe-joinery.jpg",
+        "alt": "An illustrated built-in wardrobe with shelving, drawers and hanging space",
+        "width": 1200,
+        "height": 800,
+        "widths": [
+          400,
+          560,
+          720,
+          960
+        ],
+        "sizes": "(min-width: 900px) 450px, min(520px, calc(100vw - 40px))"
+      },
+      blocks: [
+        {
+          "type": "lead",
+          "text": "A wardrobe that is built in is designed for one wall or one room, so nothing about it is standard: the width, the height, the doors and every shelf inside are decided for your space. This page walks through those decisions in the order a cabinet maker will ask about them, so you can describe the job clearly and compare quotes that cover the same work."
+        },
+        {
+          "type": "h2",
+          "text": "Built-in, walk-in or a reach-in robe"
+        },
+        {
+          "type": "p",
+          "text": "A built-in wardrobe fills a wall or a recess from floor to ceiling and is fixed in place, with no gap left for dust on top. A walk-in robe turns a small room or the end of a bedroom into storage you step inside, usually with open shelving and hanging on more than one side. Some bedrooms already have a recess with a rail and sliding doors; replacing what is inside it and keeping the opening is a smaller job than starting again."
+        },
+        {
+          "type": "p",
+          "text": "Which one suits you depends on the room more than on taste. A walk-in robe needs floor space you can give up; a built-in needs a clear wall. If you are not sure, describe the room and the cabinet maker can suggest what fits."
+        },
+        {
+          "type": "h2",
+          "text": "Doors: hinged, sliding or open"
+        },
+        {
+          "type": "p",
+          "text": "Hinged doors open the whole wardrobe to view at once, but they need room to swing, so check that a bed or a drawer chest will not be in the way. Sliding doors take no floor space in front and suit narrower bedrooms, though you only see part of the inside at a time and the track has to be kept clean. Open shelving with no doors at all is common in walk-in robes."
+        },
+        {
+          "type": "p",
+          "text": "The finish of the doors is the part of a wardrobe you look at every day: a plain or woodgrain board, a painted finish, mirror or glass panels. Ask what each option involves for your job, because the choice can change both the price and how long the doors take to make."
+        },
+        {
+          "type": "h2",
+          "text": "Planning the inside"
+        },
+        {
+          "type": "p",
+          "text": "Most of the value of a built-in is in how the inside is laid out. Before you enquire, it helps to count what you actually store. Useful things to think about:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Long hanging for dresses and coats, and double hanging (two rails, one above the other) for shirts and folded trousers",
+            "How many drawers, and whether any need to be shallow for small items",
+            "Shelves for folded clothes, and whether they should be adjustable",
+            "Shoe storage, and how many pairs",
+            "Anything awkward: a suitcase, a vacuum cleaner, a safe, or a high shelf you are happy to reach with a step"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "There is no right layout, only one that fits what you own. A cabinet maker will usually draw the inside for you to check before anything is made, and that drawing is the moment to ask for changes."
+        },
+        {
+          "type": "h2",
+          "text": "What to measure before you enquire"
+        },
+        {
+          "type": "p",
+          "text": "A rough set of measurements makes the first conversation far more useful, even though the cabinet maker will measure again before building. Note the width of the wall or recess, the height to the ceiling, and where any window, power point, light switch or air-conditioning unit sits on or near that wall. If the floor or ceiling is visibly out of level, or the room has a sloping ceiling, mention it."
+        },
+        {
+          "type": "p",
+          "text": "Say too whether an old wardrobe has to come out first, and whether the room is carpeted or has hard flooring, since both affect how the new one is fitted."
+        },
+        {
+          "type": "h2",
+          "text": "Before you sign"
+        },
+        {
+          "type": "p",
+          "text": "The QBCC, Queensland's building regulator, sets rules for building work that a wardrobe job can come under. These are the points it publishes."
+        },
+        {
+          "type": "p",
+          "text": "**Licensing.** Any building work worth more than $3,300 has to be done under a QBCC licence. The regulator's Cabinet making class covers kitchen, bathroom and laundry cabinets and other fitted cabinets. Ask whoever quotes for their licence number, and confirm it with the QBCC before you agree to anything."
+        },
+        {
+          "type": "p",
+          "text": "**A written contract.** For work over $3,300, the QBCC says a contract that is written, dated and signed is essential, and it has to include information about the cooling-off period."
+        },
+        {
+          "type": "p",
+          "text": "**How much deposit.** The QBCC limits the deposit by the size of the contract: no more than 10% on a contract from $3,301 to $19,999, and no more than 5% above $20,000. It allows up to 20% where more than half the price is for work made to measure away from the site, giving kitchen modules and cabinetry as its example."
+        },
+        {
+          "type": "credit",
+          "text": "Sources: the Queensland Building and Construction Commission, qbcc.qld.gov.au: \"Who must hold a QBCC licence\" (reviewed 16 April 2026), the \"Cabinet making\" licence class, \"Contracts and payments\" (reviewed 14 May 2026) and \"Deposits and progress payments\" (reviewed 27 June 2025). The QBCC's own pages carry the current rules."
+        },
+        {
+          "type": "h2",
+          "text": "What to include when you enquire"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Which room, and whether it is a built-in, a walk-in robe or a refit of an existing recess",
+            "The rough width and ceiling height",
+            "Hinged, sliding or no doors, and any finish you have in mind",
+            "What you need inside: hanging, drawers, shelves, shoes",
+            "Whether an old wardrobe has to be removed first",
+            "Your suburb, and roughly when you would like it done"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "You do not need every answer before you get in touch. The cabinet maker will confirm the details and the price once they have measured the room."
+        },
+        {
+          "type": "p",
+          "text": "Planning a kitchen as well? See [kitchens on the Gold Coast](kitchens-gold-coast.html). For shelving, media walls and other built-in timberwork, see [joinery](index.html). [How this site works](about.html) explains what happens to your enquiry."
+        },
+        {
+          "type": "h2",
+          "text": "Common questions"
+        },
+        {
+          "type": "faqs",
+          "items": [
+            {
+              "q": "How much does a built-in wardrobe cost on the Gold Coast?",
+              "a": "This page gives no figure, because we have not found a published Gold Coast price for wardrobes that we can stand behind. The price depends on the size, the doors, the finish and what goes inside, and the cabinet maker who measures the room quotes it."
+            },
+            {
+              "q": "Should I choose hinged or sliding doors?",
+              "a": "Sliding doors suit a room where there is no space for doors to swing open. Hinged doors let you see the whole wardrobe at once. Describe the room in your enquiry and ask the cabinet maker which they would fit there."
+            },
+            {
+              "q": "Can a built-in wardrobe go under a sloping ceiling or around a window?",
+              "a": "Usually, because it is made to the space rather than bought in a set size. Mention the slope or the window in your enquiry so the cabinet maker can plan for it."
+            },
+            {
+              "q": "Can I keep my existing wardrobe doors and replace only the inside?",
+              "a": "Often, if the doors and their track are in good order. Say what you want to keep and the cabinet maker can tell you whether a refit makes sense."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Get a wardrobe quote"
+        },
+        {
+          "type": "p",
+          "text": "Tell us about the room, its rough size and the wardrobe you have in mind, and we pass it to a local cabinet maker who can quote it."
+        },
+        {
+          "type": "form",
+          "presetService": "Wardrobes and storage"
         }
       ]
     }

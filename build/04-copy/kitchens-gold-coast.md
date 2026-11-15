@@ -1,6 +1,6 @@
 # Kitchens: /kitchens-gold-coast
 
-Status: APPROVED | v1.2, Brad, 15 November 2026. v1.1 30 October 2026, v1 approved 21 October 2026
+Status: APPROVED | v1.3, Brad, 16 November 2026 (block 36a links, approved with `wardrobes-gold-coast.md`). v1.2 15 November 2026. v1.1 30 October 2026, v1 approved 21 October 2026
 
 Why this version exists: 35 of this page's 102 long sentences (8+ words) also appeared, word for word apart from the place name, on Cairns Cabinet Makers' kitchens page. Cairns went live first (13 October; Gold Coast 25 October), so Gold Coast's copy is the one rewritten (plan section 7a). Structure, headings, figures, sources and claims are unchanged. Only the wording of shared sentences is new. Every rewritten block is listed under "Changes in v1.2".
 
@@ -124,7 +124,7 @@ Hero image: `images/kitchens-gold-coast.jpg`, T23 and T24, alt text at T24.
 
 36. `p`: Leave out what you do not know yet. A firm price comes once the cabinet maker has seen the kitchen in person.
 
-36a. `p`: If the job is wardrobes, a laundry or other joinery rather than a kitchen, see [wardrobes and joinery](index.html). [How this site works](about.html) explains where your enquiry goes.
+36a. `p`: If the job is [wardrobes](wardrobes-gold-coast.html), a laundry or other [joinery](index.html) rather than a kitchen, those pages cover it. [How this site works](about.html) explains where your enquiry goes.
 
 37. `h2`: Common questions
 
@@ -156,6 +156,7 @@ Sentence check after the rewrite, against every copy file in `Cairns Cabinet Mak
 - The cost table names publisher types, not businesses, as `03-plan.md` Cost figures requires. The businesses and URLs are recorded there.
 - v1.1, Brad, 30 October 2026, from the 30 Oct SEO audit review. Added: 4a (kitchen shapes, small and apartment kitchens), 23a (an enquiry link after the cost ranges), 36a (in-body links to Home and About, which the `03-plan.md` Internal link graph lists for this page and v1 left out), and the "$10,000 or $30,000" FAQ, whose figures are all from the cost table (claim row 6, no new source). H2 10 and the doors FAQ now say "cupboards". Head unchanged.
 - v1.2, 14 November 2026: wording only, see "Changes in v1.2". Head unchanged.
+- v1.3, Brad, 16 November 2026: block 36a links wardrobes to the new wardrobes page and joinery to Home, per the re-signed plan's link graph. Head unchanged.
 
 ## T25 transcription notes
 

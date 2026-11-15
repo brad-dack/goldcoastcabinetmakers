@@ -1,6 +1,6 @@
 # Wardrobes: /wardrobes-gold-coast
 
-Status: DRAFT v1 | 16 November 2026, awaiting Brad's approval at T22
+Status: APPROVED | v1, Brad, 16 November 2026 ("Approve the copy", Code session, together with the Home and kitchens changes below)
 
 Written by T21 for the wardrobes page added to `build/03-plan.md` on 16 November
 2026 (re-signed the same day). Every sentence is written for this site (R15):
@@ -63,7 +63,7 @@ Hero image: `images/wardrobe-joinery.jpg` (moved from Home), alt text as approve
 
 16. `p`: The QBCC, Queensland's building regulator, sets rules for building work that a wardrobe job can come under. These are the points it publishes.
 
-17. `p`: **Licensing.** Building work valued over $3,300 needs a QBCC licence. The regulator's Cabinet making class covers kitchen, bathroom and laundry cabinets and other fitted cabinets. Ask whoever quotes for their licence number, and confirm it with the QBCC before you agree to anything.
+17. `p`: **Licensing.** Any building work worth more than $3,300 has to be done under a QBCC licence. The regulator's Cabinet making class covers kitchen, bathroom and laundry cabinets and other fitted cabinets. Ask whoever quotes for their licence number, and confirm it with the QBCC before you agree to anything.
 
 18. `p`: **A written contract.** For work over $3,300, the QBCC says a contract that is written, dated and signed is essential, and it has to include information about the cooling-off period.
 
@@ -124,8 +124,20 @@ Hero image: `images/wardrobe-joinery.jpg` (moved from Home), alt text as approve
 Run 16 November 2026 with a sentence comparison (8 words or more, city names
 treated as equal) of this file against every built page and every copy file of
 Cairns Cabinet Makers, including `custom-wardrobes-cairns.html` and
-`build/04-copy/custom-wardrobes-cairns.md`. Result recorded here at T21; see
-the commit message for the count.
+`build/04-copy/custom-wardrobes-cairns.md`. Result: 0 shared sentences in page
+copy (1 in the operator notes, a house rule that never renders). Against Gold
+Coast's own pages and copy: 0 repeats in this page's copy. Re-run on the built
+page at T25: one sentence of block 17 ("Building work valued over $3,300 needs
+a QBCC licence.") matched the Cairns kitchens page word for word, a short
+sentence the draft check split differently. Reworded the same day with the same
+meaning, before going live; nothing else changed. After the rewording: 0 shared
+with Cairns.
+
+## T25 transcription notes
+
+Transcribed 16 November 2026 by script from this file: 29 blocks, the head, the
+service fields and the moved image, as `services[1]` after the kitchens page.
+The Home and kitchens changes were swapped in, each matched exactly once.
 
 ## Markers outstanding
 
