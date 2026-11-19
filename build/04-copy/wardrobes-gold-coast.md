@@ -1,6 +1,6 @@
 # Wardrobes: /wardrobes-gold-coast
 
-Status: APPROVED | v1, Brad, 16 November 2026 ("Approve the copy", Code session, together with the Home and kitchens changes below)
+Status: APPROVED | v1.1, Brad, 19 November 2026 (blocks 8 and 21 headings, `proposed-2026-11-19.md`). v1, Brad, 16 November 2026 ("Approve the copy", Code session, together with the Home and kitchens changes below)
 
 Written by T21 for the wardrobes page added to `build/03-plan.md` on 16 November
 2026 (re-signed the same day). Every sentence is written for this site (R15):
@@ -40,7 +40,7 @@ Hero image: `images/wardrobe-joinery.jpg` (moved from Home), alt text as approve
 
 7. `p`: The finish of the doors is the part of a wardrobe you look at every day: a plain or woodgrain board, a painted finish, mirror or glass panels. Ask what each option involves for your job, because the choice can change both the price and how long the doors take to make.
 
-8. `h2`: Planning the inside
+8. `h2`: Laying out the inside of the wardrobe
 
 9. `p`: Most of the value of a built-in is in how the inside is laid out. Before you enquire, it helps to count what you actually store. Useful things to think about:
 
@@ -71,7 +71,7 @@ Hero image: `images/wardrobe-joinery.jpg` (moved from Home), alt text as approve
 
 20. `credit`: Sources: the Queensland Building and Construction Commission, qbcc.qld.gov.au: "Who must hold a QBCC licence" (reviewed 16 April 2026), the "Cabinet making" licence class, "Contracts and payments" (reviewed 14 May 2026) and "Deposits and progress payments" (reviewed 27 June 2025). The QBCC's own pages carry the current rules.
 
-21. `h2`: What to include when you enquire
+21. `h2`: Details that help a wardrobe quote
 
 22. `ul`:
     - Which room, and whether it is a built-in, a walk-in robe or a refit of an existing recess

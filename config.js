@@ -175,7 +175,7 @@ window.SITE_CONFIG = {
       blocks: [
         {
           "type": "h2",
-          "text": "Start with what you actually need"
+          "text": "Which kind of job is yours?"
         },
         {
           "type": "p",
@@ -191,7 +191,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "h3",
-          "text": "You want storage built to fit a room"
+          "text": "Built-in storage made to measure"
         },
         {
           "type": "p",
@@ -199,7 +199,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "h3",
-          "text": "You are not sure what you need yet"
+          "text": "Not sure yet what the room needs"
         },
         {
           "type": "p",
@@ -231,7 +231,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "h2",
-          "text": "What a good quote covers"
+          "text": "Questions to put to whoever quotes"
         },
         {
           "type": "p",
@@ -262,7 +262,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "h2",
-          "text": "What to include when you enquire"
+          "text": "What to tell us in your enquiry"
         },
         {
           "type": "p",
@@ -834,7 +834,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "h2",
-          "text": "What to include when you enquire"
+          "text": "Details that help a kitchen quote"
         },
         {
           "type": "ul",
@@ -957,7 +957,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "h2",
-          "text": "Planning the inside"
+          "text": "Laying out the inside of the wardrobe"
         },
         {
           "type": "p",
@@ -1015,7 +1015,7 @@ window.SITE_CONFIG = {
         },
         {
           "type": "h2",
-          "text": "What to include when you enquire"
+          "text": "Details that help a wardrobe quote"
         },
         {
           "type": "ul",

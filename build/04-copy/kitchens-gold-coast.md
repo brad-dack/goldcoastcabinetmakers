@@ -1,6 +1,6 @@
 # Kitchens: /kitchens-gold-coast
 
-Status: APPROVED | v1.3, Brad, 16 November 2026 (block 36a links, approved with `wardrobes-gold-coast.md`). v1.2 15 November 2026. v1.1 30 October 2026, v1 approved 21 October 2026
+Status: APPROVED | v1.4, Brad, 19 November 2026 (block 34 heading, `proposed-2026-11-19.md`). v1.3, Brad, 16 November 2026 (block 36a links, approved with `wardrobes-gold-coast.md`). v1.2 15 November 2026. v1.1 30 October 2026, v1 approved 21 October 2026
 
 Why this version exists: 35 of this page's 102 long sentences (8+ words) also appeared, word for word apart from the place name, on Cairns Cabinet Makers' kitchens page. Cairns went live first (13 October; Gold Coast 25 October), so Gold Coast's copy is the one rewritten (plan section 7a). Structure, headings, figures, sources and claims are unchanged. Only the wording of shared sentences is new. Every rewritten block is listed under "Changes in v1.2".
 
@@ -112,7 +112,7 @@ Hero image: `images/kitchens-gold-coast.jpg`, T23 and T24, alt text at T24.
 
 33. `p`: This page does not give a timeframe, because we have not found one from a source we can stand behind, and the figures builders publish disagree. What helps is asking each cabinet maker for a written timeline that shows how long the cabinets and benchtop take to make, as well as how long the work in your home takes. A short on-site time can sit after a much longer wait for the cabinets.
 
-34. `h2`: What to include when you enquire
+34. `h2`: Details that help a kitchen quote
 
 35. `ul`:
     - How big the kitchen is, and its shape: one straight run, an L, a U, or with an island
@@ -156,6 +156,7 @@ Sentence check after the rewrite, against every copy file in `Cairns Cabinet Mak
 - The cost table names publisher types, not businesses, as `03-plan.md` Cost figures requires. The businesses and URLs are recorded there.
 - v1.1, Brad, 30 October 2026, from the 30 Oct SEO audit review. Added: 4a (kitchen shapes, small and apartment kitchens), 23a (an enquiry link after the cost ranges), 36a (in-body links to Home and About, which the `03-plan.md` Internal link graph lists for this page and v1 left out), and the "$10,000 or $30,000" FAQ, whose figures are all from the cost table (claim row 6, no new source). H2 10 and the doors FAQ now say "cupboards". Head unchanged.
 - v1.2, 14 November 2026: wording only, see "Changes in v1.2". Head unchanged.
+- v1.4, Brad, 19 November 2026: the H2 "What to include when you enquire", Cairns' wording and repeated on Home and Wardrobes, becomes "Details that help a kitchen quote". Nothing else changed.
 - v1.3, Brad, 16 November 2026: block 36a links wardrobes to the new wardrobes page and joinery to Home, per the re-signed plan's link graph. Head unchanged.
 
 ## T25 transcription notes

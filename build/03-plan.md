@@ -231,7 +231,7 @@ which is in the footer on every page.
 
 | page | inbound anchors | outbound anchors |
 |---|---|---|
-| index.html | every page's logo and nav "Home" | "kitchens on the Gold Coast" to the kitchens page; "built-in wardrobes on the Gold Coast" to the wardrobes page, from the wardrobes summary and the "You want storage built to fit a room" block; "how this site works" to About |
+| index.html | every page's logo and nav "Home" | "kitchens on the Gold Coast" to the kitchens page; "built-in wardrobes on the Gold Coast" to the wardrobes page, from the wardrobes summary and the "Built-in storage made to measure" block; "how this site works" to About |
 | kitchens-gold-coast.html | nav "Kitchens"; the kitchens block on Home; "kitchens on the Gold Coast" on the wardrobes page | "wardrobes" to the wardrobes page and "joinery" to Home, replacing the one "wardrobes and joinery" link to Home; "how this site works" to About |
 | wardrobes-gold-coast.html | nav "Wardrobes"; two in-copy links on Home; "wardrobes" on the kitchens page | "kitchens on the Gold Coast" to the kitchens page; "joinery" to Home; "how this site works" to About |
 | about.html | nav "About"; the call-to-action band | "Gold Coast kitchens" to the kitchens page; "home" to Home |

@@ -1,6 +1,6 @@
 # Home: /
 
-Status: APPROVED | v1.4, Brad, 16 November 2026 (wardrobes links, approved with `wardrobes-gold-coast.md`). v1.3 15 November 2026. v1.2 30 October 2026, v1.1 27 October 2026, v1 approved 21 October 2026
+Status: APPROVED | v1.5, Brad, 19 November 2026 (headings, `proposed-2026-11-19.md`). v1.4, Brad, 16 November 2026 (wardrobes links, approved with `wardrobes-gold-coast.md`). v1.3 15 November 2026. v1.2 30 October 2026, v1.1 27 October 2026, v1 approved 21 October 2026
 
 Why this version exists: sentences on this page also appeared, word for word apart from the place name, on Cairns Cabinet Makers. Cairns went live first (13 October; Gold Coast 25 October), so Gold Coast's copy is the one rewritten (plan section 7a). Head, structure, headings and claims are unchanged. Only the wording of shared sentences is new.
 
@@ -21,7 +21,7 @@ Describe what you would like built, and we pass your enquiry to a cabinet maker 
 
 Hero image: `images/home-hero-gold-coast.jpg`, T23 and T24. Alt text is written at T24 and describes an illustrated kitchen and living area, not work we did.
 
-1. `h2`: Start with what you actually need
+1. `h2`: Which kind of job is yours?
 
 2. `p`: Most people looking for a cabinet maker on the Gold Coast are in one of three situations. Each is a different kind of job, and working out which is yours gets you a more useful quote.
 
@@ -29,11 +29,11 @@ Hero image: `images/home-hero-gold-coast.jpg`, T23 and T24. Alt text is written 
 
 4. `p`: That might mean fresh cabinets, a changed layout, a replacement benchtop, or the lot. In most houses the kitchen is the largest cabinet job there is, and its price turns on the layout, the materials, and how much has to be removed before work starts. [Kitchens on the Gold Coast](kitchens-gold-coast.html)
 
-5. `h3`: You want storage built to fit a room
+5. `h3`: Built-in storage made to measure
 
 6. `p`: Built-in wardrobes, a walk-in robe, a laundry, shelving or a media wall. Each is built to the exact space, so expect the cabinet maker to measure up before giving a price. [Built-in wardrobes on the Gold Coast](wardrobes-gold-coast.html) covers doors, layouts and what to measure.
 
-7. `h3`: You are not sure what you need yet
+7. `h3`: Not sure yet what the room needs
 
 8. `p`: Tell us about the room and what bothers you about it now. From that, a cabinet maker can work out whether it calls for a kitchen, some joinery or a smaller fix. The form below accepts whatever detail you have, a little or a lot.
 
@@ -51,7 +51,7 @@ Hero image: `images/home-hero-gold-coast.jpg`, T23 and T24. Alt text is written 
 
 (Blocks 15 and 16, a second paragraph and the wardrobe image, were removed in v1.4: the detail and the image moved to the wardrobes page.)
 
-17. `h2`: What a good quote covers
+17. `h2`: Questions to put to whoever quotes
 
 18. `p`: Two quotes for what sounds like one job can differ simply because they include different work. Whichever cabinet maker gets in touch, these questions are worth putting to them:
 
@@ -69,7 +69,7 @@ Hero image: `images/home-hero-gold-coast.jpg`, T23 and T24. Alt text is written 
 
 22. `p`: The Gold Coast, from the northern suburbs down to the southern end, including Southport, Nerang and Burleigh Heads. If you are somewhere else in south-east Queensland, tell us where, and we will try our best!
 
-23. `h2`: What to include when you enquire
+23. `h2`: What to tell us in your enquiry
 
 24. `p`: Detail helps: a specific enquiry gets a more useful quote. Worth including:
 
@@ -108,8 +108,9 @@ Rewritten, same meaning, to remove sentences shared with Cairns Cabinet Makers: 
 - v1.1, Brad, 27 October 2026, after launch: "Where we cover" now ends "tell us where, and we will try our best!" (was "...we will say straight away whether we can find someone."). About's "Where we cover" changed to match.
 - v1.2, Brad, 30 October 2026, from the 30 Oct SEO audit review: the joinery list says "media walls, TV and entertainment units" (was "media and entertainment walls"), for the TV cabinet searches in Search Console; the joiner FAQ adds "You will also see it written as one word, cabinetmaker, and cabinet builder is used for the same trade." ("cabinet builders near me", "what is a cabinet maker called"). Neither adds a page or a claim.
 - Titles, meta and H1 match `build/03-plan.md`.
-- The plan's cannibalisation map gives Home "a short outline of how a cabinet job runs". It is not written: its source claim, the sequence and timing of a job (register row 5), was dropped at T20. In its place Home carries "What a good quote covers", which is advice, states no duration, and adds the question of whether a quoted time includes making the cabinets (the T05 lead-time gap, answered as a question).
+- The plan's cannibalisation map gives Home "a short outline of how a cabinet job runs". It is not written: its source claim, the sequence and timing of a job (register row 5), was dropped at T20. In its place Home carries "Questions to put to whoever quotes" (called "What a good quote covers" until 19 November 2026), which is advice, states no duration, and adds the question of whether a quoted time includes making the cabinets (the T05 lead-time gap, answered as a question).
 - The wardrobe image (`images/wardrobe-joinery.jpg`) was in the plan's Image direction for Home until 16 November 2026; it moved to the wardrobes page in v1.4.
+- v1.5, Brad, 19 November 2026: five headings that were Cairns Cabinet Makers' wording word for word (Cairns live first) reworded: blocks 1, 5, 7, 17 and the enquiry-checklist H2. Text, head and figures unchanged. See `proposed-2026-11-19.md`.
 - v1.4, Brad, 16 November 2026: block 6 gains a link to the wardrobes page; the wardrobes section (13 to 16) becomes one summary paragraph with a link, per the re-signed plan. Head unchanged.
 
 ## T25 transcription notes
